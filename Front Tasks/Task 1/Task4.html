@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 40%;
+            margin: auto;
+        }
+        #box{
+            box-shadow: 0 0 10px 0.2px rgb(216, 214, 214);
+            padding: 40px;
+            margin: 20px 0;
+        }
+        h1{
+            margin-bottom: 40px;
+        }
+        label{
+            display: block;
+            position: relative;
+            margin-bottom: 30px;
+            padding-top: 10px;
+        }
+        input{
+            height: 30px;
+            width: 500px;
+            margin-bottom: 20px;
+            position: absolute;
+            left: 170px;
+        }
+        span{
+            position: absolute;
+            left: 170px;
+        }
+        #SubmitBtnWrapper{
+            text-align: center;
+        }
+        button{
+            height: 40px;
+            width: 150px;
+            border: none;
+            background-color: black;
+            border-radius: 2px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="box">
+            <h1>Registration</h1>
+            <form action="#">
+                <label >
+                    User Name
+                    <input type="text">
+                </label>
+                <label >
+                    Email
+                    <input type="email">
+                </label>
+                <label >
+                    Password
+                    <input type="password" >
+                </label>
+                <label >
+                    Repeat Password
+                    <input type="password" >
+                </label>
+                <label >
+                    First Name
+                    <input type="text" >
+                </label>
+                <label >
+                    Last Name
+                    <input type="text" >
+                </label>
+                <label >
+                    Phone
+                    <input type="number" >
+                </label>
+                <label >
+                    Street
+                    <input type="text" >
+                </label>
+                <label >
+                    City
+                    <input type="text" >
+                </label>
+                <label >
+                    State
+                    <input type="text" >
+                </label>
+                <label >
+                    Zipcode
+                    <input type="text" >
+                </label>
+                <label >
+                    Country
+                    <input type="text" >
+                </label>
+                <label>
+                    Membership Level
+                    <span>Free</span>
+                </label>
+                <div id="SubmitBtnWrapper">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

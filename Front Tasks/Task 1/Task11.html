@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 40%;
+        margin: auto;
+      }
+      .box {
+        margin: 50px 0;
+        background-color: rgb(245, 245, 245);
+        padding: 40px;
+        box-shadow: 0px 0px 10px .1px rgb(204, 202, 202);
+      }
+      h1 {
+        margin-bottom: 10px;
+      }
+      h3 {
+        margin-bottom: 25px;
+      }
+      hr {
+        border: 1px solid rgba(0, 0, 0, 0.089);
+      }
+
+      .input {
+        display: inline-block;
+        height: 40px;
+        width: 200px;
+      }
+      .inputWrapper {
+        margin-top: 20px;
+      }
+      label {
+        vertical-align: top;
+        display: inline-block;
+        width: 150px;
+      }
+      input {
+        width: 200px;
+        height: 30px;
+      }
+      .mrg {
+        margin-right: 20px;
+      }
+      .input > select {
+        width: 200px;
+        height: 30px;
+      }
+      input[type=email]{
+        width: 425px;
+      }
+      .areaIndex {
+        width: 100px;
+        margin-right: 20px;
+      }
+      .areaIndex input {
+        width: 100px;
+      }
+      .adress {
+        display: flex;
+        margin-bottom: 30px;
+      }
+      .adress .input {
+        margin-bottom: 30px;
+      }
+      .addresLabel {
+        width: 250px;
+      }
+      .inputRadio{
+          display: flex;
+          justify-content: start;
+      }
+      .inputRadio > label{
+          width: 140px;
+      }
+      .inputRadio  input[type = radio]{
+          width: 20px;
+          margin-right: 10px;
+      }
+      .inputRadio label{
+          margin-top: 5px;
+      }
+      #submit{
+          width: 50%;
+          background-color: rgb(0, 140, 255);
+          height: 40px;
+          color: #fff;
+          border: none;
+          transition: 300ms;
+      }
+      #submit:hover{
+        box-shadow: 0px 0px 10px .1px rgb(99, 98, 98);
+      }
+      #submit:focus{
+        background-color: rgb(5, 90, 160); ;
+      }
+      #SubmitWrap{
+          margin-top: 30px;
+          display: flex;
+          justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h1>Emergency Contct Form</h1>
+        <h3>Please fill out the form correctly</h3>
+        <hr />
+        <form action="#">
+          <div class="inputWrapper">
+            <label for="name">Name</label>
+            <div class="input mrg">
+              <input type="text" id="name" />
+              <span>First Name</span>
+            </div>
+            <div class="input">
+              <input type="text" id="name" />
+              <span>First Name</span>
+            </div>
+          </div>
+          <div class="inputWrapper">
+            <label for="email">E-mail</label>
+            <div class="input">
+              <input type="email" id="email" />
+              <span>ex : example@example.com</span>
+            </div>
+          </div>
+          <div class="inputWrapper">
+            <label for="phone">Phone Number</label>
+            <div class="input areaIndex">
+              <input type="text" id="areacode" />
+              <span>Area Code</span>
+            </div>
+            <div class="input">
+              <input type="number" id="number" />
+              <span>Number</span>
+            </div>
+          </div>
+          <div class="inputWrapper adress">
+            <label for="address" class="addresLabel">Address</label>
+            <div>
+              <div class="input mrg">
+                <input type="text" id="address" />
+                <span>Street Address</span>
+              </div>
+              <div class="input">
+                <input type="text" id="address2" />
+                <span>Street Address Line 2</span>
+              </div>
+              <div class="input mrg">
+                <input type="text" id="city" />
+                <span>City</span>
+              </div>
+              <div class="input">
+                <input type="text" id="state" />
+                <span>State / Province</span>
+              </div>
+              <br />
+              <div class="input mrg">
+                <input type="text" id="zip" />
+                <span>Postal / Zip Code</span>
+              </div>
+              <div class="input">
+                <select id="country zip">
+                  <option value="County">Select Country</option>
+                  <option value="County1">Country1</option>
+                  <option value="County2">Country2</option>
+                  <option value="County3">Country3</option>
+                  <option value="County4">Country4</option>
+                  <option value="County5">Country5</option>
+                </select>
+                <span>Postal / Zip Code</span>
+              </div>
+            </div>
+          </div>
+          <div class="inputRadio">
+            <label for="pation">Relationship with Patient</label>
+            <div class="radiobuttons">
+                <input type="radio" name="patient" id="parent" />
+                <label for="parent">Parent</label>
+                <br />
+                <input type="radio" name="patient" id="child" />
+                <label for="child">Child</label>
+                <br />
+                <input type="radio" name="patient" id="sibling" />
+                <label for="sibling">Sibling</label>
+                <br />
+                <input type="radio" name="patient" id="friend" />
+                <label for="friend">Friend</label>
+                <br>
+                <input type="radio" name="patient" id="other" />
+                <label for="other">
+                  <input type="text" id="otherInput" />
+                </label>
+            </div>
+          </div>
+          <div id="SubmitWrap">
+              <input type="submit"  id="submit" value="Submit form">
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

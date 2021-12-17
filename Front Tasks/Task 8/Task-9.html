@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Task 9</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box p-5 shadow m-5 text-center">
+        <p>Change BackGrounf Color</p>
+        <button class="btn btn-primary">With Toggle Class</button>
+        <button class="btn btn-danger">With Style Property</button>
+      </div>
+    </div>
+    <script>
+
+      let color = false;
+      let box = document.querySelector(".box");
+
+      document.querySelector(".btn-danger").addEventListener("click", () => {
+        color = !color;
+        box.classList = "box p-5 shadow m-5 text-center";
+        if (color) box.style.backgroundColor = '#17A2B8';
+        else box.style.backgroundColor = '#fff';
+      });
+
+      document.querySelector('.btn-primary').addEventListener("click", () => {
+        
+          box.classList.toggle("bg-success")
+      })
+    </script>
+  </body>
+</html>

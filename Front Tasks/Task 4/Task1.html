@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <title>Task 1</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        .container{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .grid{
+            margin-top: 100px;
+            background-color: rgba(238, 238, 238, 0.356);
+            display: grid;
+            justify-content: space-between;
+            grid-template-columns: auto auto auto auto;
+            grid-column-gap: 20px;
+            padding: 50px;
+            box-sizing: border-box;
+        }
+        .box{
+            width: 300px;
+            border-radius: 0 30px 30px;
+            padding: 40px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px .1px rgb(226, 226, 226);
+        }
+        i{
+            display: inline-block;
+            padding: 30px;
+            border-radius: 0 40px 40px;
+            background-color: rgba(197, 243, 255, 0.39);
+            font-size: 30px;
+            color: rgb(95, 160, 135);
+        }
+        h3{
+            text-transform: uppercase;
+            font-size: 23px;
+            margin: 20px 0 10px ;
+            padding: 0;
+        }
+        p{
+            font-size: 20px;
+            color: rgb(116, 116, 116);
+            line-height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="grid">
+            <div class="box">
+                <i class="far fa-comments"></i>
+                <h3>it consultancy</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, sint. Itaque exercitationem </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-desktop"></i>
+                <h3>web development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, sint. Itaque exercitationem </p>
+            </div>
+            <div class="box">
+                <i class="far fa-check-circle"></i>
+                <h3>it solutions</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, sint. Itaque exercitationem </p>
+            </div>
+            <div class="box">
+                <i class="far fa-lightbulb"></i>
+                <h3>digital marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, sint. Itaque exercitationem </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

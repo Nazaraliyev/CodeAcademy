@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#">
+      <select id="select">
+        <option>option 1</option>
+        <option>option 2</option>
+        <option>option 3</optionalue=>
+        <option>option 4</option>
+        <option>option 5</option>
+      </select>
+      <button>Show Allert</button>
+    </form>
+
+    <script>
+      function Alert() {
+        var count = 0;
+        var values = "";
+        document.querySelectorAll("option").forEach((item) => {
+            count++;
+          values = values + item.value + "\n";
+        });
+        values += "\nCount : " + count;
+        alert(values);
+      }
+
+      document.querySelector("button").addEventListener("click", Alert);
+    </script>
+  </body>
+</html>

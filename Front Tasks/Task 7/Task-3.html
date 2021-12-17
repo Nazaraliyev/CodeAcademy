@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+
+    <script>
+        // Select Element 
+        var box = document.querySelector('.box');
+        box.setAttribute("style", "display : flex; justify-content : space-between; width : 60%; margin : auto; align-items : flex-start");
+
+
+        // Create Div 1
+        var div1 = document.createElement('div');
+        div1.style.cssText = "border : 3px solid orange; width : 100px; height : 100px";
+        box.append(div1)
+
+        // Create Div 2
+        var div2 = document.createElement('div');
+        div2.style.cssText = "border : 3px solid orange; width : 200px; height : 200px; padding : 20px; box-sizing : border-box";
+        div2.innerHTML = "box 2";
+        box.append(div2);
+
+        // Create Div 3
+        var div3 = document.createElement('div');
+        div3.style.cssText = "border : 3px solid orange; width : 200px; height : 200px; padding : 20px; box-sizing : border-box";
+        div3.innerHTML = "box 3";
+        var h1 = document.createElement("h1");
+        h1.innerHTML = "Hi";
+        h1.setAttribute("style", "padding-left : 20px")
+        div3.append(h1);
+        box.append(div3);
+
+        // Create Div 4
+        var div4 = document.createElement('div');
+        div4.style.cssText = "border : 3px solid orange; width : 200px; height : 200px; padding : 20px; box-sizing : border-box; background-color : green";
+        div4.innerHTML = "box 4";
+        var h1 = document.createElement("h1");
+        h1.innerHTML = "HiHi";
+        h1.setAttribute("style", "padding-left : 20px")
+        div4.append(h1);
+        box.append(div4);
+
+    </script>
+</body>
+</html>

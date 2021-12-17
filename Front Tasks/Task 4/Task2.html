@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Task 2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+        body{
+            background-color: #f4f5fe
+        }
+        .container{
+            width: 70%;
+            margin: 0 auto;
+        }
+        .flex{
+            display: flex;
+            justify-content: space-between;
+        }
+        h1{
+            text-align: center;
+            margin: 80px 0 60px;
+            text-transform: capitalize;
+            font-size: 40px;
+            color: rgb(10, 2, 75);
+        }
+        #categories{
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        .buttons{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            font-size: 20px;
+            text-transform: capitalize;
+            padding: 10px;
+            color: #fff;
+            box-shadow: 0 0 10px .1px rgb(204, 203, 203);
+        }
+        .buttons i{
+            font-size: 14px;
+            margin-right: 10px;
+            color: rgb(255, 117, 25);
+        }
+        #button-1{
+            background-color: rgb(10, 2, 75);
+            border-radius: 30px 0 0 30px
+        }
+        #button-2{
+            border-radius: 0 30px 30px 0;
+            background-color: #fff;
+            color: rgb(104, 104, 104);
+        }
+        .plan{
+            width: 420px;
+            box-shadow: 0 0 10px .1px rgb(204, 203, 203);
+            padding: 50px 40px;
+            box-sizing: border-box;
+            background-color: #fff;
+            border-radius: 10px;
+        }
+        h2{
+            text-align: center;
+            font-size: 30px;
+            margin: 0 0 40px;
+        }
+        .planPrice{
+            text-align: center;
+            font-size: 40px;
+            font-weight: 700;
+            margin-bottom: 40px;
+        }
+        span{
+            font-size: 16px;
+            color: rgb(110, 110, 110);
+            font-weight: 500;
+        }
+        sup{
+            font-weight: 700;
+            color: rgb(110, 110, 110);
+            font-size: 25px;
+            margin-right: 5px;
+        }
+        ul{
+            width: 100%;
+        }
+        ul li p{
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        li i{
+            color: #13c4a1;
+        }
+        .footerButton {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footerButton button{
+            padding: 20px 30px;
+            text-transform: capitalize;
+            color: #fff;
+            background-color: rgb(10, 2, 75);
+            border: none;
+            border-radius: 30px;
+            font-weight: 500;
+        }
+        .footerButton button i{
+            color: rgb(255, 117, 25);
+            margin-right: 10px;
+            font-size: 18px;
+        }
+        .plan:nth-child(2) .footerButton button i{
+            color: rgb(10, 2, 75);
+        }
+        .plan:nth-child(2) .footerButton button{
+            background-color: rgb(255, 117, 25);
+        }
+
+        .plan:last-child .footerButton button{
+            background-color: #13c4a1;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Choise the pricing plan</h1>
+        <div id="categories" class="flex">
+            <div id="button-1" class="buttons">
+                <i class="fas fa-calendar-check"></i>
+                monthly
+            </div>
+            <div id="button-2" class="buttons">
+                <i class="fas fa-calendar-check"></i>
+                yearly
+            </div>
+        </div>
+        <div class="flex" id="plans">
+            <div class="plan">
+                <h2>Free</h2>
+                <div class="planPrice"><sup>$</sup>0 <span>/monthly</span></div>
+                <ul>
+                    <li class="flex">
+                        <p>Lorem, ipsum dolor.</p>
+                        <i class="fas fa-check-circle"></i>
+                    </li>
+                    <li class="flex">
+                        <p>Lorem, ipsum dolor.</p>
+                        <i class="fas fa-check-circle"></i>
+                    </li>
+                    <li class="flex">
+                        <p>Lorem, ipsum dolor.</p>
+                        <i class="fas fa-check-circle"></i>
+                    </li>
+                    <li class="flex">
+                        <p>Lorem, ipsum dolor.</p>
+                        <i class="fas fa-check-circle"></i>
+                    </li>
+                    <li class="flex">
+                        <p>Lorem, ipsum dolor.</p>
+                        <i class="fas fa-check-circle"></i>
+                    </li>
+                    <li class="flex">
+                        <p>Lorem, ipsum dolor.</p>
+                        <i class="fas fa-check-circle"></i>
+                    </li>
+                    <li class="flex">
+                        <p>Lorem, ipsum dolor.</p>
+                        <i class="fas fa-check-circle"></i>
+                    </li>
+                </ul>
+                <div class="footerButton flex">
+                    <button><i class="fas fa-fire"></i>try it free now</button>
+                </div>
+            </div>
+            <div class="plan">
+                <h2>Starter</h2>
+                <div class="planPrice"><sup>$</sup>49 <span>/monthly</span></div>
+                <ul>
+                    <li class="flex">
+                        <p>Lorem, ipsum dolor.</p>
+                        <i class="fas fa-check-circle"></i>
+                    </li>
+                    <li class="flex">
+                        <p>Lorem, ipsum dolor.</p>
+                        <i class="fas fa-check-circle"></i>
+                    </li>
+                    <li class="flex">
+                        <p>Lorem, ipsum dolor.</p>
+                        <i class="fas fa-check-circle"></i>
+                    </li>
+                    <li class="flex">
+                        <p>Lorem, ipsum dolor.</p>
+                        <i class="fas fa-check-circle"></i>
+                    </li>
+                    <li class="flex">
+                        <p>Lorem, ipsum dolor.</p>
+                        <i class="fas fa-check-circle"></i>
+                    </li>
+                    <li class="flex">
+                        <p>Lorem, ipsum dolor.</p>
+                        <i class="fas fa-check-circle"></i>
+                    </li>
+                    <li class="flex">
+                        <p>Lorem, ipsum dolor.</p>
+                        <i class="fas fa-check-circle"></i>
+                    </li>
+                </ul>
+                <div class="footerButton flex">
+                    <button><i class="fas fa-fire"></i>try it free now</button>
+                </div>
+            </div>
+            <div class="plan">
+                <h2>Professional</h2>
+                <div class="planPrice"><sup>$</sup>79 <span>/monthly</span></div>
+                <ul>
+                    <li class="flex">
+                        <p>Lorem, ipsum dolor.</p>
+                        <i class="fas fa-check-circle"></i>
+                    </li>
+                    <li class="flex">
+                        <p>Lorem, ipsum dolor.</p>
+                        <i class="fas fa-check-circle"></i>
+                    </li>
+                    <li class="flex">
+                        <p>Lorem, ipsum dolor.</p>
+                        <i class="fas fa-check-circle"></i>
+                    </li>
+                    <li class="flex">
+                        <p>Lorem, ipsum dolor.</p>
+                        <i class="fas fa-check-circle"></i>
+                    </li>
+                    <li class="flex">
+                        <p>Lorem, ipsum dolor.</p>
+                        <i class="fas fa-check-circle"></i>
+                    </li>
+                    <li class="flex">
+                        <p>Lorem, ipsum dolor.</p>
+                        <i class="fas fa-check-circle"></i>
+                    </li>
+                    <li class="flex">
+                        <p>Lorem, ipsum dolor.</p>
+                        <i class="fas fa-check-circle"></i>
+                    </li>
+                </ul>
+                <div class="footerButton flex">
+                    <button><i class="fas fa-fire"></i>try it free now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

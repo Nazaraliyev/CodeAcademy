@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 500px;
+            border: 3px solid rgb(123, 183, 252);
+            padding: 30px;
+            box-shadow: 2px 2px 20px .1px rgba(128, 128, 128, 0.562);
+            border-radius: 10px;
+        }
+        h1{
+            text-align: center;
+        }
+
+        fieldset{
+            border-radius: 0 10px 10px 10px ;
+            margin-bottom: 30px;
+            padding: 20px 0;
+        }
+        label{
+            display: inline-block;
+            width: 120px;
+            margin-left: 20px;
+        }
+        input + label{
+            display: inline;
+            margin: 0 20px 0 0;
+        }
+        .fullwidth{
+            width: 250px;
+            height: 20px;
+
+        }
+        input[type=date]{
+            width: 253px;
+        }
+        input{
+            margin-bottom: 20px;
+        }
+        #btnWrapper{
+            display: flex;
+            justify-content: center;
+        }
+        #btnWrapper input{
+            width: 200px;
+            height: 40px;
+            font-size: 15px;
+            background-color: rgb(56, 199, 255);
+            color: #fff;
+            border: none;
+            margin: 0 10px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        #btnWrapper input:first-child{
+            background-color: rgb(189, 186, 186);
+            color: rgb(95, 95, 95);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Reservation Request</h1>
+        <form action="#">
+            <fieldset>
+                <legend>General Information</legend>
+                <label for="date">Arrival date</label>
+                <input type="date"  id="date" class="fullwidth"><br>
+                <label for="night">Night</label>
+                <input type="number"  id="night" class="fullwidth"><br>
+                <label for="adults">Adults</label>
+                <select name="adults" id="adults">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select><br>
+                <label for="children">Children</label>
+                <select name="children" id="children">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Preferences</legend>
+                <label for="roomType">Room type</label>
+                <input type="radio" name="roomType" id="standart">
+                <label for="standart">Standart</label>
+
+                <input type="radio" name="roomType" id="busines">
+                <label for="busines">Busines</label>
+
+                <input type="radio" name="roomType" id="suite">
+                <label for="suite">Suite</label>
+                <br>
+
+                <label for="bedType">Bed type</label>
+                <input type="radio" name="bedType" id="king">
+                <label for="king">King</label>
+
+                <input type="radio" name="bedType" id="dd">
+                <label for="dd">Double Double</label>
+
+                <br>
+
+                <label for="smok">Smoking</label>
+                <input type="checkbox"  id="smok">
+                <label for="smok">
+                    I want
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Contact Informaton</legend>
+                <label for="name">Name</label>
+                <input type="text"  id="name" class="fullwidth">
+                <br>
+                <label for="email">Email</label>
+                <input type="email"  id="email" class="fullwidth">
+                <br>
+                <label for="phone">Phone</label>
+                <input type="tel"  id="phone" class="fullwidth">
+            </fieldset>
+            <div id="btnWrapper">
+                <input type="reset"  id="reset" value="Clear" > 
+                <input type="submit" id="submit" value="Submit Reservaion"> 
+            </div>
+ 
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+    <div class="container mt-5">
+        <form action="#" class="d-flex">
+            <select name="select" id="select" class="form-control form-control-lg w-75 mr-3">
+                <option value="0" selected disabled>Select Option</option>
+                <option value="1">option 1</option>
+                <option value="2">option 2</option>
+                <option value="3">option 3</option>
+                <option value="4">option 4</option>
+                <option value="5">option 5</option>
+            </select>
+            <button id = 'remove' class="btn btn-danger">Remove item</button>
+        </form>
+    </div>
+
+    <script>
+        let option = document.querySelectorAll('option');
+        var len = option.length-1;
+        document.querySelector('button').addEventListener('click', (e) => {
+            e.preventDefault();
+            if(len != 0){
+                option[len].remove();
+                len--;
+            }
+            else{
+                alert('You delete all option')
+            }
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,172 @@
+.container{
+    padding: 100px 0;
+}
+
+#Services{
+    button{
+        cursor: pointer;
+        transition: 300ms;
+        &:hover{
+            box-shadow: 0 0 10px .1px rgba(0, 0, 0, 0.164);
+        }
+    }
+    width: 100%;
+    height: 100%;
+    background-image: url("/img/service-bg.jpg");
+    #bg-color{
+        width: 100%;
+        height: 100%;
+        background-color:  #4043efde;
+    }
+
+    header{
+        text-transform: capitalize;
+        margin-bottom: 50px;
+        h3{
+            font-size: 24px;
+            color: rgba(255, 255, 255, 0.616);
+            font-weight: 100;
+            &::before{
+                content: "";
+                display: inline-block;
+                width: 40px;
+                height: 3px;
+                margin-bottom: 5px;
+                margin-right: 10px;
+                background-color: $secondary-color;
+
+            }
+
+        }
+        h2{
+            color: #fff;
+            font-size: 50px;
+            margin: 10px 0;
+            span{
+                color: $secondary-color;
+            }
+        }
+        p{
+            color: rgba(255, 255, 255, 0.849);
+            font-size: 20px;
+        }
+    }
+
+    main{
+        .row{
+            margin-bottom: 50px;
+            
+        }
+
+        #services-row-1{
+            .services-item-content{
+                height: 450px;
+            }
+            .services-text{
+                h4{
+                    font-size: 30px;
+                }
+                p{
+                    height: 70px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            }
+        }
+        #services-row-2{
+            .services-item-content{
+                height: 350px;
+            }
+            .services-text{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    height: 50px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            }
+        }
+
+        .services-item{
+            padding-right: 20px;
+            &:last-child{
+                padding-right: 0;
+            }
+        }
+
+        .services-item-content{
+            position: relative;
+            width: 100%;
+            .services-img{
+                width: 100%;
+                height: 90%;
+                overflow: hidden;
+                div{
+                    width: 100%;
+                    height: 100%;
+                    background-color: $secondary-color;
+                }
+                &:hover img{
+                    transform: scale(1.2);
+                    opacity: .3;
+                }
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    transition: 300ms;
+                }
+            }
+
+            .services-text{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 90%;
+                padding: 30px;
+                background-color: #fff;
+                box-shadow: 0 0 10px .1px rgba(0, 0, 0, 0.459);
+                h4{
+                    margin-bottom: 10px;
+                }
+                p{
+                    line-height: 25px;
+                    color: rgba(0, 0, 0, 0.61);
+                    margin-bottom: 20px;
+                }
+                button{
+                    height: 40px;
+                    width: 120px;
+                    border: none;
+                    outline: none;
+                    border-radius: 20px;
+                    color: $secondary-color;
+                }
+                
+            }
+
+        }
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button{
+            border-radius: 25px;
+            border: none;
+            outline: none;
+            background-color: $secondary-color;
+            color: #fff;
+            text-transform: capitalize;
+            font-weight: 100;
+            font-size: 16px;
+            padding: 15px 25px;
+        }
+    }
+}
+
+
+
+

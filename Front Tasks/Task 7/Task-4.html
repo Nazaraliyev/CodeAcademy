@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+</head>
+<body>
+    <div id = 'box'>
+        <h1>Form</h1>
+        <form action="#">
+            <input type="text" id="FirstName">
+            <input type="text" id = "LastName" pl>
+            <input type="submit" id="submit-btn">
+        </form>
+        <p></p>
+    </div>
+
+    <script>
+        var box = document.querySelector("#box");
+        box.style.cssText = "width : 40%; margin : auto; padding : 100px; box-shadow : 0 0 10px .1px black";
+        
+        var p = document.querySelector("p");
+
+        var form = document.querySelector("form");
+        form.style.cssText = "display : flex; justify-content : space-between";
+
+        var FN = document.querySelector("#FirstName");
+        FN.style.cssText = "width : 35%; height : 40px; padding-left : 10px";
+        FN.setAttribute("placeholder", "First Name");
+
+        var LN = document.querySelector("#LastName");
+        LN.style.cssText = "width : 35%; height : 40px; padding-left : 10px";
+        LN.setAttribute("placeholder", "Last Name");
+
+        const Sub = () => {
+            let values = FN.value + " " + LN.value;
+            values.trim();
+            if(values == " ") {
+                p.innerHTML = "Please Enter FirstName and LastName";
+                p.style.cssText = "color : red";
+            }else{
+                p.innerHTML = values
+                p.style.cssText = "color : black";
+            }
+            // console.log();
+        }
+
+        var Submit = document.querySelector("#submit-btn");
+        Submit.style.cssText = "width : 20%; height : 44px; background-color : #219ebc; border : none; color : #fff";
+        Submit.addEventListener("click", Sub)
+
+    </script>
+</body>
+</html>

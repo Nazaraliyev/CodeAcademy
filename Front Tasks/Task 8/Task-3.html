@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Task 3</title>
+  </head>
+  <body>
+    <div class="my-container">
+      <div class="box p-5 shadow m-5">
+        <h1 class="mb-4">Create The Table</h1>
+        <form>
+          <div class="row">
+            <div class="col-5">
+              <input
+                id="row"
+                type="number"
+                class="form-control"
+                placeholder="Row of Table"
+              />
+            </div>
+            <div class="col-5">
+              <input
+                id="col"
+                type="number"
+                class="form-control"
+                placeholder="Column of Table"
+              />
+            </div>
+            <div class="col-2">
+              <button type="submit" class="btn btn-primary">Create</button>
+            </div>
+          </div>
+        </form>
+        <table class="table table-bordered mt-5">
+        </table>
+      </div>
+    </div>
+
+    <script>
+      const createTable = (e) => {
+        e.preventDefault();
+
+
+        let row = document.querySelector("#row");
+        let col = document.querySelector("#col");
+        var rowCount = 1;
+
+
+        for (let i = 0; i < row.value; i++) {
+          let tr = document.createElement("tr");
+          let colCount = 1;
+          for (let j = 0; j < col.value; j++) {
+            let td = document.createElement("td");
+            td.innerHTML = "Row-" + rowCount + " Col-" + colCount;
+            tr.append(td)
+            colCount++;
+          }
+          rowCount++;
+          document.querySelector('table').append(tr);
+        }
+
+      };
+
+
+      document.querySelector("form").addEventListener("submit", createTable);
+      
+    </script>
+  </body>
+</html>

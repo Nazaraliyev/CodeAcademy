@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 6
+    </title>
+  </head>
+  <body>
+    <div id="box">
+      <h1>Table</h1>
+      <table>
+        <tr>
+          <td>Row1 Cel1</td>
+          <td>Row1 Cel2</td>
+        </tr>
+        <tr>
+          <td>Row2 Cel1</td>
+          <td>Row2 Cel2</td>
+        </tr>
+      </table>
+      <button>Add New Row</button>
+    </div>
+
+    <script>
+      var row = 3;
+      var table = document.querySelector("table");
+      table.style.cssText = "border-collapse : collapse; margin-bottom : 30px";
+
+      var box = document.querySelector("#box");
+      box.style.cssText =
+        "margin : 0 auto; width : 40%; box-shadow : 0 0 10px .1px black; padding : 50px; box-sizing : border-box";
+
+      var tdall = document.querySelectorAll("td").forEach((item) => {
+        item.style.cssText =
+          "width : 300px; height : 50px; border : 1px solid black; padding-left : 20px";
+      });
+
+      const addRow = () => {
+        var tr = document.createElement("tr");
+        var td1 = document.createElement("td");
+        td1.innerHTML = "Row" + row + ", " + "Cel1";
+        td1.style.cssText ="width : 300px; height : 50px; border : 1px solid black; padding-left : 20px";
+
+        var td2 = document.createElement("td");
+        td2.innerHTML = "Row" + row + ", " + "Cel2";
+        td2.style.cssText ="width : 300px; height : 50px; border : 1px solid black; padding-left : 20px";
+        tr.append(td1);
+        tr.append(td2);
+        table.append(tr);
+
+        row++;
+      };
+
+
+      const Add = document.querySelector("button");
+      Add.style.cssText =
+        "width : 150px; height : 40px; border-radius : 3px; border : none; background-color : #219ebc; color : #fff";
+      Add.addEventListener("click", addRow);
+    </script>
+  </body>
+</html>

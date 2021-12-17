@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            width: 90%;
+            margin: auto;
+            height: 100vh;
+        }
+        .grid-container{
+            height: 100vh;
+            display: grid;
+            grid-template-columns: repeat(12, [col] 1fr);
+            grid-template-rows: repeat(12, [row] 1fr);
+            grid-gap: 24px;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="grid-container">
+
+        </div>
+    </div>
+</body>
+</html>

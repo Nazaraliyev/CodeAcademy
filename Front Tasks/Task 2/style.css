@@ -1,0 +1,95 @@
+/* Reset CSS */
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* Main */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+/* Navbar */
+
+#headerText{
+    width: 100%;
+    height: 100vh;
+    background-image: url("Image/MainImage.jpg");
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#headerContent{
+    position: absolute;
+    bottom: 40px;
+}
+
+#headerContent h1{
+    font-size: 80px;
+}
+
+#headerContent a{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+#headerContent i{
+    font-size: 20px;
+    margin-left: 5px;
+    transform: rotate(180deg);
+}
+
+
+#you{
+    background: transparent;
+}
+nav{
+    background-color: #333333 ;
+    height: 50px;
+}
+
+ul{
+    display: flex;
+    justify-content: start;
+    height: 100%;
+    align-items: center;
+}
+
+li{
+    margin-right: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(177, 175, 175);
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Content */
+
+.content{
+    margin: 50px 0;
+}
+
+.content h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.content p{
+    margin-bottom: 30px;
+    line-height: 30px;
+    font-size: 20px;
+}

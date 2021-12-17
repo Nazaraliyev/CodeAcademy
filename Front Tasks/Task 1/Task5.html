@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        .container{
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+        #box{
+            width: 40%;
+            padding: 50px;
+            box-shadow: 0px 0px 10px .1px rgb(179, 178, 178);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        input{
+            height: 30px;
+            width: 100%;
+            margin: 10px 0 30px;
+            
+        }
+
+        h1{
+            text-align: center;
+        }
+        input[type = 'submit']{
+            background-color: rgb(80, 184, 253);
+            height: 35px;
+            border: none;
+            color: #fff;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="box">
+            <h1>Register</h1>
+            <form action="#">
+                <label for="FirstName">First Name</label>
+                <input type="text" id="FirstName">
+                <label for="FirstName">Last Name</label>
+                <input type="text" id="FirstName">
+                <label for="FirstName">Email Adress</label>
+                <input type="text" id="FirstName">
+                <label for="FirstName">Password</label>
+                <input type="text" id="FirstName">
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
