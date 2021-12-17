@@ -1,0 +1,161 @@
+/* ========================== Main Pages Parameter ====================== */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url('./Components/bgimage.jpg');
+    background-position: 0 -100px;
+    background-size: cover;
+}
+
+
+.container{
+    width: 94%;
+    margin: auto;
+}
+
+/* ================================ Header ============================== */
+header{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    font-size: 30px;
+    font-weight: bold;
+    width: 150px;
+    font-family: 'Raleway', sans-serif;
+    color: transparent;
+    /* -webkit-text-stroke: 1px #fff; */
+    background: url('./Components/1.jpg');
+    -webkit-background-clip: text;
+    background-size: cover;
+    background-position: 0 0;
+}
+#search-block{
+    display: flex;
+    align-items: center;
+}
+#search{
+    border: 1px solid #fff;
+    width: 300px;
+    border-radius: 25px;
+    position: relative;
+}
+#search > input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 12px;
+    font-size: 15px;
+    color: #000;
+}
+
+#search > button{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    height: 100%;
+    width: 40px;
+    outline: none;
+    cursor: pointer;
+}
+#search > button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+/* ===================== Main ================= */
+#main{
+    position: absolute;
+    top: 46%;
+}
+#head{
+    display: flex;
+}
+h1{
+    padding: 0;
+    margin: 0;
+    font-size: 130px;
+    width: 800px;
+    line-height: 170px;
+    letter-spacing: 5px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+p{
+    color: #fff;
+    width: 80%;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 35px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.main-btn{
+    width: 300px;
+    height: 70px;
+    border: 1px solid #fff;
+    background: transparent;
+    margin-right: 30px;
+    color: #fff;
+    font-size: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.main-btn > i {
+    padding-left: 5px;
+}
+.main-btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+#social-media-block{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    position: absolute;
+    right: 1%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.sm-btn{
+    background-color: transparent;
+    width: 35px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.sm-btn:hover{
+    width: 160px;
+    transform: translate(-150px, 0);
+}
+.sm-btn > i{
+    margin-right: 10px;
+}
