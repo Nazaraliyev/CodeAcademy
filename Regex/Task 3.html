@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work 3</title>
+</head>
+<body>
+    <script>
+        var str ="        Lorem      Ipsum          has   been    the  industry's      standard               dummy.    ";
+        var strReplace = str.replace(/\s\s+/g, ' ');
+        strReplace = strReplace.replace(/ ?$/g, ''); //Sonda qalan space-i silir
+        alert(str);
+        if(window.confirm('Bosluqları silək ?')){
+            alert(strReplace)
+        }
+    </script>
+</body>
+</html>
