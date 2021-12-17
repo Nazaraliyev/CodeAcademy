@@ -1,0 +1,13 @@
+C:\Users\nazar\source\repos\Notebook Store\Notebook Store\bin\Debug\netcoreapp3.1\Store.exe
+C:\Users\nazar\source\repos\Notebook Store\Notebook Store\bin\Debug\netcoreapp3.1\Store.deps.json
+C:\Users\nazar\source\repos\Notebook Store\Notebook Store\bin\Debug\netcoreapp3.1\Store.runtimeconfig.json
+C:\Users\nazar\source\repos\Notebook Store\Notebook Store\bin\Debug\netcoreapp3.1\Store.runtimeconfig.dev.json
+C:\Users\nazar\source\repos\Notebook Store\Notebook Store\bin\Debug\netcoreapp3.1\Store.dll
+C:\Users\nazar\source\repos\Notebook Store\Notebook Store\bin\Debug\netcoreapp3.1\Store.pdb
+C:\Users\nazar\source\repos\Notebook Store\Notebook Store\obj\Debug\netcoreapp3.1\Store.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazar\source\repos\Notebook Store\Notebook Store\obj\Debug\netcoreapp3.1\Store.AssemblyInfoInputs.cache
+C:\Users\nazar\source\repos\Notebook Store\Notebook Store\obj\Debug\netcoreapp3.1\Store.AssemblyInfo.cs
+C:\Users\nazar\source\repos\Notebook Store\Notebook Store\obj\Debug\netcoreapp3.1\Store.csproj.CoreCompileInputs.cache
+C:\Users\nazar\source\repos\Notebook Store\Notebook Store\obj\Debug\netcoreapp3.1\Store.dll
+C:\Users\nazar\source\repos\Notebook Store\Notebook Store\obj\Debug\netcoreapp3.1\Store.pdb
+C:\Users\nazar\source\repos\Notebook Store\Notebook Store\obj\Debug\netcoreapp3.1\Store.genruntimeconfig.cache

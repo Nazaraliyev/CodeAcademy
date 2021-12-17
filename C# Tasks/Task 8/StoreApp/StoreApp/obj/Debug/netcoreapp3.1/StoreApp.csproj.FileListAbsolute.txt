@@ -1,0 +1,28 @@
+N:\Codes\Back\StoreApp\StoreApp\bin\Debug\netcoreapp3.1\StoreApp.exe
+N:\Codes\Back\StoreApp\StoreApp\bin\Debug\netcoreapp3.1\StoreApp.deps.json
+N:\Codes\Back\StoreApp\StoreApp\bin\Debug\netcoreapp3.1\StoreApp.runtimeconfig.json
+N:\Codes\Back\StoreApp\StoreApp\bin\Debug\netcoreapp3.1\StoreApp.runtimeconfig.dev.json
+N:\Codes\Back\StoreApp\StoreApp\bin\Debug\netcoreapp3.1\StoreApp.dll
+N:\Codes\Back\StoreApp\StoreApp\bin\Debug\netcoreapp3.1\StoreApp.pdb
+N:\Codes\Back\StoreApp\StoreApp\obj\Debug\netcoreapp3.1\StoreApp.csproj.AssemblyReference.cache
+N:\Codes\Back\StoreApp\StoreApp\obj\Debug\netcoreapp3.1\StoreApp.GeneratedMSBuildEditorConfig.editorconfig
+N:\Codes\Back\StoreApp\StoreApp\obj\Debug\netcoreapp3.1\StoreApp.AssemblyInfoInputs.cache
+N:\Codes\Back\StoreApp\StoreApp\obj\Debug\netcoreapp3.1\StoreApp.AssemblyInfo.cs
+N:\Codes\Back\StoreApp\StoreApp\obj\Debug\netcoreapp3.1\StoreApp.csproj.CoreCompileInputs.cache
+N:\Codes\Back\StoreApp\StoreApp\obj\Debug\netcoreapp3.1\StoreApp.dll
+N:\Codes\Back\StoreApp\StoreApp\obj\Debug\netcoreapp3.1\StoreApp.pdb
+N:\Codes\Back\StoreApp\StoreApp\obj\Debug\netcoreapp3.1\StoreApp.genruntimeconfig.cache
+N:\Codes\Back\CodeAcademy\C# Tasks\Task 8\StoreApp\StoreApp\bin\Debug\netcoreapp3.1\StoreApp.exe
+N:\Codes\Back\CodeAcademy\C# Tasks\Task 8\StoreApp\StoreApp\bin\Debug\netcoreapp3.1\StoreApp.deps.json
+N:\Codes\Back\CodeAcademy\C# Tasks\Task 8\StoreApp\StoreApp\bin\Debug\netcoreapp3.1\StoreApp.runtimeconfig.json
+N:\Codes\Back\CodeAcademy\C# Tasks\Task 8\StoreApp\StoreApp\bin\Debug\netcoreapp3.1\StoreApp.runtimeconfig.dev.json
+N:\Codes\Back\CodeAcademy\C# Tasks\Task 8\StoreApp\StoreApp\bin\Debug\netcoreapp3.1\StoreApp.dll
+N:\Codes\Back\CodeAcademy\C# Tasks\Task 8\StoreApp\StoreApp\bin\Debug\netcoreapp3.1\StoreApp.pdb
+N:\Codes\Back\CodeAcademy\C# Tasks\Task 8\StoreApp\StoreApp\obj\Debug\netcoreapp3.1\StoreApp.csproj.AssemblyReference.cache
+N:\Codes\Back\CodeAcademy\C# Tasks\Task 8\StoreApp\StoreApp\obj\Debug\netcoreapp3.1\StoreApp.GeneratedMSBuildEditorConfig.editorconfig
+N:\Codes\Back\CodeAcademy\C# Tasks\Task 8\StoreApp\StoreApp\obj\Debug\netcoreapp3.1\StoreApp.AssemblyInfoInputs.cache
+N:\Codes\Back\CodeAcademy\C# Tasks\Task 8\StoreApp\StoreApp\obj\Debug\netcoreapp3.1\StoreApp.AssemblyInfo.cs
+N:\Codes\Back\CodeAcademy\C# Tasks\Task 8\StoreApp\StoreApp\obj\Debug\netcoreapp3.1\StoreApp.csproj.CoreCompileInputs.cache
+N:\Codes\Back\CodeAcademy\C# Tasks\Task 8\StoreApp\StoreApp\obj\Debug\netcoreapp3.1\StoreApp.dll
+N:\Codes\Back\CodeAcademy\C# Tasks\Task 8\StoreApp\StoreApp\obj\Debug\netcoreapp3.1\StoreApp.pdb
+N:\Codes\Back\CodeAcademy\C# Tasks\Task 8\StoreApp\StoreApp\obj\Debug\netcoreapp3.1\StoreApp.genruntimeconfig.cache

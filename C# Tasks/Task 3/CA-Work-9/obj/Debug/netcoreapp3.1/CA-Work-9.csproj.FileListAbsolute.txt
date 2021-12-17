@@ -1,0 +1,13 @@
+N:\App\Web\CA repos\CA-Work-9\CA-Work-9\bin\Debug\netcoreapp3.1\CA-Work-9.exe
+N:\App\Web\CA repos\CA-Work-9\CA-Work-9\bin\Debug\netcoreapp3.1\CA-Work-9.deps.json
+N:\App\Web\CA repos\CA-Work-9\CA-Work-9\bin\Debug\netcoreapp3.1\CA-Work-9.runtimeconfig.json
+N:\App\Web\CA repos\CA-Work-9\CA-Work-9\bin\Debug\netcoreapp3.1\CA-Work-9.runtimeconfig.dev.json
+N:\App\Web\CA repos\CA-Work-9\CA-Work-9\bin\Debug\netcoreapp3.1\CA-Work-9.dll
+N:\App\Web\CA repos\CA-Work-9\CA-Work-9\bin\Debug\netcoreapp3.1\CA-Work-9.pdb
+N:\App\Web\CA repos\CA-Work-9\CA-Work-9\obj\Debug\netcoreapp3.1\CA-Work-9.GeneratedMSBuildEditorConfig.editorconfig
+N:\App\Web\CA repos\CA-Work-9\CA-Work-9\obj\Debug\netcoreapp3.1\CA-Work-9.AssemblyInfoInputs.cache
+N:\App\Web\CA repos\CA-Work-9\CA-Work-9\obj\Debug\netcoreapp3.1\CA-Work-9.AssemblyInfo.cs
+N:\App\Web\CA repos\CA-Work-9\CA-Work-9\obj\Debug\netcoreapp3.1\CA-Work-9.csproj.CoreCompileInputs.cache
+N:\App\Web\CA repos\CA-Work-9\CA-Work-9\obj\Debug\netcoreapp3.1\CA-Work-9.dll
+N:\App\Web\CA repos\CA-Work-9\CA-Work-9\obj\Debug\netcoreapp3.1\CA-Work-9.pdb
+N:\App\Web\CA repos\CA-Work-9\CA-Work-9\obj\Debug\netcoreapp3.1\CA-Work-9.genruntimeconfig.cache

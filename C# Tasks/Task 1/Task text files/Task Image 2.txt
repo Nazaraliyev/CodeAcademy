@@ -1,0 +1,9 @@
+            //Image Task 2
+            int sum = 0;
+            Console.Write("Ededi daxil edin : ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i <= a; i++)
+            {
+                sum = sum + i;
+            }
+            Console.WriteLine(sum);

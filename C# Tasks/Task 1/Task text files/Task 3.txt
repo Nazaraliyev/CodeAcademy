@@ -1,0 +1,4 @@
+            //Task 3
+            Console.Write("Ededi daxil edin : ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("2 misli  : " + (a * 2));

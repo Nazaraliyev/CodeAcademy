@@ -1,0 +1,14 @@
+C:\Users\nazar\Desktop\Contact\Contact\bin\Debug\netcoreapp3.1\AddressBook.exe
+C:\Users\nazar\Desktop\Contact\Contact\bin\Debug\netcoreapp3.1\AddressBook.deps.json
+C:\Users\nazar\Desktop\Contact\Contact\bin\Debug\netcoreapp3.1\AddressBook.runtimeconfig.json
+C:\Users\nazar\Desktop\Contact\Contact\bin\Debug\netcoreapp3.1\AddressBook.runtimeconfig.dev.json
+C:\Users\nazar\Desktop\Contact\Contact\bin\Debug\netcoreapp3.1\AddressBook.dll
+C:\Users\nazar\Desktop\Contact\Contact\bin\Debug\netcoreapp3.1\AddressBook.pdb
+C:\Users\nazar\Desktop\Contact\Contact\obj\Debug\netcoreapp3.1\AddressBook.csproj.AssemblyReference.cache
+C:\Users\nazar\Desktop\Contact\Contact\obj\Debug\netcoreapp3.1\AddressBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazar\Desktop\Contact\Contact\obj\Debug\netcoreapp3.1\AddressBook.AssemblyInfoInputs.cache
+C:\Users\nazar\Desktop\Contact\Contact\obj\Debug\netcoreapp3.1\AddressBook.AssemblyInfo.cs
+C:\Users\nazar\Desktop\Contact\Contact\obj\Debug\netcoreapp3.1\AddressBook.csproj.CoreCompileInputs.cache
+C:\Users\nazar\Desktop\Contact\Contact\obj\Debug\netcoreapp3.1\AddressBook.dll
+C:\Users\nazar\Desktop\Contact\Contact\obj\Debug\netcoreapp3.1\AddressBook.pdb
+C:\Users\nazar\Desktop\Contact\Contact\obj\Debug\netcoreapp3.1\AddressBook.genruntimeconfig.cache

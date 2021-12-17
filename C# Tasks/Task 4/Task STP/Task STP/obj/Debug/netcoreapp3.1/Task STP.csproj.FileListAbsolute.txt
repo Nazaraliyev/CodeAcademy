@@ -1,0 +1,14 @@
+N:\App\Visual Studio\Tasks\Task STP\Task STP\bin\Debug\netcoreapp3.1\Task STP.exe
+N:\App\Visual Studio\Tasks\Task STP\Task STP\bin\Debug\netcoreapp3.1\Task STP.deps.json
+N:\App\Visual Studio\Tasks\Task STP\Task STP\bin\Debug\netcoreapp3.1\Task STP.runtimeconfig.json
+N:\App\Visual Studio\Tasks\Task STP\Task STP\bin\Debug\netcoreapp3.1\Task STP.runtimeconfig.dev.json
+N:\App\Visual Studio\Tasks\Task STP\Task STP\bin\Debug\netcoreapp3.1\Task STP.dll
+N:\App\Visual Studio\Tasks\Task STP\Task STP\bin\Debug\netcoreapp3.1\Task STP.pdb
+N:\App\Visual Studio\Tasks\Task STP\Task STP\obj\Debug\netcoreapp3.1\Task STP.csproj.AssemblyReference.cache
+N:\App\Visual Studio\Tasks\Task STP\Task STP\obj\Debug\netcoreapp3.1\Task STP.GeneratedMSBuildEditorConfig.editorconfig
+N:\App\Visual Studio\Tasks\Task STP\Task STP\obj\Debug\netcoreapp3.1\Task STP.AssemblyInfoInputs.cache
+N:\App\Visual Studio\Tasks\Task STP\Task STP\obj\Debug\netcoreapp3.1\Task STP.AssemblyInfo.cs
+N:\App\Visual Studio\Tasks\Task STP\Task STP\obj\Debug\netcoreapp3.1\Task STP.csproj.CoreCompileInputs.cache
+N:\App\Visual Studio\Tasks\Task STP\Task STP\obj\Debug\netcoreapp3.1\Task STP.dll
+N:\App\Visual Studio\Tasks\Task STP\Task STP\obj\Debug\netcoreapp3.1\Task STP.pdb
+N:\App\Visual Studio\Tasks\Task STP\Task STP\obj\Debug\netcoreapp3.1\Task STP.genruntimeconfig.cache

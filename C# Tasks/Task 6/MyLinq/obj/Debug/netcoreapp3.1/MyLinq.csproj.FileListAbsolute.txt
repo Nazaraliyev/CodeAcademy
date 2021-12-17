@@ -1,0 +1,10 @@
+N:\App\Back\#Draft\CA-Work-12\MyLinq\bin\Debug\netcoreapp3.1\MyLinq.deps.json
+N:\App\Back\#Draft\CA-Work-12\MyLinq\bin\Debug\netcoreapp3.1\MyLinq.dll
+N:\App\Back\#Draft\CA-Work-12\MyLinq\bin\Debug\netcoreapp3.1\MyLinq.pdb
+N:\App\Back\#Draft\CA-Work-12\MyLinq\obj\Debug\netcoreapp3.1\MyLinq.csproj.AssemblyReference.cache
+N:\App\Back\#Draft\CA-Work-12\MyLinq\obj\Debug\netcoreapp3.1\MyLinq.GeneratedMSBuildEditorConfig.editorconfig
+N:\App\Back\#Draft\CA-Work-12\MyLinq\obj\Debug\netcoreapp3.1\MyLinq.AssemblyInfoInputs.cache
+N:\App\Back\#Draft\CA-Work-12\MyLinq\obj\Debug\netcoreapp3.1\MyLinq.AssemblyInfo.cs
+N:\App\Back\#Draft\CA-Work-12\MyLinq\obj\Debug\netcoreapp3.1\MyLinq.csproj.CoreCompileInputs.cache
+N:\App\Back\#Draft\CA-Work-12\MyLinq\obj\Debug\netcoreapp3.1\MyLinq.dll
+N:\App\Back\#Draft\CA-Work-12\MyLinq\obj\Debug\netcoreapp3.1\MyLinq.pdb

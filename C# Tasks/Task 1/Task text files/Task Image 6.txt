@@ -1,0 +1,39 @@
+            // Image Task 6
+	    Console.WriteLine("======================== SIGN UP ========================\n");
+            Console.Write("Login    : ");
+            string log = Console.ReadLine();
+            Console.Write("Password : ");
+            string pass = Console.ReadLine();
+            string repass;
+            while (true)
+            {
+                Console.Write("Password :");
+                repass = Console.ReadLine();
+                if (repass == pass)
+                {
+                    Console.WriteLine("\n======================== Suggesful ========================\n");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("\nPassword sehvdir\n");
+                }
+            }
+            Console.WriteLine("Login again\n");
+            for (int i = 0; i < 3; i++)
+            {
+                Console.Write("Login    : ");
+                string Slog = Console.ReadLine();
+                Console.Write("Password : ");
+                string Spass = Console.ReadLine();
+                if (Slog == log && Spass == pass)
+                {
+                    Console.WriteLine("\n======================== Welcome " + log + " ========================\n");
+                    return;
+                }
+                else
+                {
+                    Console.WriteLine("\nIncorrect login or password\n");
+                }
+            }
+            Console.WriteLine("\n System block your accound \n");

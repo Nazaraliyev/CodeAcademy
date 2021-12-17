@@ -1,0 +1,34 @@
+            //Image Task 3
+            Console.Write("1-ci ededi daxil edin : ");
+            double a = Convert.ToInt32(Console.ReadLine());
+            char chr;
+            while (true)
+            {
+                Console.Write("Emeliyyati daxil edin ( - , + , * , / ) : ");
+                chr = Convert.ToChar(Console.ReadLine());
+                if (chr == '-' || chr == '+' || chr == '*' || chr == '/')
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("\nEmeliyyat  sehvdir\n");
+                }
+            }
+            Console.Write("2-ci ededi daxil edin : ");
+            double b = Convert.ToInt32(Console.ReadLine());
+            switch (chr)
+            {
+                case '-':
+                    Console.WriteLine("Cavab : " + (a - b));
+                    break;
+                case '+':
+                    Console.WriteLine("Cavab : " + (a + b));
+                    break;
+                case '*':
+                    Console.WriteLine("Cavab : " + (a * b));
+                    break;
+                case '/':
+                    Console.WriteLine("Cavab : " + (a / b));
+                    break;
+            }

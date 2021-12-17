@@ -1,0 +1,14 @@
+N:\App\Visual Studio\Tasks\Task 6\Task 6\bin\Debug\netcoreapp3.1\Task 6.exe
+N:\App\Visual Studio\Tasks\Task 6\Task 6\bin\Debug\netcoreapp3.1\Task 6.deps.json
+N:\App\Visual Studio\Tasks\Task 6\Task 6\bin\Debug\netcoreapp3.1\Task 6.runtimeconfig.json
+N:\App\Visual Studio\Tasks\Task 6\Task 6\bin\Debug\netcoreapp3.1\Task 6.runtimeconfig.dev.json
+N:\App\Visual Studio\Tasks\Task 6\Task 6\bin\Debug\netcoreapp3.1\Task 6.dll
+N:\App\Visual Studio\Tasks\Task 6\Task 6\bin\Debug\netcoreapp3.1\Task 6.pdb
+N:\App\Visual Studio\Tasks\Task 6\Task 6\obj\Debug\netcoreapp3.1\Task 6.csproj.AssemblyReference.cache
+N:\App\Visual Studio\Tasks\Task 6\Task 6\obj\Debug\netcoreapp3.1\Task 6.GeneratedMSBuildEditorConfig.editorconfig
+N:\App\Visual Studio\Tasks\Task 6\Task 6\obj\Debug\netcoreapp3.1\Task 6.AssemblyInfoInputs.cache
+N:\App\Visual Studio\Tasks\Task 6\Task 6\obj\Debug\netcoreapp3.1\Task 6.AssemblyInfo.cs
+N:\App\Visual Studio\Tasks\Task 6\Task 6\obj\Debug\netcoreapp3.1\Task 6.csproj.CoreCompileInputs.cache
+N:\App\Visual Studio\Tasks\Task 6\Task 6\obj\Debug\netcoreapp3.1\Task 6.dll
+N:\App\Visual Studio\Tasks\Task 6\Task 6\obj\Debug\netcoreapp3.1\Task 6.pdb
+N:\App\Visual Studio\Tasks\Task 6\Task 6\obj\Debug\netcoreapp3.1\Task 6.genruntimeconfig.cache

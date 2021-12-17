@@ -1,0 +1,28 @@
+N:\App\Visual Studio\CA-Task-11\CA-Task-11\bin\Debug\netcoreapp3.1\CA-Task-11.exe
+N:\App\Visual Studio\CA-Task-11\CA-Task-11\bin\Debug\netcoreapp3.1\CA-Task-11.deps.json
+N:\App\Visual Studio\CA-Task-11\CA-Task-11\bin\Debug\netcoreapp3.1\CA-Task-11.runtimeconfig.json
+N:\App\Visual Studio\CA-Task-11\CA-Task-11\bin\Debug\netcoreapp3.1\CA-Task-11.runtimeconfig.dev.json
+N:\App\Visual Studio\CA-Task-11\CA-Task-11\bin\Debug\netcoreapp3.1\CA-Task-11.dll
+N:\App\Visual Studio\CA-Task-11\CA-Task-11\bin\Debug\netcoreapp3.1\CA-Task-11.pdb
+N:\App\Visual Studio\CA-Task-11\CA-Task-11\obj\Debug\netcoreapp3.1\CA-Task-11.csproj.AssemblyReference.cache
+N:\App\Visual Studio\CA-Task-11\CA-Task-11\obj\Debug\netcoreapp3.1\CA-Task-11.GeneratedMSBuildEditorConfig.editorconfig
+N:\App\Visual Studio\CA-Task-11\CA-Task-11\obj\Debug\netcoreapp3.1\CA-Task-11.AssemblyInfoInputs.cache
+N:\App\Visual Studio\CA-Task-11\CA-Task-11\obj\Debug\netcoreapp3.1\CA-Task-11.AssemblyInfo.cs
+N:\App\Visual Studio\CA-Task-11\CA-Task-11\obj\Debug\netcoreapp3.1\CA-Task-11.csproj.CoreCompileInputs.cache
+N:\App\Visual Studio\CA-Task-11\CA-Task-11\obj\Debug\netcoreapp3.1\CA-Task-11.dll
+N:\App\Visual Studio\CA-Task-11\CA-Task-11\obj\Debug\netcoreapp3.1\CA-Task-11.pdb
+N:\App\Visual Studio\CA-Task-11\CA-Task-11\obj\Debug\netcoreapp3.1\CA-Task-11.genruntimeconfig.cache
+C:\Users\tu201806044\Desktop\CA-Work-11\CA-Task-11\bin\Debug\netcoreapp3.1\CA-Task-11.exe
+C:\Users\tu201806044\Desktop\CA-Work-11\CA-Task-11\bin\Debug\netcoreapp3.1\CA-Task-11.deps.json
+C:\Users\tu201806044\Desktop\CA-Work-11\CA-Task-11\bin\Debug\netcoreapp3.1\CA-Task-11.runtimeconfig.json
+C:\Users\tu201806044\Desktop\CA-Work-11\CA-Task-11\bin\Debug\netcoreapp3.1\CA-Task-11.runtimeconfig.dev.json
+C:\Users\tu201806044\Desktop\CA-Work-11\CA-Task-11\bin\Debug\netcoreapp3.1\CA-Task-11.dll
+C:\Users\tu201806044\Desktop\CA-Work-11\CA-Task-11\bin\Debug\netcoreapp3.1\CA-Task-11.pdb
+C:\Users\tu201806044\Desktop\CA-Work-11\CA-Task-11\obj\Debug\netcoreapp3.1\CA-Task-11.csproj.AssemblyReference.cache
+C:\Users\tu201806044\Desktop\CA-Work-11\CA-Task-11\obj\Debug\netcoreapp3.1\CA-Task-11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tu201806044\Desktop\CA-Work-11\CA-Task-11\obj\Debug\netcoreapp3.1\CA-Task-11.AssemblyInfoInputs.cache
+C:\Users\tu201806044\Desktop\CA-Work-11\CA-Task-11\obj\Debug\netcoreapp3.1\CA-Task-11.AssemblyInfo.cs
+C:\Users\tu201806044\Desktop\CA-Work-11\CA-Task-11\obj\Debug\netcoreapp3.1\CA-Task-11.csproj.CoreCompileInputs.cache
+C:\Users\tu201806044\Desktop\CA-Work-11\CA-Task-11\obj\Debug\netcoreapp3.1\CA-Task-11.dll
+C:\Users\tu201806044\Desktop\CA-Work-11\CA-Task-11\obj\Debug\netcoreapp3.1\CA-Task-11.pdb
+C:\Users\tu201806044\Desktop\CA-Work-11\CA-Task-11\obj\Debug\netcoreapp3.1\CA-Task-11.genruntimeconfig.cache

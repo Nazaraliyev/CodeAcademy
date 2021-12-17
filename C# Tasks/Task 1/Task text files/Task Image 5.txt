@@ -1,0 +1,15 @@
+            // Task Image 5
+            Console.Write("Ededi daxil edin : ");
+            int num = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Uzunlugu daxil edin : ");
+            int wid = Convert.ToInt32(Console.ReadLine());
+            int width = wid;
+            for (int i = 0; i < wid; i++)
+            {
+                for (int j = width; j > 0; j--)
+                {
+                    Console.Write(num);
+                }
+                width--;
+                Console.WriteLine("");
+            }

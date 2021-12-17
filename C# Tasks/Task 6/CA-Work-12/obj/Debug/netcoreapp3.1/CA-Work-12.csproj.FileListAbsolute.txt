@@ -1,0 +1,16 @@
+N:\App\Back\#Draft\CA-Work-12\CA-Work-12\bin\Debug\netcoreapp3.1\CA-Work-12.exe
+N:\App\Back\#Draft\CA-Work-12\CA-Work-12\bin\Debug\netcoreapp3.1\CA-Work-12.deps.json
+N:\App\Back\#Draft\CA-Work-12\CA-Work-12\bin\Debug\netcoreapp3.1\CA-Work-12.runtimeconfig.json
+N:\App\Back\#Draft\CA-Work-12\CA-Work-12\bin\Debug\netcoreapp3.1\CA-Work-12.runtimeconfig.dev.json
+N:\App\Back\#Draft\CA-Work-12\CA-Work-12\bin\Debug\netcoreapp3.1\CA-Work-12.dll
+N:\App\Back\#Draft\CA-Work-12\CA-Work-12\bin\Debug\netcoreapp3.1\CA-Work-12.pdb
+N:\App\Back\#Draft\CA-Work-12\CA-Work-12\bin\Debug\netcoreapp3.1\MyLinq.dll
+N:\App\Back\#Draft\CA-Work-12\CA-Work-12\bin\Debug\netcoreapp3.1\MyLinq.pdb
+N:\App\Back\#Draft\CA-Work-12\CA-Work-12\obj\Debug\netcoreapp3.1\CA-Work-12.csproj.AssemblyReference.cache
+N:\App\Back\#Draft\CA-Work-12\CA-Work-12\obj\Debug\netcoreapp3.1\CA-Work-12.GeneratedMSBuildEditorConfig.editorconfig
+N:\App\Back\#Draft\CA-Work-12\CA-Work-12\obj\Debug\netcoreapp3.1\CA-Work-12.AssemblyInfoInputs.cache
+N:\App\Back\#Draft\CA-Work-12\CA-Work-12\obj\Debug\netcoreapp3.1\CA-Work-12.AssemblyInfo.cs
+N:\App\Back\#Draft\CA-Work-12\CA-Work-12\obj\Debug\netcoreapp3.1\CA-Work-12.csproj.CoreCompileInputs.cache
+N:\App\Back\#Draft\CA-Work-12\CA-Work-12\obj\Debug\netcoreapp3.1\CA-Work-12.dll
+N:\App\Back\#Draft\CA-Work-12\CA-Work-12\obj\Debug\netcoreapp3.1\CA-Work-12.pdb
+N:\App\Back\#Draft\CA-Work-12\CA-Work-12\obj\Debug\netcoreapp3.1\CA-Work-12.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+N:\App\Visual Studio\CA-Work-8\Task 1-2\Task 1-2\bin\Debug\netcoreapp3.1\Task 1-2.exe
+N:\App\Visual Studio\CA-Work-8\Task 1-2\Task 1-2\bin\Debug\netcoreapp3.1\Task 1-2.deps.json
+N:\App\Visual Studio\CA-Work-8\Task 1-2\Task 1-2\bin\Debug\netcoreapp3.1\Task 1-2.runtimeconfig.json
+N:\App\Visual Studio\CA-Work-8\Task 1-2\Task 1-2\bin\Debug\netcoreapp3.1\Task 1-2.runtimeconfig.dev.json
+N:\App\Visual Studio\CA-Work-8\Task 1-2\Task 1-2\bin\Debug\netcoreapp3.1\Task 1-2.dll
+N:\App\Visual Studio\CA-Work-8\Task 1-2\Task 1-2\bin\Debug\netcoreapp3.1\Task 1-2.pdb
+N:\App\Visual Studio\CA-Work-8\Task 1-2\Task 1-2\obj\Debug\netcoreapp3.1\Task 1-2.csproj.AssemblyReference.cache
+N:\App\Visual Studio\CA-Work-8\Task 1-2\Task 1-2\obj\Debug\netcoreapp3.1\Task 1-2.GeneratedMSBuildEditorConfig.editorconfig
+N:\App\Visual Studio\CA-Work-8\Task 1-2\Task 1-2\obj\Debug\netcoreapp3.1\Task 1-2.AssemblyInfoInputs.cache
+N:\App\Visual Studio\CA-Work-8\Task 1-2\Task 1-2\obj\Debug\netcoreapp3.1\Task 1-2.AssemblyInfo.cs
+N:\App\Visual Studio\CA-Work-8\Task 1-2\Task 1-2\obj\Debug\netcoreapp3.1\Task 1-2.csproj.CoreCompileInputs.cache
+N:\App\Visual Studio\CA-Work-8\Task 1-2\Task 1-2\obj\Debug\netcoreapp3.1\Task 1-2.dll
+N:\App\Visual Studio\CA-Work-8\Task 1-2\Task 1-2\obj\Debug\netcoreapp3.1\Task 1-2.pdb
+N:\App\Visual Studio\CA-Work-8\Task 1-2\Task 1-2\obj\Debug\netcoreapp3.1\Task 1-2.genruntimeconfig.cache

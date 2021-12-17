@@ -1,0 +1,6 @@
+            //Image Task 3
+            Console.Write("Radiusu daxil edin : ");
+            int r = Convert.ToInt32(Console.ReadLine());
+            double l = 2 * Math.PI * r;
+            double S = Math.PI * Math.Pow(r, 2);
+            Console.WriteLine("Dairenin perimetri : " + l + "\nDairenin sahesi : " + S);

@@ -1,0 +1,14 @@
+C:\Users\nazar\Desktop\Tasks\Tasks\bin\Debug\netcoreapp3.1\Tasks.exe
+C:\Users\nazar\Desktop\Tasks\Tasks\bin\Debug\netcoreapp3.1\Tasks.deps.json
+C:\Users\nazar\Desktop\Tasks\Tasks\bin\Debug\netcoreapp3.1\Tasks.runtimeconfig.json
+C:\Users\nazar\Desktop\Tasks\Tasks\bin\Debug\netcoreapp3.1\Tasks.runtimeconfig.dev.json
+C:\Users\nazar\Desktop\Tasks\Tasks\bin\Debug\netcoreapp3.1\Tasks.dll
+C:\Users\nazar\Desktop\Tasks\Tasks\bin\Debug\netcoreapp3.1\Tasks.pdb
+C:\Users\nazar\Desktop\Tasks\Tasks\obj\Debug\netcoreapp3.1\Tasks.csproj.AssemblyReference.cache
+C:\Users\nazar\Desktop\Tasks\Tasks\obj\Debug\netcoreapp3.1\Tasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazar\Desktop\Tasks\Tasks\obj\Debug\netcoreapp3.1\Tasks.AssemblyInfoInputs.cache
+C:\Users\nazar\Desktop\Tasks\Tasks\obj\Debug\netcoreapp3.1\Tasks.AssemblyInfo.cs
+C:\Users\nazar\Desktop\Tasks\Tasks\obj\Debug\netcoreapp3.1\Tasks.csproj.CoreCompileInputs.cache
+C:\Users\nazar\Desktop\Tasks\Tasks\obj\Debug\netcoreapp3.1\Tasks.dll
+C:\Users\nazar\Desktop\Tasks\Tasks\obj\Debug\netcoreapp3.1\Tasks.pdb
+C:\Users\nazar\Desktop\Tasks\Tasks\obj\Debug\netcoreapp3.1\Tasks.genruntimeconfig.cache

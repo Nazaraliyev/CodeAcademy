@@ -1,0 +1,14 @@
+N:\App\Back\#Draft\CA-Work-13\CA-Work-13\bin\Debug\netcoreapp3.1\CA-Work-13.exe
+N:\App\Back\#Draft\CA-Work-13\CA-Work-13\bin\Debug\netcoreapp3.1\CA-Work-13.deps.json
+N:\App\Back\#Draft\CA-Work-13\CA-Work-13\bin\Debug\netcoreapp3.1\CA-Work-13.runtimeconfig.json
+N:\App\Back\#Draft\CA-Work-13\CA-Work-13\bin\Debug\netcoreapp3.1\CA-Work-13.runtimeconfig.dev.json
+N:\App\Back\#Draft\CA-Work-13\CA-Work-13\bin\Debug\netcoreapp3.1\CA-Work-13.dll
+N:\App\Back\#Draft\CA-Work-13\CA-Work-13\bin\Debug\netcoreapp3.1\CA-Work-13.pdb
+N:\App\Back\#Draft\CA-Work-13\CA-Work-13\obj\Debug\netcoreapp3.1\CA-Work-13.csproj.AssemblyReference.cache
+N:\App\Back\#Draft\CA-Work-13\CA-Work-13\obj\Debug\netcoreapp3.1\CA-Work-13.GeneratedMSBuildEditorConfig.editorconfig
+N:\App\Back\#Draft\CA-Work-13\CA-Work-13\obj\Debug\netcoreapp3.1\CA-Work-13.AssemblyInfoInputs.cache
+N:\App\Back\#Draft\CA-Work-13\CA-Work-13\obj\Debug\netcoreapp3.1\CA-Work-13.AssemblyInfo.cs
+N:\App\Back\#Draft\CA-Work-13\CA-Work-13\obj\Debug\netcoreapp3.1\CA-Work-13.csproj.CoreCompileInputs.cache
+N:\App\Back\#Draft\CA-Work-13\CA-Work-13\obj\Debug\netcoreapp3.1\CA-Work-13.dll
+N:\App\Back\#Draft\CA-Work-13\CA-Work-13\obj\Debug\netcoreapp3.1\CA-Work-13.pdb
+N:\App\Back\#Draft\CA-Work-13\CA-Work-13\obj\Debug\netcoreapp3.1\CA-Work-13.genruntimeconfig.cache
