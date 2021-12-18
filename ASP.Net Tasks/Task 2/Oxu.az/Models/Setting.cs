@@ -10,8 +10,19 @@ namespace Oxu.az.Models
 
 
 
+        [MaxLength(50)]
+        public string Logo  { get; set; }
+
+
+
         [Column(TypeName = "ntext")]
         public string About { get; set; }
+
+
+
+
+        [Column(TypeName = "ntext")]
+        public string Ads { get; set; }
 
 
 
@@ -27,29 +38,5 @@ namespace Oxu.az.Models
         [MaxLength(200)]
         public string Mail { get; set; }
 
-
-
-        [MaxLength(200)]
-        public string Facebook { get; set; }
-
-
-
-        [MaxLength(200)]
-        public string Twitter { get; set; }
-
-
-
-        [MaxLength(200)]
-        public string Telegram { get; set; }
-
-
-
-        [MaxLength(200)]
-        public string Android { get; set; }
-
-
-
-        [MaxLength(200)]
-        public string Aplle { get; set; }
     }
 }

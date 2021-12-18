@@ -59,19 +59,30 @@ namespace Oxu.az.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    Logo = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: true),
                     About = table.Column<string>(type: "ntext", nullable: true),
+                    Ads = table.Column<string>(type: "ntext", nullable: true),
                     Phone = table.Column<int>(type: "int", nullable: false),
                     Adress = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: true),
-                    Mail = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: true),
-                    Facebook = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: true),
-                    Twitter = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: true),
-                    Telegram = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: true),
-                    Android = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: true),
-                    Aplle = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: true)
+                    Mail = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Settings", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "SosialMedias",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: true),
+                    Link = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_SosialMedias", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -185,6 +196,9 @@ namespace Oxu.az.Migrations
 
             migrationBuilder.DropTable(
                 name: "Settings");
+
+            migrationBuilder.DropTable(
+                name: "SosialMedias");
 
             migrationBuilder.DropTable(
                 name: "Authors");

@@ -16,5 +16,6 @@ namespace Oxu.az.Data
         public DbSet<AuthorNews> AuthorNews { get; set; }
         public DbSet<CategoryNews> CategoryNews { get; set; }
         public DbSet<Images> Images { get; set; }
+        public DbSet<SosialMedia> SosialMedias { get; set; } 
     }
 }
