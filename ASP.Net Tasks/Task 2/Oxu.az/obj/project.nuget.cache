@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sSTbvAzQCXMn5d95zw2giu+RhzW53sf9UQsTFTnrtsF4RPSexiBpc/66pfiLZbFyPCJY3rNUkkRD4dGYaBjOUQ==",
+  "success": true,
+  "projectFilePath": "N:\\Codes\\Back\\CodeAcademy\\ASP.Net Tasks\\Task 2\\Oxu.az\\Oxu.az.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nazar\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
