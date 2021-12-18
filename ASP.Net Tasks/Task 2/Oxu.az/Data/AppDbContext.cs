@@ -12,7 +12,6 @@ namespace Oxu.az.Data
 
         public DbSet<Category> Categories { get; set; }
         public DbSet<News> News { get; set; }
-        public DbSet<CategoryNews> CategoryNews { get; set; }
 
     }
 }
