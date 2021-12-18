@@ -21,7 +21,13 @@ namespace Oxu.az.Models
 
 
 
-        public DateTime CreateDAte { get; set; }
+
+        [MaxLength(50)]
+        public string Img { get; set; }
+
+
+
+        public DateTime CreateDate { get; set; }
 
         public int Watch { get; set; }
 
