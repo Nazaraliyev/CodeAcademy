@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SixteenClothing.Models
@@ -36,7 +38,10 @@ namespace SixteenClothing.Models
         [MaxLength(50)]
         public string OurProductHeader { get; set; }
 
-
+        public static explicit operator Settings(DbSet<Settings> v)
+        {
+            throw new NotImplementedException();
+        }
 
         [MaxLength(50)]
         public string OurProductImg { get; set; }
