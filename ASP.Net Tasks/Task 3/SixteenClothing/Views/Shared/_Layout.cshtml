@@ -1,5 +1,9 @@
 ﻿@model VmSettings
 
+@{ 
+    string controller = this.ViewContext.RouteData.Values["controller"].ToString();
+}
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -38,18 +42,17 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
+              <li class="nav-item @( controller == "Home" ? "active" : "") ">
                 <a class="nav-link"  asp-controller = "Home" asp-action = "Index">Home
-                  <span class="sr-only">(current)</span>
                 </a>
               </li> 
-              <li class="nav-item">
+              <li class="nav-item  @( controller == "OurProducts" ? "active" : "")">
                 <a class="nav-link"  asp-controller = "OurProducts" asp-action = "Index" >Our Products</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item  @( controller == "AboutUs" ? "active" : "")">
                 <a class="nav-link" asp-controller = "AboutUs" asp-action = "Index">About Us</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item  @( controller == "ContactUs" ? "active" : "")">
                 <a class="nav-link"  asp-controller = "ContactUs" asp-action = "Index">Contact Us</a>
               </li>
             </ul>
