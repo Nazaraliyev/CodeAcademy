@@ -1,4 +1,4 @@
-﻿@model dynamic
+﻿@model VmOurProduct
 
 
  <!-- Page Content -->
@@ -34,13 +34,13 @@
                 <div class="row grid">
                     @for (var i = 0; i < 6; i++)
                    {
-                     <div class="col-lg-4 col-md-4 all des">
+                     <div class="col-lg-4 col-md-4 all @Model.product[i].ClassName ">
                       <div class="product-item">
-                        <a href="#"><img src="/assets/images/@Model.products[i].Img" alt=""></a>
+                        <a href="#"><img src="/assets/images/@Model.product[i].Img" alt=""></a>
                         <div class="down-content">
-                          <a href="#"><h4>@Model.products[i].Name</h4></a>
-                          <h6>$@Model.products[i].Price</h6>
-                          <p>@Model.products[i].Img</p>
+                          <a href="#"><h4>@Model.product[i].Name</h4></a>
+                          <h6>$@Model.product[i].Price</h6>
+                          <p>@Model.product[i].Img</p>
                           <ul class="stars">
                             <li><i class="fa fa-star"></i></li>
                             <li><i class="fa fa-star"></i></li>
@@ -48,7 +48,7 @@
                             <li><i class="fa fa-star"></i></li>
                             <li><i class="fa fa-star"></i></li>
                           </ul>
-                          <span>Reviews (@Model.products[i].Preview)</span>
+                          <span>Reviews (@Model.product[i].Preview)</span>
                         </div>
                       </div>
                     </div>
