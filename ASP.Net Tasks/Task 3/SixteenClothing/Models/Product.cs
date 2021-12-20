@@ -36,5 +36,10 @@ namespace SixteenClothing.Models
 
 
         public int Preview { get; set; }
+
+
+
+        [MaxLength(20)]
+        public string ClassName { get; set; }
     }
 }
