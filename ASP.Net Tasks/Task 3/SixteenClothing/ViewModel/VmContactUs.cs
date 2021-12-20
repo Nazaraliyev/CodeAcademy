@@ -1,6 +1,6 @@
 ﻿namespace SixteenClothing.ViewModel
 {
-    public class VmContactUs
+    public class VmContactUs:VmSettings
     {
     }
 }
