@@ -1,21 +1,15 @@
 ﻿@model VmOurProduct
 
+@{
+    VmBannerPartion partion = new VmBannerPartion()
+            {
+                SubHeader = Model.settings.OurProductSubHeader,
+                Header = Model.settings.OurProductHeader
+            };
+}
 
- <!-- Page Content -->
-    <div class="page-heading products-heading header-text">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="text-content">
-              <h4>@Model.settings.OurProductSubHeader</h4>
-              <h2>@Model.settings.OurProductHeader</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<partial name = "_bannerPartial" model = "partion" />
 
-    
     <div class="products">
       <div class="container">
         <div class="row">
