@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SixteenClothing.Data;
 using SixteenClothing.Models;
+using SixteenClothing.ViewModel;
 using System.Collections.Generic;
 using System.Dynamic;
 using System.Linq;
@@ -17,11 +18,12 @@ namespace SixteenClothing.Controllers
         }
         public IActionResult Index()
         {
-            List<Product> products = _context.Products.ToList();
-            List<HomeBanners> banner = _context.HomeBanners.ToList();
-            dynamic model = new ExpandoObject();
-            model.Banner = banner;
-            model.Product = products;
+            VmHome model = new VmHome()
+            {
+                banners = _context.HomeBanners.ToList(),
+                products = _context.Products.ToList(),
+                settings = _context.Settings.FirstOrDefault()
+            };
             return View(model);
         }
     }
