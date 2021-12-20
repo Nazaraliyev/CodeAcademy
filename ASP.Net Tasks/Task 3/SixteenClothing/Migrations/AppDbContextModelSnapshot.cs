@@ -146,6 +146,10 @@ namespace SixteenClothing.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("ClassName")
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
                     b.Property<string>("Img")
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");

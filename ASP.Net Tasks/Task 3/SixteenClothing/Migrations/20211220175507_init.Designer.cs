@@ -10,7 +10,7 @@ using SixteenClothing.Data;
 namespace SixteenClothing.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20211219095456_init")]
+    [Migration("20211220175507_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -147,6 +147,10 @@ namespace SixteenClothing.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("ClassName")
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
 
                     b.Property<string>("Img")
                         .HasMaxLength(50)

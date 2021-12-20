@@ -76,7 +76,8 @@ namespace SixteenClothing.Migrations
                     Text = table.Column<string>(type: "ntext", nullable: true),
                     Price = table.Column<int>(type: "int", nullable: false),
                     Star = table.Column<byte>(type: "tinyint", nullable: false),
-                    Preview = table.Column<int>(type: "int", nullable: false)
+                    Preview = table.Column<int>(type: "int", nullable: false),
+                    ClassName = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true)
                 },
                 constraints: table =>
                 {
