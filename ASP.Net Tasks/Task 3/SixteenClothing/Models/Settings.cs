@@ -64,7 +64,7 @@ namespace SixteenClothing.Models
 
 
 
-        [MaxLength(50)]
+        [Column(TypeName = "ntext")]
         public string AboutUsContent { get; set; }
 
 
@@ -90,7 +90,7 @@ namespace SixteenClothing.Models
 
 
 
-        [MaxLength(50)]
+        [Column(TypeName = "ntext")]
         public string ContactUsContent { get; set; }
 
 
