@@ -20,6 +20,7 @@ namespace SixteenClothing.Controllers
             {
                 teams = _context.TeamMembers.Include("Speciality").ToList(),
                 qualities = _context.Qualities.ToList(),
+                partners = _context.Partners.ToList(),
                 settings = _context.Settings.FirstOrDefault()
             };
             return View(model);
