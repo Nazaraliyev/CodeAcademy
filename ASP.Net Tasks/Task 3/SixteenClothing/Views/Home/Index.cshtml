@@ -1,10 +1,10 @@
-﻿@model dynamic
+﻿@model VmHome
 
  <!-- Page Content -->
     <!-- Banner Starts Here -->
     <div class="banner header-text">
       <div class="owl-banner owl-carousel">
-          @foreach(var item in Model.Banner)
+          @foreach(var item in Model.banners)
         {
          <div class="banner-item-01">
           <div class="text-content">
@@ -30,11 +30,11 @@
           {
             <div class="col-md-4">
             <div class="product-item">
-              <a href="#"><img src="/assets/images/@Model.Product[i].Img" alt=""></a>
+              <a href="#"><img src="/assets/images/@Model.products[i].Img" alt=""></a>
               <div class="down-content">
-                <a href="#"><h4>@Model.Product[i].Name</h4></a>
-                <h6>$@Model.Product[i].Price</h6>
-                <p>@Model.Product[i].Text</p>
+                <a href="#"><h4>@Model.products[i].Name</h4></a>
+                <h6>$@Model.products[i].Price</h6>
+                <p>@Model.products[i].Text</p>
                 <ul class="stars">
                   <li><i class="fa fa-star"></i></li>
                   <li><i class="fa fa-star"></i></li>
@@ -42,7 +42,7 @@
                   <li><i class="fa fa-star"></i></li>
                   <li><i class="fa fa-star"></i></li>
                 </ul>
-                <span>Reviews (@Model.Product[i].Preview)</span>
+                <span>Reviews (@Model.products[i].Preview)</span>
               </div>
             </div>
           </div>
