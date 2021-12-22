@@ -12,6 +12,8 @@
 
         public int Preview { get; set; }
 
+        public int Star { get; set; }
+
 
     }
 }
