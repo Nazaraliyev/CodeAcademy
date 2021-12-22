@@ -3,10 +3,8 @@ using System.Collections.Generic;
 
 namespace SixteenClothing.ViewModel
 {
-    public class VmHome : VmSettings
+    public class VmBasket:VmSettings
     {
-        public List<HomeBanners> banners { get; set; }
-
         public List<Product> products { get; set; }
     }
 }
