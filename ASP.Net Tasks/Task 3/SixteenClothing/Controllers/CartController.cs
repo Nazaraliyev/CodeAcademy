@@ -17,9 +17,12 @@ namespace SixteenClothing.Controllers
 
             if (!string.IsNullOrEmpty(basket))
             {
-                //List<string> datalist = basket.Split("-").ToList();
+                List<string> datalist = basket.Split("-").ToList();
 
-                basket = basket + "-" + id;
+                if(!datalist.Any(element => element == id.ToString()))
+                {
+                    basket = basket + "-" + id;
+                }
 
             }
             else
