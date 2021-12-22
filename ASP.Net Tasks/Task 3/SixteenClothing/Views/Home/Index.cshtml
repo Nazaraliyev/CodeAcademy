@@ -26,26 +26,20 @@
               <a href="products.html">view all products <i class="fa fa-angle-right"></i></a>
             </div>
           </div>
-          @for (var i = 0;  i < 6;  i++)
-          {
-            <div class="col-md-4">
-            <div class="product-item">
-              <a href="#"><img src="/assets/images/@Model.products[i].Img" alt=""></a>
-              <div class="down-content">
-                <a href="#"><h4>@Model.products[i].Name</h4></a>
-                <h6>$@Model.products[i].Price</h6>
-                <p>@Model.products[i].Text</p>
-                <ul class="stars">
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                </ul>
-                <span>Reviews (@Model.products[i].Preview)</span>
-              </div>
-            </div>
-          </div>
+            @{
+                foreach (var item in Model.products)
+                {
+                    VmCardPartial card = new VmCardPartial()
+                    {
+                    Img = item.Img,
+                    Name = item.Name,
+                    Price = item.Price,
+                    Preview = item.Preview,
+                    Star = item.Star
+                    };
+                    <partial name = "_cardPartial" model = "card" />
+
+                }
           }
         </div>
       </div>
@@ -62,7 +56,7 @@
           <div class="col-md-6">
             <div class="left-content">
               <h4>Looking for the best products?</h4>
-              <p><a rel="nofollow" href="https://templatemo.com/tm-546-sixteen-clothing" target="_parent">@Model.settings.HomeContent</p>
+              <p><a rel="nofollow" href="https://templatemo.com/tm-546-sixteen-clothing" target="_parent">@Model.settings.HomeContent </a></p>
               <ul class="featured-list">
                 <li><a href="#">Lorem ipsum dolor sit amet</a></li>
                 <li><a href="#">Consectetur an adipisicing elit</a></li>
