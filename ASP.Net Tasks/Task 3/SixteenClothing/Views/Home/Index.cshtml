@@ -1,100 +1,101 @@
 ﻿@model VmHome
 
- <!-- Page Content -->
-    <!-- Banner Starts Here -->
-    <div class="banner header-text">
-      <div class="owl-banner owl-carousel">
-          @foreach(var item in Model.banners)
-        {
-         <div class="banner-item" style = "background-image : url(/assets/images/@item.Img)">
-          <div class="text-content">
-            <h4>@item.SubHeader</h4>
-            <h2>@item.Header</h2>
-          </div>
-        </div>
-        }
-    </div>
-    </div>
-    <!-- Banner Ends Here -->
+<!-- Page Content -->
+<!-- Banner Starts Here -->
+<div class="banner header-text">
+	<div class="owl-banner owl-carousel">
+		@foreach (var item in Model.banners)
+		{
+			<div class="banner-item" style="background-image : url(/assets/images/@item.Img)">
+				<div class="text-content">
+					<h4>@item.SubHeader</h4>
+					<h2>@item.Header</h2>
+				</div>
+			</div>
+		}
+	</div>
+</div>
+<!-- Banner Ends Here -->
 
-    <div class="latest-products">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-heading">
-              <h2>Latest Products</h2>
-              <a href="products.html">view all products <i class="fa fa-angle-right"></i></a>
-            </div>
-          </div>
-            @{
-                foreach (var item in Model.products)
-                {
-                    VmCardPartial card = new VmCardPartial()
-                    {
-                    Img = item.Img,
-                    Name = item.Name,
-                    Price = item.Price,
-                    Preview = item.Preview,
-                    Star = item.Star,
-                    ClassName = item.ClassName,
-                    Text = item.Text
-                    };
-                    <partial name = "_cardPartial" model = "card" />
+<div class="latest-products">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="section-heading">
+					<h2>Latest Products</h2>
+					<a href="products.html">view all products <i class="fa fa-angle-right"></i></a>
+				</div>
+			</div>
+			@{
+				foreach (var item in Model.products)
+				{
+					VmCardPartial card = new VmCardPartial()
+				{
+					Id = item.Id,
+					Img = item.Img,
+					Name = item.Name,
+					Price = item.Price,
+					Preview = item.Preview,
+					Star = item.Star,
+					ClassName = item.ClassName,
+					Text = item.Text
+				};
+					<partial name="_cardPartial" model="card" />
 
-                }
-          }
-        </div>
-      </div>
-    </div>
+				}
+			}
+		</div>
+	</div>
+</div>
 
-    <div class="best-features">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-heading">
-              <h2>About Sixteen Clothing</h2>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="left-content">
-              <h4>Looking for the best products?</h4>
-              <p><a rel="nofollow" href="https://templatemo.com/tm-546-sixteen-clothing" target="_parent">@Model.settings.HomeContent </a></p>
-              <ul class="featured-list">
-                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                <li><a href="#">Consectetur an adipisicing elit</a></li>
-                <li><a href="#">It aquecorporis nulla aspernatur</a></li>
-                <li><a href="#">Corporis, omnis doloremque</a></li>
-                <li><a href="#">Non cum id reprehenderit</a></li>
-              </ul>
-              <a href="about.html" class="filled-button">Read More</a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="right-image">
-              <img src="/assets/images/@Model.settings.HomeContentImg" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="best-features">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="section-heading">
+					<h2>About Sixteen Clothing</h2>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="left-content">
+					<h4>Looking for the best products?</h4>
+					<p><a rel="nofollow" href="https://templatemo.com/tm-546-sixteen-clothing" target="_parent">@Model.settings.HomeContent </a></p>
+					<ul class="featured-list">
+						<li><a href="#">Lorem ipsum dolor sit amet</a></li>
+						<li><a href="#">Consectetur an adipisicing elit</a></li>
+						<li><a href="#">It aquecorporis nulla aspernatur</a></li>
+						<li><a href="#">Corporis, omnis doloremque</a></li>
+						<li><a href="#">Non cum id reprehenderit</a></li>
+					</ul>
+					<a href="about.html" class="filled-button">Read More</a>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="right-image">
+					<img src="/assets/images/@Model.settings.HomeContentImg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 
-    <div class="call-to-action">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="inner-content">
-              <div class="row">
-                <div class="col-md-8">
-                  <h4>Creative &amp; Unique <em>Sixteen</em> Products</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis amet elite author nulla.</p>
-                </div>
-                <div class="col-md-4">
-                  <a href="#" class="filled-button">Purchase Now</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="call-to-action">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="inner-content">
+					<div class="row">
+						<div class="col-md-8">
+							<h4>Creative &amp; Unique <em>Sixteen</em> Products</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis amet elite author nulla.</p>
+						</div>
+						<div class="col-md-4">
+							<a href="#" class="filled-button">Purchase Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
