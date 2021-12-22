@@ -300,6 +300,18 @@ body {
 .navbar .navbar-nav .show > #nav-cart.nav-link {
     padding-bottom: 20px;
 }
+
+.background-header .navbar-nav #nav-cart.nav-link i {
+    color: #1e1e1e !important;
+}
+
+.background-header .navbar-nav #nav-cart.nav-link:hover i,
+.background-header .navbar-nav .active > #nav-cart.nav-link i,
+.background-header .navbar-nav #nav-cart.nav-link.active i,
+.background-header .navbar-nav #nav-cart.nav-link.show i,
+.background-header .navbar-nav .show > #nav-cart.nav-link i {
+    color: #1e1e1e !important;
+}
   .navbar .navbar-toggler-icon {
       background-image: none;
   }
