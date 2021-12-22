@@ -19,14 +19,20 @@ namespace SixteenClothing.Controllers
             {
                 List<string> datalist = basket.Split("-").ToList();
 
-                if(!datalist.Any(element => element == id.ToString()))
+                if (!datalist.Any(element => element == id.ToString()))
                 {
                     basket = basket + "-" + id;
+                }
+                else
+                {
+                    datalist.Remove(id.ToString());
+                    basket = string.Join("-", datalist);
                 }
 
             }
             else
             {
+                
                 basket = id.ToString();
             }
 
