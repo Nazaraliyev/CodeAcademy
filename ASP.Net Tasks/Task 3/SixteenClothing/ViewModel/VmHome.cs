@@ -8,5 +8,7 @@ namespace SixteenClothing.ViewModel
         public List<HomeBanners> banners { get; set; }
 
         public List<Product> products { get; set; }
+
+        public List<string> Basket { get; set; }
     }
 }
