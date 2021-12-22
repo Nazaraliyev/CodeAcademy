@@ -26,27 +26,22 @@
           <div class="col-md-12">
             <div class="filters-content">
                 <div class="row grid">
-                    @for (var i = 0; i < 6; i++)
-                   {
-                     <div class="col-lg-4 col-md-4 all @Model.product[i].ClassName ">
-                      <div class="product-item">
-                        <a href="#"><img src="/assets/images/@Model.product[i].Img" alt=""></a>
-                        <div class="down-content">
-                          <a href="#"><h4>@Model.product[i].Name</h4></a>
-                          <h6>$@Model.product[i].Price</h6>
-                          <p>@Model.product[i].Img</p>
-                          <ul class="stars">
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                          </ul>
-                          <span>Reviews (@Model.product[i].Preview)</span>
-                        </div>
-                      </div>
-                    </div>
-                   }
+                @{
+                foreach (var item in Model.product)
+                {
+                    VmCardPartial card = new VmCardPartial()
+                    {
+                    Img = item.Img,
+                    Name = item.Name,
+                    Price = item.Price,
+                    Preview = item.Preview,
+                    Star = item.Star,
+                    ClassName = item.ClassName
+                
+                    };
+                    <partial name = "_cardPartial" model = "card" />
+                }
+          }
                 </div>
             </div>
           </div>
