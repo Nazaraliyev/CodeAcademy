@@ -4,6 +4,8 @@
 @{
 	string controller = this.ViewContext.RouteData.Values["controller"].ToString();
 
+	TempData["controller"] = controller;
+
 	string basket = HttpContextAccessor.HttpContext.Request.Cookies["basket"];
 	string basketCount = "";
 	if(!string.IsNullOrEmpty(basket)){
