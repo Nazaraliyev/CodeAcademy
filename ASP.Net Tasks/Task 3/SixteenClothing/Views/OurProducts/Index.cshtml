@@ -1,60 +1,60 @@
 ﻿@model VmOurProduct
 
 @{
-    VmBannerPartion partion = new VmBannerPartion()
-            {
-                SubHeader = Model.settings.OurProductSubHeader,
-                Header = Model.settings.OurProductHeader,
-                Img = Model.settings.OurProductImg
-            };
+	VmBannerPartion partion = new VmBannerPartion()
+			{
+				SubHeader = Model.settings.OurProductSubHeader,
+				Header = Model.settings.OurProductHeader,
+				Img = Model.settings.OurProductImg
+			};
 }
 
-<partial name = "_bannerPartial" model = "partion" />
+<partial name="_bannerPartial" model="partion" />
 
-    <div class="products">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="filters">
-              <ul>
-                  <li class="active" data-filter="*">All Products</li>
-                  <li data-filter=".des">Featured</li>
-                  <li data-filter=".dev">Flash Deals</li>
-                  <li data-filter=".gra">Last Minute</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-12">
-            <div class="filters-content">
-                <div class="row grid">
-                @{
-                foreach (var item in Model.product)
-                {
-                    VmCardPartial card = new VmCardPartial()
-                    {
-                    Img = item.Img,
-                    Name = item.Name,
-                    Price = item.Price,
-                    Preview = item.Preview,
-                    Star = item.Star,
-                    ClassName = item.ClassName,
-                    Text = item.Text
-                    };
-                    <partial name = "_cardPartial" model = "card" />
-                }
-          }
-                </div>
-            </div>
-          </div>
-          <div class="col-md-12">
-            <ul class="pages">
-              <li><a href="#">1</a></li>
-              <li class="active"><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="products">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="filters">
+					<ul>
+						<li class="active" data-filter="*">All Products</li>
+						<li data-filter=".des">Featured</li>
+						<li data-filter=".dev">Flash Deals</li>
+						<li data-filter=".gra">Last Minute</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="filters-content">
+					<div class="row grid">
+						@{
+							foreach (var item in Model.product)
+							{
+								VmCardPartial card = new VmCardPartial()
+										{
+											Id = item.Id,
+											Img = item.Img,
+											Price = item.Price,
+											Preview = item.Preview,
+											Star = item.Star,
+											ClassName = item.ClassName,
+											Text = item.Text
+										};
+								<partial name="_cardPartial" model="card" />
+							}
+						}
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<ul class="pages">
+					<li><a href="#">1</a></li>
+					<li class="active"><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
