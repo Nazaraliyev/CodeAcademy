@@ -1,0 +1,21 @@
+﻿@model VmCardPartial           
+ 
+
+<div class="col-md-4">
+            <div class="product-item">
+              <a href="#"><img src="/assets/images/@Model.Img" alt=""></a>
+              <div class="down-content">
+                <a href="#"><h4> @Model.Name</h4></a>
+                <h6>$@Model.Price</h6>
+                <p>@Model.Text</p>
+                <ul class="stars">
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                </ul>
+                <span>Reviews (@Model.Preview)</span>
+              </div>
+            </div>
+          </div>
