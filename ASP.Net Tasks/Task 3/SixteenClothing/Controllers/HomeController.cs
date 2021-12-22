@@ -24,6 +24,9 @@ namespace SixteenClothing.Controllers
                 products = _context.Products.Take(6).ToList(),
                 settings = _context.Settings.FirstOrDefault()
             };
+
+
+
             return View(model);
         }
     }
