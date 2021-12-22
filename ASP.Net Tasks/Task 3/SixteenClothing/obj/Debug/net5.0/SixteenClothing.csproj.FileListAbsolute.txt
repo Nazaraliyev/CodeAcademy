@@ -148,3 +148,4 @@ N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 3\SixteenClothing\bin\Debug\net5.0\
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 3\SixteenClothing\obj\Debug\net5.0\Razor\Views\Shared\_bannerPartial.cshtml.g.cs
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 3\SixteenClothing\obj\Debug\net5.0\Razor\Views\Shared\_partnerPartial.cshtml.g.cs
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 3\SixteenClothing\obj\Debug\net5.0\Razor\Views\Shared\_cardPartial.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 3\SixteenClothing\obj\Debug\net5.0\Razor\Views\Basket\Index.cshtml.g.cs
