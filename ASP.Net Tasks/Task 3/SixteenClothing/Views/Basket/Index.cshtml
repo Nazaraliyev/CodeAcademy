@@ -1,7 +1,46 @@
-﻿
+﻿@model VmBasket
+
 @{
-    ViewData["Title"] = "Index";
+    VmBannerPartion partion = new VmBannerPartion()
+            {
+                SubHeader = Model.settings.OurProductSubHeader,
+                Header = Model.settings.OurProductHeader,
+                Img = Model.settings.OurProductImg
+            };
 }
 
-<h1>Index</h1>
+<partial name = "_bannerPartial" model = "partion" />
+
+<div class="products">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="filters-content">
+					<div class="row grid">
+						@{
+							foreach (var item in Model.products)
+							{
+								VmCardPartial card = new VmCardPartial()
+									{
+										Id = item.Id,
+										Img = item.Img,
+										Name = item.Name,
+										Price = item.Price,
+										Preview = item.Preview,
+										Star = item.Star,
+										ClassName = item.ClassName,
+										Text = item.Text
+									};
+								<partial name="_cardPartial" model="card" />
+							}
+						}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+}
 
