@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6j6mF36uU8tM921prGD23T2EfqAhwJPSYR6xLjre7SmtgRCXLHtoZk+VOEyBv8gHc/94tKXByp++6EDMSzXuEg==",
+  "success": true,
+  "projectFilePath": "N:\\Codes\\Back\\CodeAcademy\\ASP.Net Tasks\\Task 4\\Repair\\Repair.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nazar\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
