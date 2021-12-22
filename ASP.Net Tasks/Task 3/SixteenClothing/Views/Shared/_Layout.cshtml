@@ -1,7 +1,14 @@
 ﻿@model VmSettings
+@inject IHttpContextAccessor HttpContextAccessor
 
 @{
 	string controller = this.ViewContext.RouteData.Values["controller"].ToString();
+
+	string basket = HttpContextAccessor.HttpContext.Request.Cookies["basket"];
+	string basketCount = "";
+	if(!string.IsNullOrEmpty(basket)){
+		basketCount = basket.Split("-").Length.ToString();
+	}
 }
 
 <!DOCTYPE html>
@@ -61,7 +68,7 @@
 							<a id = "nav-cart" class="nav-link" asp-controller="Basket" asp-action="Index">
 								<button type="button" class="btn position-relative">
 									<i class="fas fa-shopping-cart"></i>
-									<span class="position-absolute badge rounded-pill bg-danger">2</span>
+									<span class="position-absolute badge rounded-pill bg-danger">@basketCount</span>
 								</button>
 							</a>
 						</li>
