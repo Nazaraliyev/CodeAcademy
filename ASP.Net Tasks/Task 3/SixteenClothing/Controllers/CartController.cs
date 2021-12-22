@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -6,10 +7,6 @@ namespace SixteenClothing.Controllers
 {
     public class CartController : Controller
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
         public IActionResult AddToCart(int id)
         {
 
@@ -40,7 +37,7 @@ namespace SixteenClothing.Controllers
 
 
 
-            return RedirectToAction("Index", "Home") ;
+            return RedirectToAction("Index", TempData["controller"].ToString());
         }
     }
 }
