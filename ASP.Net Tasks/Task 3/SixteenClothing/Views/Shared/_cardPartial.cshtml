@@ -8,14 +8,22 @@
                 <a href="#"><h4> @Model.Name</h4></a>
                 <h6>$@Model.Price</h6>
                 <p>@Model.Text</p>
-                <ul class="stars">
+                <div class = "product-details d-flex justify-content-between">
+                <ul class="">
                     @for (var i = 0; i < 5; i++)
                 {
                      <li><i class="@(i<Model.Star ? "fas" : "far") fa-star"></i></li>
                 }
-
                 </ul>
                 <span>Reviews (@Model.Preview)</span>
+                </div>
+
+
+                <div>
+                    <button class = "btn btn-danger">Add to Cart</button>
+                    <button class = "btn btn-danger">Add to Fav</button>
+
+                </div>
               </div>
             </div>
           </div>
