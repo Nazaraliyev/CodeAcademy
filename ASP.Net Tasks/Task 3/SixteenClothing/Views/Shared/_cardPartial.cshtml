@@ -1,28 +1,40 @@
-﻿@model VmCardPartial           
- 
+﻿@model VmCardPartial
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+	string basket = HttpContextAccessor.HttpContext.Request.Cookies["basket"];
+	List<string> datalist = new List<string>();
+	if (!string.IsNullOrEmpty(basket))
+	{
+		datalist = basket.Split("-").ToList();
+	}
+}
+
 
 <div class="col-lg-4 col-md-4 all @Model.ClassName">
-            <div class="product-item">
-              <a href="#"><img src="/assets/images/@Model.Img" alt="" /></a>
-              <div class="down-content">
-                <a href="#"><h4> @Model.Name</h4></a>
-                <h6>$@Model.Price</h6>
-                <p>@Model.Text</p>
-                <div class = "product-details d-flex justify-content-between">
-                <ul class="">
-                    @for (var i = 0; i < 5; i++)
-                {
-                     <li><i class="@(i<Model.Star ? "fas" : "far") fa-star"></i></li>
-                }
-                </ul>
-                <span>Reviews (@Model.Preview)</span>
-                </div>
+	<div class="product-item">
+		<a href="#"><img src="/assets/images/@Model.Img" alt="" /></a>
+		<div class="down-content">
+			<a href="#"><h4> @Model.Name</h4></a>
+			<h6>$@Model.Price</h6>
+			<p>@Model.Text</p>
+			<div class="product-details d-flex justify-content-between">
+				<ul class="">
+					@for (var i = 0; i < 5; i++)
+					{
+						<li><i class="@(i<Model.Star ? "fas" : "far") fa-star"></i></li>
+					}
+				</ul>
+				<span>Reviews (@Model.Preview)</span>
+			</div>
 
-
-                <div class = "product-btn">
-                    <a class = "btn btn-danger" asp-controller = "Cart" asp-action = "AddToCart" asp-route-id = "@Model.Id" >Add to Cart <i class="fas fa-shopping-cart"></i></a>
-                    <a class = "btn"><i class="far fa-heart"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+			@{
+				bool added = datalist.Any(element => element == Model.Id.ToString()) ? true : false;
+			}
+			<div class="product-btn">
+				<a class="btn @(added ? "btn-success" : "btn-danger")" asp-controller="Cart" asp-action="AddToCart" asp-route-id="@Model.Id">@(added ? "Remove from Cart" : "Add to Cart") <i class="fas fa-shopping-cart"></i></a>
+				<a class="btn"><i class="far fa-heart"></i></a>
+			</div>
+		</div>
+	</div>
+</div>
