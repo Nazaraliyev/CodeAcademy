@@ -2,7 +2,7 @@
 
 namespace Repair.Models
 {
-    public class SosialMedias
+    public class AuthorSosialMedias
     {
         [Key]
         public int Id { get; set; }

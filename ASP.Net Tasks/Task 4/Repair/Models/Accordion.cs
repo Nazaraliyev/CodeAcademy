@@ -2,7 +2,7 @@
 
 namespace Repair.Models
 {
-    public class Accordions
+    public class Accordion
     {
         [Key]
         public int Id { get; set; }
