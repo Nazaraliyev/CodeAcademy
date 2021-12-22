@@ -313,7 +313,7 @@ body {
       padding-top: 80px;
   }
   
-  .banner-item-01 {
+  .banner-item {
       padding: 300px 0px;
       background-size: cover;
       background-repeat: no-repeat;
@@ -923,9 +923,7 @@ body {
           font-size: 36px;
           letter-spacing: 0.5px;
       }
-      .banner-item-01,
-      .banner-item-02,
-      .banner-item-03 {
+      .banner-item{
           padding: 180px 0px;
       }
       .page-heading .text-content h4 {
