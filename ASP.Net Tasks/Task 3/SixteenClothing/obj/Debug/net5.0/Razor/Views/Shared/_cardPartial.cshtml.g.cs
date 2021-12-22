@@ -33,8 +33,15 @@ using SixteenClothing.ViewModel;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 3\SixteenClothing\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Http;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ec39e372b0c1139639b57f7032b60ec3b142139b", @"/Views/Shared/_cardPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2851285615f377e4971faae23e9d21f7829d1f99", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"526b8e6df7fdabe6767e2081e2e4284fd8c59349", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__cardPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<VmCardPartial>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("btn btn-danger"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -154,7 +161,7 @@ WriteAttributeValue("", 598, i<Model.Star ? "fas" : "far", 598, 31, false);
 #line hidden
 #nullable disable
             WriteLiteral(")</span>\r\n                </div>\r\n\r\n\r\n                <div class = \"product-btn\">\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec39e372b0c1139639b57f7032b60ec3b142139b8117", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec39e372b0c1139639b57f7032b60ec3b142139b8320", async() => {
                 WriteLiteral("Add to Cart <i class=\"fas fa-shopping-cart\"></i>");
             }
             );

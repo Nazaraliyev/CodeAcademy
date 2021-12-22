@@ -33,8 +33,15 @@ using SixteenClothing.ViewModel;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 3\SixteenClothing\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Http;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"77397ff6a13193fcbd925d6063f928b792e0e15c", @"/Views/ContactUs/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2851285615f377e4971faae23e9d21f7829d1f99", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"526b8e6df7fdabe6767e2081e2e4284fd8c59349", @"/Views/_ViewImports.cshtml")]
     public class Views_ContactUs_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<VmContactUs>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("name", "_bannerPartial", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -83,7 +90,7 @@ using SixteenClothing.ViewModel;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "77397ff6a13193fcbd925d6063f928b792e0e15c5699", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "77397ff6a13193fcbd925d6063f928b792e0e15c5902", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -184,7 +191,7 @@ WriteAttributeValue("", 1499, item.Icon, 1499, 10, false);
           <div class=""col-md-8"">
             <div class=""contact-form"">
               ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "77397ff6a13193fcbd925d6063f928b792e0e15c9950", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "77397ff6a13193fcbd925d6063f928b792e0e15c10153", async() => {
                 WriteLiteral("\r\n                <div class=\"row\">\r\n                  <div class=\"col-lg-12 col-md-12 col-sm-12\">\r\n                    <fieldset>\r\n                      <input name=\"name\" type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Full Name\"");
                 BeginWriteAttribute("required", " required=\"", 2274, "\"", 2285, 0);
                 EndWriteAttribute();
@@ -289,7 +296,7 @@ WriteAttributeValue("", 1499, item.Icon, 1499, 10, false);
 #line hidden
 #nullable disable
             WriteLiteral("                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "77397ff6a13193fcbd925d6063f928b792e0e15c16529", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "77397ff6a13193fcbd925d6063f928b792e0e15c16733", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
