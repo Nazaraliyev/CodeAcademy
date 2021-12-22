@@ -20,8 +20,8 @@
 
 
                 <div class = "product-btn">
-                    <button class = "btn btn-danger">Add to Cart <i class="fas fa-shopping-cart"></i></button>
-                    <button class = "btn"><i class="far fa-heart"></i></button>
+                    <a class = "btn btn-danger" asp-controller = "Cart" asp-action = "AddToCart" asp-route-id = "@Model.Id" >Add to Cart <i class="fas fa-shopping-cart"></i></a>
+                    <a class = "btn"><i class="far fa-heart"></i></a>
                 </div>
               </div>
             </div>
