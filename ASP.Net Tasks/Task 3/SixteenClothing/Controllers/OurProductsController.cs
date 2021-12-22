@@ -20,7 +20,7 @@ namespace SixteenClothing.Controllers
         {
             VmOurProduct model = new VmOurProduct()
             {
-                product = _context.Products.ToList(),
+                product = _context.Products.Take(6).ToList(),
                 settings = _context.Settings.FirstOrDefault(),
             };
             return View(model);

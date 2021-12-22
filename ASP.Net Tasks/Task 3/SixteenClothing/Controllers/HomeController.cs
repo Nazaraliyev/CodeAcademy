@@ -21,7 +21,7 @@ namespace SixteenClothing.Controllers
             VmHome model = new VmHome()
             {
                 banners = _context.HomeBanners.ToList(),
-                products = _context.Products.ToList(),
+                products = _context.Products.Take(6).ToList(),
                 settings = _context.Settings.FirstOrDefault()
             };
             return View(model);
