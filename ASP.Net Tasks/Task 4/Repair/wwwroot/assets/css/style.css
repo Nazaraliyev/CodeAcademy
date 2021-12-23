@@ -176,6 +176,9 @@ button.mfp-arrow {
   box-shadow: none;
   touch-action: manipulation; }
 
+#home .d-flex {
+    height: 100vh;
+}
 button::-moz-focus-inner {
   padding: 0;
   border: 0; }
