@@ -1,48 +1,191 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="zxx" class="no-js">
+
+<!-- Mirrored from preview.colorlib.com/theme/repair/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Dec 2021 14:22:26 GMT -->
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Repair</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="shortcut icon" href="img/fav.html">
+
+	<meta name="author" content="colorlib">
+
+	<meta name="description" content="">
+
+	<meta name="keywords" content="">
+
+	<meta charset="UTF-8">
+
+	<title>Repair</title>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="../repair/css/Style.min.css">
+	<!-- <link rel="stylesheet" href="/Repair/preview.colorlib.com/theme/repair/css/Style.min.css" /> -->
+	<script>
+		(function(w,d){!function(e,t,r,a,s){e[r]=e[r]||{},e[r].executed=[],e.zaraz={deferred:[]};var n=t.getElementsByTagName("title")[0];e[r].c=t.cookie,n&&(e[r].t=t.getElementsByTagName("title")[0].text),e[r].w=e.screen.width,e[r].h=e.screen.height,e[r].j=e.innerHeight,e[r].e=e.innerWidth,e[r].l=e.location.href,e[r].r=t.referrer,e[r].k=e.screen.colorDepth,e[r].n=t.characterSet,e[r].o=(new Date).getTimezoneOffset(),//
+		e[s]=e[s]||[],e.zaraz._preTrack=[],e.zaraz.track=(t,r)=>e.zaraz._preTrack.push([t,r]),e[s].push({"zaraz.start":(new Date).getTime()});var i=t.getElementsByTagName(a)[0],o=t.createElement(a);o.defer=!0,o.src="../../cdn-cgi/zaraz/sd41d.js?"+new URLSearchParams(e[r]).toString(),i.parentNode.insertBefore(o,i)}(w,d,"zarazData","script","dataLayer");})(window,document);</script>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Repair</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+	<header id="header" id="home">
+		<div class="header-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-sm-6 col-4 header-top-left no-padding">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+							<li><a href="#"><i class="fa fa-behance"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
+						<a href="tel:+953 012 3654 896">+953 012 3654 896</a>
+						<a href="https://preview.colorlib.com/cdn-cgi/l/email-protection#cdbeb8bdbda2bfb98daea2a1a2bfa1a4afe3aea2a0"><span class="__cf_email__" data-cfemail="92e1e7e2e2fde0e6d2f1fdfefde0fefbf0bcf1fdff">[email&#160;protected]</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container main-menu">
+			<div class="row align-items-center justify-content-between d-flex">
+				<div id="logo">
+					<a href="index-2.html"><img src="img/logo.png" alt="" title="" /></a>
+				</div>
+				<nav id="nav-menu-container">
+					<ul class="nav-menu">
+						<li class="menu-active"><a href="index-2.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="services.html">Service</a></li>
+						<li><a href="feedback.html">Feedback</a></li>
+						<li class="menu-has-children">
+							<a href="#">Blog</a>
+							<ul>
+								<li><a href="blog-home.html">Blog Home</a></li>
+								<li><a href="blog-single.html">Blog Single</a></li>
+							</ul>
+						</li>
+						<li><a href="elements.html">Elements</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<main>
+		@RenderBody()
+	</main>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2021 - Repair - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+	<footer class="footer-area section-gap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3  col-md-6 col-sm-6">
+					<div class="single-footer-widget">
+						<h6>About Agency</h6>
+						<p>
+							The world has become so fast paced that people don’t want to stand by reading a page of information, they would much rather look at a presentation and understand the message. It has come to a point
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-footer-widget">
+						<h6>Navigation Links</h6>
+						<div class="row">
+							<div class="col">
+								<ul>
+									<li><a href="#">Home</a></li>
+									<li><a href="#">Feature</a></li>
+									<li><a href="#">Services</a></li>
+									<li><a href="#">Portfolio</a></li>
+								</ul>
+							</div>
+							<div class="col">
+								<ul>
+									<li><a href="#">Team</a></li>
+									<li><a href="#">Pricing</a></li>
+									<li><a href="#">Blog</a></li>
+									<li><a href="#">Contact</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3  col-md-6 col-sm-6">
+					<div class="single-footer-widget">
+						<h6>Newsletter</h6>
+						<p>
+							For business professionals caught between high OEM price and mediocre print and graphic output.
+						</p>
+						<div id="mc_embed_signup">
+							<form target="_blank" novalidate action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" class="subscription relative">
+								<div class="input-group d-flex flex-row">
+									<input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required type="email">
+									<div style="position: absolute; left: -5000px;">
+										<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+									</div>
+									<button class="btn bb-btn"><span class="lnr lnr-location"></span></button>
+								</div>
+								<div class="mt-10 info"></div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3  col-md-6 col-sm-6">
+					<div class="single-footer-widget mail-chimp">
+						<h6 class="mb-20">InstaFeed</h6>
+						<ul class="instafeed d-flex flex-wrap">
+							<li><img src="img/i1.jpg" alt=""></li>
+							<li><img src="img/i2.jpg" alt=""></li>
+							<li><img src="img/xi3.jpg.pagespeed.ic.yNKQA60E9R.jpg" alt=""></li>
+							<li><img src="img/xi4.jpg.pagespeed.ic.WXmmAllB2Y.jpg" alt=""></li>
+							<li><img src="img/xi5.jpg.pagespeed.ic.fbnIbeHXJg.jpg" alt=""></li>
+							<li><img src="img/xi6.jpg.pagespeed.ic.eDVc3df79V.jpg" alt=""></li>
+							<li><img src="img/i7.jpg" alt=""></li>
+							<li><img src="img/xi8.jpg.pagespeed.ic.dN6w5oNpIT.jpg" alt=""></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row footer-bottom d-flex justify-content-between align-items-center">
+				<p class="col-lg-8 col-sm-12 footer-text m-0">
+					Copyright &copy;<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">Colorlib</a>
+
+				</p>
+				<div class="col-lg-4 col-sm-12 footer-social">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-dribbble"></i></a>
+					<a href="#"><i class="fa fa-behance"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="../../../cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="js/vendor%2c_bootstrap.min.js%2beasing.min.js%2bhoverIntent.js%2bsuperfish.min.js%2bmn-accordion.js%2bjquery.ajaxchimp.min.js.pagespeed.jc.WiXL3tqBMN.js"></script>
+	<script>eval(mod_pagespeed_tO3Wn1RWjq);</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script>eval(mod_pagespeed_gJYjvv1rOC);</script>
+	<script>eval(mod_pagespeed_A5bA9enuPt);</script>
+	<script>eval(mod_pagespeed_D0oOfjOaJP);</script>
+	<script>eval(mod_pagespeed_WZHeA37Xd_);</script>
+	<script>eval(mod_pagespeed_bBxVwCQbWL);</script>
+	<script src="js/jquery.magnific-popup.min.js%2bowl.carousel.min.js%2bjquery.nice-select.min.js%2bjquery.circlechart.js%2bmail-script.js%2bmain.js.pagespeed.jc.hDxlE5VdPY.js"></script>
+	<script>eval(mod_pagespeed_3T5WcrMayn);</script>
+	<script>eval(mod_pagespeed_eXHdcTeUDo);</script>
+	<script>eval(mod_pagespeed_T5kuxXcLcP);</script>
+	<script>eval(mod_pagespeed_1bCP30nwdG);</script>
+	<script>eval(mod_pagespeed_h2JrS0U46b);</script>
+	<script>eval(mod_pagespeed_OhLHVB6Blu);</script>
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-23581568-13');
+	</script>
+	<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6c223dd5fc715284","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
 </body>
+
+<!-- Mirrored from preview.colorlib.com/theme/repair/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Dec 2021 14:22:39 GMT -->
 </html>
