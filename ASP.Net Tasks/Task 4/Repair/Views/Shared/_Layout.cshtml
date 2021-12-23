@@ -20,6 +20,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 	<link rel="stylesheet" href="~/assets/css/style.css">
 	<!-- <link rel="stylesheet" href="/Repair/preview.colorlib.com/theme/repair/css/Style.min.css" /> -->
+
+
+
 	<script>
 		(function(w,d){!function(e,t,r,a,s){e[r]=e[r]||{},e[r].executed=[],e.zaraz={deferred:[]};var n=t.getElementsByTagName("title")[0];e[r].c=t.cookie,n&&(e[r].t=t.getElementsByTagName("title")[0].text),e[r].w=e.screen.width,e[r].h=e.screen.height,e[r].j=e.innerHeight,e[r].e=e.innerWidth,e[r].l=e.location.href,e[r].r=t.referrer,e[r].k=e.screen.colorDepth,e[r].n=t.characterSet,e[r].o=(new Date).getTimezoneOffset(),//
 		e[s]=e[s]||[],e.zaraz._preTrack=[],e.zaraz.track=(t,r)=>e.zaraz._preTrack.push([t,r]),e[s].push({"zaraz.start":(new Date).getTime()});var i=t.getElementsByTagName(a)[0],o=t.createElement(a);o.defer=!0,o.src="../../cdn-cgi/zaraz/sd41d.js?"+new URLSearchParams(e[r]).toString(),i.parentNode.insertBefore(o,i)}(w,d,"zarazData","script","dataLayer");})(window,document);</script>
@@ -51,19 +54,12 @@
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
-						<li class="menu-active"><a href="index-2.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="services.html">Service</a></li>
-						<li><a href="feedback.html">Feedback</a></li>
-						<li class="menu-has-children">
-							<a href="#">Blog</a>
-							<ul>
-								<li><a href="blog-home.html">Blog Home</a></li>
-								<li><a href="blog-single.html">Blog Single</a></li>
-							</ul>
-						</li>
-						<li><a href="elements.html">Elements</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li class="menu-active"><a asp-controller = "Home" asp-action = "Index" >Home</a></li>
+						<li><a asp-controller = "About" asp-action = "Index" >About</a></li>
+						<li><a asp-controller = "Service" asp-action = "Index" >Service</a></li>
+						<li><a asp-controller = "Feedback" asp-action = "Index" >Feedback</a></li>
+						<li><a asp-controller = "Blog" asp-action = "Index">Blog</a></li>
+						<li><a asp-controller = "Contact" asp-action = "Index" >Contact</a></li>
 					</ul>
 				</nav>
 			</div>
