@@ -147,3 +147,9 @@ N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 4\Repair\obj\Debug\net5.0\Razor\Vie
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 4\Repair\obj\Debug\net5.0\Razor\Views\Service\Index.cshtml.g.cs
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 4\Repair\obj\Debug\net5.0\Razor\Views\Blog\Index.cshtml.g.cs
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 4\Repair\obj\Debug\net5.0\Razor\Views\Contact\Index.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 4\Repair\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\Error.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 4\Repair\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 4\Repair\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 4\Repair\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 4\Repair\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 4\Repair\obj\Debug\net5.0\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
