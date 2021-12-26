@@ -1,0 +1,44 @@
+﻿@model VmBlogCategory
+
+
+<div class="container-fluid">
+	<form asp-area = "admin" asp-controller = "BlogCategory" asp-action = "Create" method = "post">
+		<div class="mb-3">
+			<label asp-for = "@Model.categories.Name" class="form-label">Name</label>
+			<div class='d-flex align-items-center'>
+				<input class="form-control" asp-for = "@Model.categories.Name" style = "width : 700px" >
+				<button type="submit" class="btn btn-primary ml-3">Create</button>
+			</div>
+		</div>
+	</form>
+	<table class="table"> 
+		<thead>
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Name</th>
+				<th scope="col">Modify</th>
+			</tr>
+		</thead>
+		<tbody>
+			@{
+				int i = 1;
+				foreach (var item in Model.blogCategories)
+				{
+					<tr>
+						<th scope="row">@i</th>
+						<td>@item.Name</td>
+						<td>
+							<button class="btn btn-primary">Update</button>
+							<button class="btn btn-danger">Delete</button>
+
+						</td>
+					</tr>
+					i++;
+				}
+
+			}
+		</tbody>
+	</table>
+
+
+</div>
