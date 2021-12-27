@@ -7,5 +7,7 @@ namespace Starx.Areas.Admin.ViewModel
     {
         public List<Author> authors { get; set; }
         public Author author { get; set; }
+
+        public Author update { get; set; }
     }
 }

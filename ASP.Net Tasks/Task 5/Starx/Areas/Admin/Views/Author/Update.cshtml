@@ -1,0 +1,81 @@
+﻿@{
+	ViewData["Title"] = "Update";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+
+@model VmAuthor
+
+<div class="container-fluid">
+	<form asp-area="admin" asp-controller="Author" asp-action="Create" method="post">
+		<div class="mb-3 d-flex align-items-end">
+			<div style="width : 350px" class="mr-3">
+				<label class="form-label" asp-for="@Model.author.Name">Name</label>
+				<input class="form-control" asp-for="@Model.author.Name">
+			</div>
+			<div style="width : 350px" class="mr-3">
+				<label class="form-label" asp-for="@Model.author.Surname">Lastname</label>
+				<input class="form-control" asp-for="@Model.author.Surname">
+			</div>
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</div>
+	</form>
+
+	<table class="table">
+		<thead>
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Name</th>
+				<th scope="col" style="width : 350px">Surname</th>
+				<th scope="col">Modify Author</th>
+			</tr>
+		</thead>
+		<tbody>
+			@{
+				int i = 1;
+				foreach (var item in Model.authors)
+				{
+					if (item.Id == Model.update.Id)
+					{
+						<tr>
+							<th scope="row" style="width : 50px">@i</th>
+							<td colspan="3">
+								<form asp-area="admin" asp-controller="Author" asp-action="Update" method="post">
+									<div class="mb-3 d-flex align-items-end">
+										<div style="width : 350px" class="mr-3">
+											<label class="form-label" asp-for="@Model.update.Name">Name</label>
+											<input class="form-control" asp-for="@Model.update.Name">
+										</div>
+										<div style="width : 350px" class="mr-3">
+											<label class="form-label" asp-for="@Model.update.Surname">Lastname</label>
+											<input class="form-control" asp-for="@Model.update.Surname">
+										</div>
+										<button type="submit" class="btn btn-primary">Update</button>
+									</div>
+									<input asp-for = "@Model.update.Id" hidden />
+								</form>
+							</td>
+						</tr>
+					}
+					else
+					{
+						<tr>
+							<th scope="row" style="width : 50px">@i</th>
+							<td>@item.Name</td>
+							<td style="width : 350px">@item.Surname</td>
+							<td>
+								<a class="btn btn-primary" asp-area="admin" asp-controller="Author" asp-action="Update">Update</a>
+								<a class="btn btn-danger" asp-area="admin" asp-controller="Author" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+							</td>
+						</tr>
+					}
+					i++;
+				}
+			}
+		</tbody>
+	</table>
+
+
+
+</div>
+
