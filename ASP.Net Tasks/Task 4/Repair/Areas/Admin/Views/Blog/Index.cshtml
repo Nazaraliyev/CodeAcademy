@@ -1,0 +1,62 @@
+﻿@model List<Blog>
+
+@{
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+
+	<form asp-area="admin" asp-controller="BlogCategory" asp-action="Create" method="post">
+		<div class="mb-3">
+			<label class="form-label">Name</label>
+			<div class="d-flex justify-content-between w-100">
+				<div class='d-flex align-items-center'>
+					<input class="form-control" style="width : 700px">
+					<button type="submit" class="btn btn-primary ml-3">Search</button>
+				</div>
+				<div class="btn-block" style = "width : 300px">
+					<button class="btn btn-primary" asp-controller = "Blog" asp-action = "Create" >Create New Blog</button>
+					<button class="btn btn-danger">Delete All Blog</button>
+				</div>
+			</div>
+
+		</div>
+	</form>
+	<hr />
+	<table class="table">
+		<thead>
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Image</th>
+				<th scope="col">Tittle</th>
+				<th scope="col">Content</th>
+				<th scope="col">Date</th>
+				<th scope="col">Modify</th>
+			</tr>
+		</thead>
+		<tbody>
+			@{
+				int i = 1;
+				foreach (var item in Model)
+				{
+					<tr>
+						<th scope="row">@i</th>
+						<td><img src="~/assets/img/blog/@item.CoverImage" style="max-width : 150px; max-height : 150px" /></td>
+						<td>@item.Tittle</td>
+						<td style="max-width : 500px">@( item.Content.Length > 150 ? @item.Content.Substring(0,150) : item.Content )</td>
+						<td>@item.CreateTime</td>
+						<td>
+							<button class="btn btn-primary">Update</button>
+							<button class="btn btn-danger">Delete</button>
+
+						</td>
+					</tr>
+					i++;
+				}
+
+			}
+		</tbody>
+	</table>
+</div>
+
+

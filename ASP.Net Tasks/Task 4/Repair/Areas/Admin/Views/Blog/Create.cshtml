@@ -1,0 +1,35 @@
+﻿@{
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@model Blog
+
+
+
+<div class="container-fluid">
+
+	<form style = "max-width : 700px" method = "post" enctype = "multipart/form-data" >
+		<div class="mb-3">
+			<label asp-for="@Model.BlogCategory" class="form-label">Category</label>
+			<select class="form-control" asp-for="@Model.Tittle" asp-items = "@(new SelectList(ViewBag.Categories, "Id", "Name")) " >
+				<option >Select Category</option>
+			</select>
+		</div>
+		<div class="mb-3" > 
+			<label asp-for="@Model.Tittle" class="form-label">Tittle</label>
+			<input class="form-control" asp-for="@Model.Tittle" />
+		</div>
+		<div class="mb-3">
+			<label asp-for="@Model.Content" class="form-label">Content</label>
+			<textarea class="form-control" asp-for="@Model.Tittle"><</textarea>
+		</div>
+		<div class="mb-3">
+			<label asp-for="@Model.formFile" class="form-label">Image</label>
+			<input class="form-control" asp-for="@Model.formFile">
+		</div>
+
+		<button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+
+
+</div>

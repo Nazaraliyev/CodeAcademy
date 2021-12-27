@@ -1,0 +1,84 @@
+﻿@{
+	ViewData["Title"] = "Update";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@*<div class="container-fluid">
+	<form asp-area="admin" asp-controller="Category" asp-action="Update" method="post">
+	<div class="mb-3">
+	<label asp-for="@Model.Name" class="form-label">Name</label>
+	<div class="d-flex w-50">
+	<input class="form-control" asp-for="@Model.Name">
+	<button type="submit" class="btn btn-primary ml-3">Update</button>
+	</div>
+	<input form = "Model.Id" hidden />
+	</div>
+	</form>
+	</div>*@
+
+
+
+@model VmCategory
+
+<div class="container-fluid">
+
+	<form asp-area="admin" asp-controller="Category" asp-action="Create" method="post">
+		<div class="mb-3">
+			<label asp-for="@Model.category.Name" class="form-label">Name</label>
+			<div class="d-flex w-50">
+				<input class="form-control" asp-for="@Model.category.Name">
+				<button type="submit" class="btn btn-primary ml-3">Submit</button>
+			</div>
+		</div>
+	</form>
+
+	<table class="table">
+		<thead>
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Name</th>
+				<th scope="col">Modify Category</th>
+			</tr>
+		</thead>
+		<tbody>
+			@{
+				int i = 1;
+				foreach (var item in Model.categories)
+				{
+					if (item.Id != @Model.category.Id)
+					{
+						<tr>
+							<th scope="row">@i</th>
+							<td style = "width : 500px" >@item.Name</td>
+							<td>
+								<a class="btn btn-primary" asp-area="admin" asp-controller="Category" asp-action="Update" asp-route-id="@item.Id">Update</a>
+								<a class="btn btn-danger" asp-area="admin" asp-controller="Category" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+							</td>
+						</tr>
+					}
+					else
+					{
+						<tr>
+							<th scope="row">@i</th>
+							<td colspan="2">
+								<form asp-area="admin" asp-controller="Category" asp-action="Update" method="post" >
+									<div class="mb-3">
+										<div class="d-flex w-50">
+											<input class="form-control" asp-for="@Model.category.Name" style = "width : 480px">
+											<button type="submit" class="btn btn-primary ml-3">Update</button>
+											<input  asp-for = "@Model.category.Id" hidden />
+										</div>
+
+									</div>
+								</form>
+							</td>
+						</tr>
+					}
+
+					i++;
+				}
+			}
+		</tbody>
+	</table>
+
+
+</div>

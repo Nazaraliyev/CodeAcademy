@@ -116,6 +116,7 @@ namespace Repair.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Content")
+                        .IsRequired()
                         .HasColumnType("ntext");
 
                     b.Property<string>("CoverImage")
@@ -126,6 +127,7 @@ namespace Repair.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Tittle")
+                        .IsRequired()
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
 
