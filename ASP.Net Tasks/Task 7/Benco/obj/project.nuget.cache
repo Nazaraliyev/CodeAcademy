@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YkV2wu+tN2A6wWFJvEb2rO1UmxXm/QP1NcTLON+IxoNqvaXWeTlHsB2IXX84fFHmkXh9iaaRcnHQ14wl8suA6Q==",
+  "success": true,
+  "projectFilePath": "N:\\Codes\\Back\\CodeAcademy\\ASP.Net Tasks\\Task 7\\Benco\\Benco.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nazar\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
