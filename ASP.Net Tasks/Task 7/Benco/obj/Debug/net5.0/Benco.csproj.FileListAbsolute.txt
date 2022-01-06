@@ -115,3 +115,4 @@ N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\bin\Debug\net5.0\runtimes\w
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Views\About\Index.cshtml.g.cs
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Views\Shop\Index.cshtml.g.cs
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Views\Blog\Index.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Views\Faq\Index.cshtml.g.cs
