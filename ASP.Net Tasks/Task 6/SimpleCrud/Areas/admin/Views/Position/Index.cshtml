@@ -1,0 +1,35 @@
+﻿@model List<Position>
+
+
+<div class="container-fluid">
+	<h2>Position</h2>
+	<a class="btn btn-primary mb-5" asp-area="admin" asp-controller="Position" asp-action="Create">Create</a>
+	<table class="table">
+		<thead>
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Position Name</th>
+				<th scope="col">Modify</th>
+			</tr>
+		</thead>
+		<tbody>
+			@{
+				int i = 1;
+				foreach (var item in Model)
+				{
+					<tr>
+						<th scope="row">@i</th>
+						<td>@item.Name</td>
+						<td>
+							<a class="btn btn-primary" asp-area="admin" asp-controller="Position" asp-action="Update" asp-route-id="@item.Id">Update</a>
+							<a class="btn btn-danger" asp-area="admin" asp-controller="Position" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+						</td>
+					</tr>
+					i++;
+				}
+
+			}
+		</tbody>
+	</table>
+</div>
+

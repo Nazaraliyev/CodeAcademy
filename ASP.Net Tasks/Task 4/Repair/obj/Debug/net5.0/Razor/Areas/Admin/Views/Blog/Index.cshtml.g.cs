@@ -33,8 +33,15 @@ using Repair.Areas.Admin.ViewModel;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 4\Repair\Areas\Admin\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8c7eb9c2d984b52affb589a2c06ede3488fa251b", @"/Areas/Admin/Views/Blog/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7eabdd7e87f08f2769a04f361b131b7c4c17ab2a", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"19ef6b0e8bb4575e52052a444a3191ece160959b", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     public class Areas_Admin_Views_Blog_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<Blog>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("btn btn-primary"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -81,7 +88,7 @@ using Repair.Areas.Admin.ViewModel;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<div class=\"container-fluid\">\r\n\r\n\t");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8c7eb9c2d984b52affb589a2c06ede3488fa251b6355", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8c7eb9c2d984b52affb589a2c06ede3488fa251b6565", async() => {
                 WriteLiteral(@"
 		<div class=""mb-3"">
 			<label class=""form-label"">Name</label>
@@ -92,7 +99,7 @@ using Repair.Areas.Admin.ViewModel;
 				</div>
 				<div class=""btn-block"" style = ""width : 300px"">
 					");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8c7eb9c2d984b52affb589a2c06ede3488fa251b6995", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8c7eb9c2d984b52affb589a2c06ede3488fa251b7205", async() => {
                     WriteLiteral("Create New Blog");
                 }
                 );
@@ -166,7 +173,7 @@ using Repair.Areas.Admin.ViewModel;
 #line hidden
 #nullable disable
             WriteLiteral("</th>\r\n\t\t\t\t\t\t<td>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "8c7eb9c2d984b52affb589a2c06ede3488fa251b11334", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "8c7eb9c2d984b52affb589a2c06ede3488fa251b11544", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

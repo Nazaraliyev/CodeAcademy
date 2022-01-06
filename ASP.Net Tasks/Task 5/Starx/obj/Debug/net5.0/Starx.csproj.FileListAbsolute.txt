@@ -309,3 +309,6 @@ N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 5\Starx\obj\Debug\net5.0\ref\Starx.
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 5\Starx\obj\Debug\net5.0\Starx.pdb
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 5\Starx\obj\Debug\net5.0\Starx.genruntimeconfig.cache
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 5\Starx\obj\Debug\net5.0\Razor\Areas\Admin\Views\Author\Update.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 5\Starx\obj\Debug\net5.0\Razor\Areas\Admin\Views\Service\Index.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 5\Starx\obj\Debug\net5.0\Razor\Areas\Admin\Views\Service\Create.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 5\Starx\obj\Debug\net5.0\Razor\Areas\Admin\Views\Service\Update.cshtml.g.cs

@@ -27,11 +27,11 @@ namespace Repair.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(Blog model )
+        public IActionResult Create(Blog model)
         {
             if (ModelState.IsValid)
             {
-                if(model.formFile.ContentType == "image/jpeg" || )
+                //if (model.formFile.ContentType == "image/jpeg" || )
             }
             else
             {

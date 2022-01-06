@@ -1,0 +1,31 @@
+﻿@{
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@model Service
+
+
+<div class="container-fluid">
+	<h1>Create New Service</h1>
+	<form style="max-width : 700px" asp-area = "admin" asp-action = "Create" method = "post" enctype = "multipart/form-data">
+		<div class="mb-3">
+			<label asp-for="@Model.Tittle" class="form-label">Tittle</label>
+			<input class="form-control" asp-for="@Model.Tittle">
+		</div>
+		<div class="mb-3">
+			<label asp-for="@Model.Content" class="form-label">Content</label>
+			<textarea asp-for="@Model.Content" class="form-control" style="height : 400px"></textarea>
+		</div>
+		<div class="mb-3">
+			<input asp-for="@Model.ImageFile" class="form-control">
+		</div>
+		<div class="mb-3">
+			<label asp-for="@Model.AuthorId" class="form-label">Tittle</label>
+			<select asp-for="@Model.AuthorId" class="form-control" asp-items="@(new SelectList(ViewBag.Author, "Id", "Name"))">
+				<option>Select Author</option>
+			</select>
+		</div>
+		<button type="submit" class="btn btn-primary">Create</button>
+	</form>
+</div>
+

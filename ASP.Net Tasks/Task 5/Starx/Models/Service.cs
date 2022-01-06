@@ -21,7 +21,7 @@ namespace Starx.Models
 
 
 
-        [MaxLength(50)]
+        [MaxLength(500)]
         public string CoverImg { get; set; }
 
 
@@ -29,7 +29,8 @@ namespace Starx.Models
         public IFormFile ImageFile{ get; set; }
 
 
-
+        [ForeignKey("AuthorId")]
+        public int AuthorId { get; set; }
         public Author Author { get; set; }
 
 

@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Repair.Models;
 
 namespace Repair.Data
 {
-    public class AppDbContext:DbContext
+    public class AppDbContext:IdentityDbContext
     {
         public AppDbContext(DbContextOptions options) : base(options)
         {
@@ -29,5 +30,6 @@ namespace Repair.Data
         public DbSet<AuthorToBlog> authorToBlogs { get; set; }
         public DbSet<Blogimage> blogimages { get; set; }
         public DbSet<BlogComment> blogComments { get; set; }
+        public DbSet<CostumeUser> costumeUsers { get; set; }
     }
 }

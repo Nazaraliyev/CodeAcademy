@@ -1,0 +1,48 @@
+﻿@{
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@model List<Service>
+
+<div class="container-fluid">
+	<div class = "mb-3">
+		<a class="btn btn-primary" asp-area="admin" asp-controller="Service" asp-action="Create">Create New Service</a>
+	</div>
+	<table class="table">
+		<thead>
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Image</th>
+				<th scope="col">Tittle</th>
+				<th scope="col">Content</th>
+				<th scope="col">Author</th>
+				<th scope="col">Date</th>
+				<th scope="col">Modify Service</th>
+			</tr>
+		</thead>
+		<tbody>
+			@{
+				int i = 1;
+				foreach (var item in Model)
+				{
+					<tr>
+						<th scope="row">@i</th>
+						<td><img src="~/assets/img/@item.CoverImg" style = "max-width : 200px; max-height : 200px" /></td>
+						<td>@item.Tittle</td>
+						<td style = "max-width : 300px">@(item.Content.Length > 200 ? item.Content.Substring(0,200) : item.Content)</td>
+						<td>@(item.Author.Name + " " + item.Author.Surname)</td>
+						<td>@item.CreateTime.ToString("dd MM yyyy")</td>
+						<td>
+							<a class="btn btn-primary" asp-area="admin" asp-controller="Service" asp-action="Update" asp-route-id="@item.Id">Update</a>
+							<a class="btn btn-danger" asp-area="admin" asp-controller="Service" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+						</td>
+					</tr>
+					i++;
+				}
+			}
+		</tbody>
+	</table>
+
+
+</div>
+

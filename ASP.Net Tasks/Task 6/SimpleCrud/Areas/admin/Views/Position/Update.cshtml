@@ -1,0 +1,12 @@
+﻿@model Position
+
+
+<div class="container-fluid">
+	<form class = "w-50" asp-area="admin" asp-controller="Position" asp-action="Update" method="post">
+		<div class="mb-3">
+			<label asp-for="@Model.Name" class="form-label">Email address</label>
+			<input asp-for="@Model.Name" class="form-control" />
+		</div>
+		<button type="submit" class="btn btn-primary">Update</button>
+	</form>
+</div>
