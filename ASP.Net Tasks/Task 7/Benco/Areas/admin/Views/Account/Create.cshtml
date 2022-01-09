@@ -1,0 +1,40 @@
+﻿@{
+	ViewData["Title"] = "Create";
+}
+
+@model CostumeUser
+
+<div class="container-fluid">
+	<h2 class="mb-5">Create New User</h2>
+	<form class="w-50" asp-area="admin" asp-controller="Account" asp-action="Create" method="post" enctype="multipart/form-data">
+		<div class="mb-3 form-floating">
+			<label asp-for="@Model.ImageFile" class="form-label">Add User Profile Image</label>
+			<input class="form-control" asp-for="@Model.ImageFile">
+		</div>
+		<div class="mb-3">
+			<label asp-for="@Model.Name" class="form-label">Email address</label>
+			<input class="form-control" asp-for="@Model.Name">
+		</div>
+		<div class="mb-3">
+			<label asp-for="@Model.Lastname" class="form-label">Email address</label>
+			<input class="form-control" asp-for="@Model.Lastname">
+		</div>
+		<div class="mb-3">
+			<label asp-for="@Model.UserName" class="form-label">Email address</label>
+			<input class="form-control" asp-for="@Model.UserName">
+		</div>
+		<div class="mb-3">
+			<label asp-for="@Model.PhoneNumber" class="form-label">Email address</label>
+			<input type="number" class="form-control" asp-for="@Model.PhoneNumber">
+		</div>
+		<div class="mb-3">
+			<label asp-for="@Model.Email" class="form-label">Email address</label>
+			<input type="email" class="form-control" asp-for="@Model.Email">
+		</div>
+		<div class="mb-3">
+			<label asp-for="@Model.PasswordHash" class="form-label">Email address</label>
+			<input type="password" class="form-control" asp-for="@Model.PasswordHash">
+		</div>
+		<button type="submit" class="btn btn-primary">Create</button>
+	</form>
+</div>
