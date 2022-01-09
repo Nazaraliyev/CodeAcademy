@@ -14,11 +14,6 @@ namespace Benco.Models
         public string Name { get; set; }
 
 
-        [ForeignKey("ProductCategoryId")]
-        public int ProductCategoryId { get; set; }
-        public ProductCategory productCategory { get; set; }
-
-
         public List<Product> products { get; set; }
     }
 }

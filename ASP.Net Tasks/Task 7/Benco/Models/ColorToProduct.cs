@@ -10,6 +10,8 @@ namespace Benco.Models
         public int Id { get; set; }
 
 
+
+        [Column(TypeName = "money")]
         public decimal Price { get; set; }
 
 
