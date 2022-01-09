@@ -26,8 +26,15 @@ using Benco.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\Views\_ViewImports.cshtml"
+using Benco.ViewModel;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5f375ce73ce57cdf3945c4a49a86d67e6b2b1c62", @"/Views/Contact/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"20e5ab8135864bcd708a78edb7483b7b26005368", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ce8755c51b6b6da10c1790a4ffa7a83c54ad560b", @"/Views/_ViewImports.cshtml")]
     public class Views_Contact_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #line hidden
@@ -82,7 +89,7 @@ using Benco.Models;
                 <div class=""container-fluid"">
      ");
             WriteLiteral("               <div class=\"row\">\r\n                        <div class=\"col-lg-6\">\r\n                            <div class=\"contact-form-inner\">\r\n                                <h2>tell us your project</h2>\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5f375ce73ce57cdf3945c4a49a86d67e6b2b1c624544", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5f375ce73ce57cdf3945c4a49a86d67e6b2b1c624727", async() => {
                 WriteLiteral(@"
                                     <div class=""row"">
                                         <div class=""col"">

@@ -47,6 +47,11 @@ namespace Benco
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapAreaControllerRoute(
+                    name: "area",
+                    areaName: "admin",
+                    pattern: "admin/{controller=Login}/{action=CheckAccount}/{id?}"
+                );
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
