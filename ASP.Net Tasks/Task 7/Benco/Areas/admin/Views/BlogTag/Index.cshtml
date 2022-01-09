@@ -3,5 +3,35 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+@model List<BlogTag>
 
+<div class="container-fluid">
+	<h2 class = "mb-5">Tags</h2>
+	<a class = "btn btn-primary mb-3" asp-area = "admin"  asp-controller = "BlogTag" asp-action = "Create">Create New Tag</a>
+	<table class="table w-50">
+		<thead>
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Name</th>
+				<th scope="col">Modify</th>
+			</tr>
+		</thead>
+		<tbody>
+			@{
+				int i = 1;
+				foreach (var item in Model)
+				{
+					<tr>
+						<th scope="row">@i</th>
+						<th>@item.Name</th>
+						<td>
+							<a class = "btn btn-primary" asp-area = "admin" asp-controller = "BlogTag" asp-action = "Update" asp-route-id = "@item.Id">Update</a>
+							<a class = "btn btn-danger" asp-area = "admin" asp-controller = "BlogTag" asp-action = "Delete" asp-route-id = "@item.Id">Delete</a>
+						</td>
+					</tr>
+					i++;
+				}
+			}
+		</tbody>
+	</table>
+</div>

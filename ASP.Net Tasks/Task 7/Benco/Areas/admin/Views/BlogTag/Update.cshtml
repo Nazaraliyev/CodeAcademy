@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewData["Title"] = "Update";
+}
+
+@model BlogTag
+
+<div class="container-fluid">
+	<h2 class="mb-5">Update Tag</h2>
+	<form class="w-50" asp-area="admin" asp-controller="BlogTag" asp-action="Update" method="post">
+		<div class="mb-3">
+			<label asp-for="@Model.Name" class="form-label">Roll Name</label>
+			<input class="form-control" asp-for="@Model.Name">
+		</div>
+		<input asp-for = "@Model.Id" hidden/>
+		<button type="submit" class="btn btn-primary">Update</button>
+	</form>
+</div>

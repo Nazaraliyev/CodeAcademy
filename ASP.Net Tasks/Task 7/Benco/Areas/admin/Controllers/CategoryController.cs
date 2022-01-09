@@ -6,11 +6,11 @@ using System.Linq;
 namespace Benco.Areas.admin.Controllers
 {
     [Area("admin")]
-    public class BlogTagController : Controller
+    public class CategoryController : Controller
     {
         private readonly AppDbContext _context;
 
-        public BlogTagController(AppDbContext context)
+        public CategoryController(AppDbContext context)
         {
             _context = context;
         }
@@ -18,7 +18,7 @@ namespace Benco.Areas.admin.Controllers
 
         public IActionResult Index()
         {
-            return View(_context.blogTags.ToList());
+            return View(_context.categories.ToList());
         }
 
         public IActionResult Create()
@@ -28,13 +28,13 @@ namespace Benco.Areas.admin.Controllers
 
 
         [HttpPost]
-        public IActionResult Create(BlogTag model)
+        public IActionResult Create(Category model)
         {
             if (ModelState.IsValid)
             {
-                if (!_context.blogTags.ToList().Any(t => t.Name == model.Name))
+                if (!_context.categories.ToList().Any(c => c.Name == model.Name))
                 {
-                    _context.blogTags.Add(model);
+                    _context.categories.Add(model);
                     _context.SaveChanges();
                     return RedirectToAction("Index");
                 }
@@ -56,9 +56,9 @@ namespace Benco.Areas.admin.Controllers
         {
             if (Id != null)
             {
-                if (_context.blogTags.ToList().Any(t => t.Id == Id))
+                if (_context.categories.ToList().Any(c => c.Id == Id))
                 {
-                    return View(_context.blogTags.Find(Id));
+                    return View(_context.categories.Find(Id));
                 }
                 else
                 {
@@ -74,11 +74,11 @@ namespace Benco.Areas.admin.Controllers
 
 
         [HttpPost]
-        public IActionResult Update(BlogTag model)
+        public IActionResult Update(Category model)
         {
             if (ModelState.IsValid && model.Name != null)
             {
-                _context.blogTags.Update(model);
+                _context.categories.Update(model);
                 _context.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -96,9 +96,9 @@ namespace Benco.Areas.admin.Controllers
         {
             if (Id != null)
             {
-                if (_context.blogTags.ToList().Any(t => t.Id == Id))
+                if (_context.categories.ToList().Any(c => c.Id == Id))
                 {
-                    _context.blogTags.Remove(_context.blogTags.Find(Id));
+                    _context.categories.Remove(_context.categories.Find(Id));
                     _context.SaveChanges();
                     return RedirectToAction("Index");
                 }
