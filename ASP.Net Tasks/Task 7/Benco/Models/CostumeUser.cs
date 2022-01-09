@@ -9,11 +9,11 @@ namespace Benco.Models
 {
     public class CostumeUser:IdentityUser
     {
-        [MaxLength(50)]
+        [MaxLength(50), Required]
         public string Name { get; set; }
 
 
-        [MaxLength(50)]
+        [MaxLength(50), Required]
         public string Lastname { get; set; }
 
 
@@ -27,6 +27,10 @@ namespace Benco.Models
 
         [NotMapped]
         public IFormFile ImageFile { get; set; }
+
+
+        [MaxLength(200)]
+        public string RePassword { get; set; }
 
 
         public DateTime CreatedTime { get; set; }
