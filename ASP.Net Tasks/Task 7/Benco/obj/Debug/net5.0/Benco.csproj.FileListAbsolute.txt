@@ -162,3 +162,5 @@ N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Area
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Areas\admin\Views\Account\Index.cshtml.g.cs
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Areas\admin\Views\Account\Create.cshtml.g.cs
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Areas\admin\Views\Rolls\Index.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Areas\admin\Views\Rolls\Create.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Areas\admin\Views\Rolls\Update.cshtml.g.cs
