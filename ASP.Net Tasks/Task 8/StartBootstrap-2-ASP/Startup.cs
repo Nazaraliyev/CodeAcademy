@@ -50,7 +50,7 @@ namespace StartBootstrap_2_ASP
             endpoints.MapAreaControllerRoute(
                 name: "area",
                 areaName: "admin",
-                pattern: "admin/{controller=Shop}/{action=Index}/{id?}"
+                pattern: "admin/{controller=Product}/{action=Index}/{id?}"
              );
                 endpoints.MapControllerRoute(
                     name: "default",
