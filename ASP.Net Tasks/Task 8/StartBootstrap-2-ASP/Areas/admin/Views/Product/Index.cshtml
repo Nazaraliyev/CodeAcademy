@@ -1,49 +1,57 @@
 ﻿@model List<Product>
 
-    <div class="container-fluid">
-        <h2 class = "mb-5">Products</h2>
-        <a class = "btn btn-primary mb-3" asp-area = "admin"  asp-controller = "Product" asp-action = "Create">Create New Product</a>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Image</th>
-                    <th scope="col">Category</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Star</th>
-                    <th scope="col">Created Time</th>
-                    <th scope="col">Modify</th>
-                </tr>
-            </thead>
-            <tbody>
-                @{
-                    int i = 1;
-                    foreach (var item in Model)
-                    {
-                        <tr>
-                            <th scope="row">@i</th>
-                            <th>
-                                <img style = "width : 100px; height : 100px; object-fit : cover"  src = "~/assets/img/product/@item.Image" />
-                            </th>
-                            <td>@item.Category.Name</td>
-                            <td>@item.Name</td>
-                            <td>
-                            @for (var s = 0; s < 5; s++)
-                            {
-                                if(s < @item.Star){ <i class="fas fa-star text-warning"></i> }
-                                else { <i class="far fa-star text-warning"></i> }
-                            }
-                        </td>
-                            <td>@item.CreatedTime.ToString("dd.MM.yyyy")</td>
-                            <td>@item.Category.Name</td>
-                            <td>
-                                <a class = "btn btn-primary" asp-area = "admin" asp-controller = "Product" asp-action = "Update" asp-route-id = "@item.Id">Update</a>
-                                <a class = "btn btn-danger" asp-area = "admin" asp-controller = "Product" asp-action = "Delete" asp-route-id = "@item.Id">Delete</a>
-                            </td>
-                        </tr>
-                        i++;
-                    }
-                }
-            </tbody>
-        </table>
-    </div>
+<div class="container-fluid">
+	<h2 class="mb-5">Products</h2>
+	<a class="btn btn-primary mb-3" asp-area="admin" asp-controller="Product" asp-action="Create">Create New Product</a>
+	<table class="table">
+		<thead>
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Image</th>
+				<th scope="col">Category</th>
+				<th scope="col">Name</th>
+				<th scope="col">Star</th>
+				<th scope="col">Price</th>
+				<th scope="col">Created Time</th>
+				<th scope="col">Modify</th>
+			</tr>
+		</thead>
+		<tbody>
+			@{
+				int i = 1;
+				foreach (var item in Model)
+				{
+					<tr>
+						<th scope="row">@i</th>
+						<th>
+							<img style="width : 100px; height : 100px; object-fit : cover" src="~/assets/img/product/@item.Image" />
+						</th>
+						<td>@item.Category.Name</td>
+						<td>@item.Name</td>
+						<td>
+							@for (var s = 0; s < 5; s++)
+							{
+								if (s < @item.Star)
+								{
+									<i class="fas fa-star text-warning"></i>
+								}
+								else
+								{
+									<i class="far fa-star text-warning"></i>
+								}
+							}
+						</td>
+						<td>@item.Price</td>
+						<td>@item.CreatedTime.ToString("dd.MM.yyyy")</td>
+						<td>@item.Category.Name</td>
+						<td>
+							<a class="btn btn-primary" asp-area="admin" asp-controller="Product" asp-action="Update" asp-route-id="@item.Id">Update</a>
+							<a class="btn btn-danger" asp-area="admin" asp-controller="Product" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+						</td>
+					</tr>
+					i++;
+				}
+			}
+		</tbody>
+	</table>
+</div>

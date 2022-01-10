@@ -1,0 +1,26 @@
+﻿@model Settings
+
+
+<div class="container-fluid">
+	<h2 class="mb-3">Settings</h2>
+	<table class="table">
+		<thead>
+			<tr>
+				<th scope="col">Logo</th>
+				<th scope="col">BannerHeader</th>
+				<th scope="col">BannerText</th>
+				<th scope="col">Modify</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>@Model.Logo</td>
+				<td>@Model.BannerHeader</td>
+				<td>@Model.BannerText</td>
+				<td>
+					<a class="btn btn-primary" asp-area="admin" asp-controller="Settings" asp-action="Update">Update</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>

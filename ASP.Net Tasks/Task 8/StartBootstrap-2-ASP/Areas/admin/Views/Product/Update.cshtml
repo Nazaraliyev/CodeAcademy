@@ -19,6 +19,10 @@
 			<input class="form-control" asp-for="@Model.Name">
 		</div>
 		<div class="mb-3">
+			<label asp-for="@Model.Price" class="form-label">Price</label>
+			<input type = "number" class="form-control" asp-for="@Model.Price">
+		</div>
+		<div class="mb-3">
 			<label asp-for="@Model.Star" class="form-label">Star</label>
 			<select class="form-control" asp-for="@Model.Star">
 				<option selected>Select Product Star</option>
@@ -30,9 +34,9 @@
 			</select>
 		</div>
 
-		<input asp-for = "@Model.Id" hidden/>
-		<input asp-for = "@Model.CreatedTime" hidden />
-		<input asp-for = "@Model.Image" hidden />
+		<input asp-for="@Model.Id" hidden />
+		<input asp-for="@Model.CreatedTime" hidden />
+		<input asp-for="@Model.Image" hidden />
 		<button type="submit" class="btn btn-primary">Update</button>
 	</form>
 </div>

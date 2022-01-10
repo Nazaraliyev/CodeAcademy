@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using StartBootstrap_2_ASP.Data;
 using StartBootstrap_2_ASP.Models;
+using StartBootstrap_2_ASP.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -11,9 +13,20 @@ namespace StartBootstrap_2_ASP.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly AppDbContext _context;
+
+        public HomeController(AppDbContext context)
+        {
+            _context = context;
+        }
         public IActionResult Index()
         {
-            return View();
+            VmHome model = new VmHome()
+            {
+                settings = _context.settings.FirstOrDefault(),
+                product = _context.products.ToList(),
+            };
+            return View(model);
         }
     }
 }
