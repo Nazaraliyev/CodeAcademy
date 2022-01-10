@@ -310,3 +310,4 @@ N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 8\StartBootstrap-2-ASP\obj\Debug\ne
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 8\StartBootstrap-2-ASP\obj\Debug\net5.0\StartBootstrap-2-ASP.pdb
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 8\StartBootstrap-2-ASP\obj\Debug\net5.0\StartBootstrap-2-ASP.genruntimeconfig.cache
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 8\StartBootstrap-2-ASP\obj\Debug\net5.0\Razor\Areas\admin\Views\Product\Index.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 8\StartBootstrap-2-ASP\obj\Debug\net5.0\Razor\Areas\admin\Views\Product\Create.cshtml.g.cs
