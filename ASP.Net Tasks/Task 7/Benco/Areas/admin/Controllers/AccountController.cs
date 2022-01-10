@@ -21,7 +21,7 @@ namespace Benco.Areas.admin.Controllers
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly RoleManager<IdentityRole> _roleManager;
 
-        public AccountController(AppDbContext context, IWebHostEnvironment webHostEnvironment ,UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, RoleManager<IdentityRole> roleManager)
+        public AccountController(AppDbContext context, IWebHostEnvironment webHostEnvironment, UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, RoleManager<IdentityRole> roleManager)
         {
             _context = context;
             _webHostEnvironment = webHostEnvironment;
@@ -48,66 +48,118 @@ namespace Benco.Areas.admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(VmUserRegister model)
         {
-            CostumeUser User = model.CostumeUser; 
+            ViewBag.Roles = _context.Roles.ToList();
+            CostumeUser User = model.CostumeUser;
             if (ModelState.IsValid)
             {
-                if(User.PasswordHash == User.RePassword)
+                if (User.Email != null)
                 {
-                    if(User.ImageFile == null)
+
+                    if (!String.IsNullOrEmpty(User.PasswordHash))
                     {
-                        User.Image = "profile.png";
-                    }
-                    else
-                    {
-                        if (User.ImageFile.ContentType == "image/jpeg" || User.ImageFile.ContentType == "imge/png" || User.ImageFile.ContentType == "xml/svg")
+                        if (User.PasswordHash == User.RePassword)
                         {
-                            if(User.ImageFile.Length <= 5242880)
+                            if (User.ImageFile != null)
                             {
-                                string fileName = Guid.NewGuid() + "-" + User.ImageFile.FileName;
-                                string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "assets/img/profiles", fileName);
 
-                                using (var stream = new FileStream(filePath, FileMode.Create))
+                                if (User.ImageFile.ContentType == "image/jpeg" || User.ImageFile.ContentType == "imge/png" || User.ImageFile.ContentType == "xml/svg")
                                 {
-                                    User.ImageFile.CopyTo(stream);
-                                }
+                                    if (User.ImageFile.Length <= 5242880)
+                                    {
+                                        string fileName = Guid.NewGuid() + "-" + User.ImageFile.FileName;
+                                        string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "assets/img/profiles", fileName);
 
-                                User.Image = fileName;
+                                        using (var stream = new FileStream(filePath, FileMode.Create))
+                                        {
+                                            User.ImageFile.CopyTo(stream);
+                                        }
+
+                                        User.Image = fileName;
+                                    }
+                                    else
+                                    {
+                                        ModelState.AddModelError("", "Your file is over 5 MB");
+                                        return View(model);
+                                    }
+                                }
+                                else
+                                {
+                                    ModelState.AddModelError("", "File is not Image File");
+                                    return View(model);
+                                }
                             }
                             else
                             {
-                                ModelState.AddModelError("", "Your file is over 5 MB");
+                                User.Image = "profile.png";
+                            }
+
+                            if (User.UserName != null)
+                            {
+                                if (_context.costumeUsers.Any(u => u.UserName == User.UserName))
+                                {
+                                    ModelState.AddModelError("", "You can not use this Username");
+                                    return View(model);
+                                }
+                            }
+                            else
+                            {
+                                if (_context.costumeUsers.Any(u => u.UserName == User.Email))
+                                {
+                                    ModelState.AddModelError("", "This Mail use for Username, change Email or username");
+                                    return View(model);
+                                }
+                                else
+                                {
+                                    User.UserName = User.Email;
+                                }
+                            }
+
+                            User.Fullname = User.Name + " " + User.Lastname;
+                            User.CreatedTime = DateTime.Now;
+
+
+                            var result = await _userManager.CreateAsync(User, User.PasswordHash);
+
+
+                            IdentityUserRole<string> userRole = new IdentityUserRole<string>();
+
+
+                            if (result.Succeeded)
+                            {
+                                if (model.RoleId == null)
+                                {
+                                    userRole.UserId = User.Id;
+                                    userRole.RoleId = _context.Roles.FirstOrDefault(r => r.Name == "Not Choose").Id;
+                                }
+                                else
+                                {
+                                    userRole.UserId = User.Id;
+                                    userRole.RoleId = model.RoleId;
+                                }
+                                _context.UserRoles.Add(userRole);
+                                _context.SaveChanges();
+                                return RedirectToAction("Index");
+                            }
+                            else
+                            {
                                 return View(model);
                             }
                         }
                         else
                         {
-                            ModelState.AddModelError("", "File is not Image File");
+                            ModelState.AddModelError("", "RePassword is not Correct");
                             return View(model);
                         }
                     }
-                    User.Fullname = User.Name + " " + User.Lastname;
-                    User.CreatedTime = DateTime.Now;
-                    if (User.UserName == null) User.UserName = User.Email;
-                    var result = await _userManager.CreateAsync(User, User.PasswordHash);
-                    if (result.Succeeded)
-                    {
-                        IdentityUserRole<string> userRole = new IdentityUserRole<string>()
-                        {
-                            UserId = User.Id,
-                            RoleId = model.RoleId,
-                        };
-                        _context.UserRoles.Add(userRole);
-                        _context.SaveChanges();
-                        return RedirectToAction("Index");
-                    }
                     else
                     {
+                        ModelState.AddModelError("", "Password can not be Null");
                         return View(model);
                     }
                 }
                 else
                 {
-                    ModelState.AddModelError("", "RePassword is not correct");
+                    ModelState.AddModelError("", "Email can not be null");
                     return View(model);
                 }
 
@@ -115,6 +167,7 @@ namespace Benco.Areas.admin.Controllers
             else
             {
                 return View(model);
+
             }
         }
 
@@ -132,11 +185,91 @@ namespace Benco.Areas.admin.Controllers
 
 
         [HttpPost]
-        public IActionResult Update(CostumeUser model)
+        public IActionResult Update(VmUserRegister model)
         {
+            ViewBag.Roles = _context.Roles.ToList();
+            CostumeUser user = model.CostumeUser;
             if (ModelState.IsValid)
             {
-                return View(model);
+                if (user.ImageFile != null)
+                {
+                    if (user.Image != "profile.png")
+                    {
+                        string oldImage = Path.Combine(_webHostEnvironment.WebRootPath, "assets/img/profiles", user.Image);
+                        if (System.IO.File.Exists(oldImage))
+                        {
+                            System.IO.File.Delete(oldImage);
+                        }
+                    }
+
+                    string fileName = Guid.NewGuid() + "-" + user.ImageFile.FileName;
+                    string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "assets/img/profiles", fileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        user.ImageFile.CopyTo(stream);
+                    }
+
+                    user.Image = fileName;
+                }
+
+                if (model.RoleId != null)
+                {
+                    if (_context.Roles.Any(r => r.Id == model.RoleId))
+                    {
+                        _context.UserRoles.Remove(_context.UserRoles.FirstOrDefault(ur => ur.UserId == user.Id));
+                        IdentityUserRole<string> userRole = new IdentityUserRole<string>()
+                        {
+                            UserId = user.Id,
+                            RoleId = model.RoleId
+                        };
+                        _context.UserRoles.Add(userRole);
+                        _context.SaveChanges();
+                    }
+                }
+
+                if (user.UserName != null)
+                {
+                    if (_context.costumeUsers.Any(u => u.UserName == user.UserName))
+                    {
+                        if (_context.costumeUsers.FirstOrDefault(u => u.UserName == user.UserName).Id != user.Id)
+                        {
+                            ModelState.AddModelError("", "You can not use this Username");
+                            return View(model);
+                        }
+                    }
+                }
+                else
+                {
+                    if (_context.costumeUsers.Any(u => u.UserName == user.Email))
+                    {
+                        if(_context.costumeUsers.FirstOrDefault(u => u.UserName == user.Email).Id != user.Id)
+                        {
+                            ModelState.AddModelError("", "This Email use for Username, Change Email or Username");
+                            return View(model);
+                        }
+                        else
+                        {
+                            user.UserName = user.Email;
+                        }
+                    }
+                }
+                user.Fullname = user.Name + " " + user.Lastname;
+
+
+                CostumeUser updatedUser = _context.costumeUsers.Find(user.Id);
+                updatedUser.Image = user.Image;
+                updatedUser.Name = user.Name;
+                updatedUser.Lastname = user.Lastname;
+                updatedUser.Fullname = user.Fullname;
+                updatedUser.UserName = user.UserName;
+                updatedUser.NormalizedEmail = user.UserName.ToUpper();
+                updatedUser.PhoneNumber = user.PhoneNumber;
+                updatedUser.Email = user.Email;
+                updatedUser.CreatedTime = user.CreatedTime;
+                _context.SaveChanges();
+                return RedirectToAction("index");
+
             }
             else
             {
@@ -147,9 +280,10 @@ namespace Benco.Areas.admin.Controllers
 
         public IActionResult Delete(string Id)
         {
-            if(Id != null)
+            if (Id != null)
             {
-                if(_context.costumeUsers.ToList().Any(u => u.Id == Id)){
+                if (_context.costumeUsers.ToList().Any(u => u.Id == Id))
+                {
                     _context.costumeUsers.Remove(_context.costumeUsers.Find(Id));
                     _context.SaveChanges();
                     return RedirectToAction("index");

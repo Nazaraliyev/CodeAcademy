@@ -1,13 +1,8 @@
-﻿
-@{
-    ViewData["Title"] = "Update";
-}
-
-@model VmUserRegister
+﻿@model VmUserRegister
 
 <div class="container-fluid">
 	<h2 class="mb-5">Create New User</h2>
-	<form class="w-50" asp-area="admin" asp-controller="Account" asp-action="Create" method="post" enctype="multipart/form-data">
+	<form class="w-50" asp-area="admin" asp-controller="Account" asp-action="Update" method="post" enctype="multipart/form-data">
 		<div asp-validation-summary="All" class="text-danger"></div>
 		<div class="mb-3 form-floating">
 			<label asp-for="@Model.CostumeUser.ImageFile" class="form-label">Add User Profile Image</label>
@@ -39,16 +34,9 @@
 				<option selected disabled>Open this select menu</option>
 			</select>
 		</div>
-		<div class="mb-3">
-			<label asp-for="@Model.CostumeUser.PasswordHash" class="form-label">Password</label>
-			<input type="password" class="form-control" asp-for="@Model.CostumeUser.PasswordHash">
-		</div>
-		<div class="mb-3">
-			<label asp-for="@Model.CostumeUser.RePassword" class="form-label">Password</label>
-			<input type="password" class="form-control" asp-for="@Model.CostumeUser.RePassword">
-		</div>
-
-		<button type="submit" class="btn btn-primary">Create</button>
+		<input asp-for = "@Model.CostumeUser.Id" hidden/>
+		<input asp-for = "@Model.CostumeUser.Image" hidden />
+		<button type="submit" class="btn btn-primary">Update</button>
 	</form>
 </div>
 
