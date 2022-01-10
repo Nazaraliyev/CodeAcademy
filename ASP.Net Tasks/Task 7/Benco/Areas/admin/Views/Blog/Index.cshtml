@@ -1,0 +1,44 @@
+﻿@model List<Blog>
+
+<div class="container-fluid">
+	<h2 class="mb-5">Blogs</h2>
+	<a class="btn btn-primary mb-3" asp-area="admin" asp-controller="Blog" asp-action="Create">Create New Blog</a>
+	<table class="table w-50">
+		<thead>
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Image</th>
+				<th scope="col">#</th>
+				<th scope="col">#</th>
+				<th scope="col">#</th>
+				<th scope="col">Name</th>
+				<th scope="col">Modify</th>
+			</tr>
+		</thead>
+		<tbody>
+			@{
+				int i = 1;
+				foreach (var item in Model)
+				{
+					<tr>
+						<th scope="row">@i</th>
+						<th>
+							<img width="100px" height="100px" src="~/assets/img/blogs/@item.Cover" />
+						</th>
+
+						<th>@item.Name</th>
+						<th>@item.Content</th>
+						<th>@item.Category.Name</th>
+						<th>@item.CostumeUser.Fullname</th>
+						<th>@item.CreatedTime.ToString("dd MM yyyy")</th>
+						<td>
+							<a class="btn btn-primary" asp-area="admin" asp-controller="Blog" asp-action="Update" asp-route-id="@item.Id">Update</a>
+							<a class="btn btn-danger" asp-area="admin" asp-controller="Blog" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+						</td>
+					</tr>
+					i++;
+				}
+			}
+		</tbody>
+	</table>
+</div>

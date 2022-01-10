@@ -167,7 +167,8 @@ N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Area
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Areas\admin\Views\BlogTag\Index.cshtml.g.cs
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Areas\admin\Views\BlogTag\Create.cshtml.g.cs
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Areas\admin\Views\BlogTag\Update.cshtml.g.cs
-N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Areas\admin\Views\Category\Create.cshtml.g.cs
-N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Areas\admin\Views\Category\Index.cshtml.g.cs
-N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Areas\admin\Views\Category\Update.cshtml.g.cs
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Areas\admin\Views\Account\Update.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Areas\admin\Views\BlogCategory\Index.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Areas\admin\Views\BlogCategory\Create.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Areas\admin\Views\BlogCategory\Update.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Areas\admin\Views\Blog\Index.cshtml.g.cs
