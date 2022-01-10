@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none
+}
+
+
+nav{
+    height: 60px;
+    #menu{
+        width: 200px;
+        a{
+            color: #2125297e;
+        }
+    }
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    li{
+        margin: 0;
+        pad: 0;
+    }
+}
+
+
+
+main{
+    min-height: 500px;
+    #banner{
+        height: 300px;
+    }
+}
+
+footer{
+    height: 100px;
+    p{
+        margin: 0;
+        padding: 0;
+    }
+}
+

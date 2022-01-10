@@ -25,6 +25,7 @@ namespace Benco.Areas.admin.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Tag = _context.blogTags.ToList();
             return View(_context.blogs.Include(u => u.CostumeUser).Include(c => c.Category).Include(tb => tb.tagToBlogs).ThenInclude(t => t.BlogTag).ToList());
         }
 

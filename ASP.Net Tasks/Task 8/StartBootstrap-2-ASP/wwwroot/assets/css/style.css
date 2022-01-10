@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  height: 60px;
+}
+
+nav #menu {
+  width: 200px;
+}
+
+nav #menu a {
+  color: #2125297e;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin: 0;
+  pad: 0;
+}
+
+main {
+  min-height: 500px;
+}
+
+main #banner {
+  height: 300px;
+}
+
+footer {
+  height: 100px;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=style.css.map */
