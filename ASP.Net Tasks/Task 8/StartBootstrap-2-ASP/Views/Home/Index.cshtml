@@ -1,4 +1,7 @@
-﻿    <main>
+﻿@model VmHome   
+ 
+
+<main>
       <section id="banner" class="bg-dark d-flex align-items-center justify-content-center">
         <div id="banner-text">
           <h1 class="text-center text-white fw-bold display-4">Shop in style</h1>
@@ -7,6 +10,17 @@
       </section>
       <section id="Shopping" class="container-md my-5">
         <div class="row">
+            @foreach (var item in collection)
+           {
+               
+           }
+
+
+
+
+
+
+
           <div class="col-3">
             <div class="card" style="width: 18rem">
               <img src="..." class="card-img-top" alt="..." />

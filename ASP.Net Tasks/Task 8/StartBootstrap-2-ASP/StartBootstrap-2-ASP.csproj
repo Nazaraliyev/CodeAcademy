@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\assets\img\product\" />
     <Folder Include="wwwroot\assets\js\" />
   </ItemGroup>
 

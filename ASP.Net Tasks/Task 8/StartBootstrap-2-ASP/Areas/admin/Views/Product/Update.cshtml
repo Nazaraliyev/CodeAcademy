@@ -1,8 +1,8 @@
 ﻿@model Product
 
 <div class="container-fluid">
-	<h2 class="mb-5">Create New Product</h2>
-	<form class="w-50" asp-area="admin" asp-controller="Product" asp-action="Create" method="post" enctype="multipart/form-data">
+	<h2 class="mb-5">Update Product</h2>
+	<form class="w-50" asp-area="admin" asp-controller="Product" asp-action="Update" method="post" enctype="multipart/form-data">
 		<div asp-validation-summary="All" class="text-danger"></div>
 		<div class="mb-3 form-floating">
 			<label asp-for="@Model.ImageFile" class="form-label">Add User Profile Image</label>
@@ -29,6 +29,10 @@
 				<option value="5">5</option>
 			</select>
 		</div>
-		<button type="submit" class="btn btn-primary">Create</button>
+
+		<input asp-for = "@Model.Id" hidden/>
+		<input asp-for = "@Model.CreatedTime" hidden />
+		<input asp-for = "@Model.Image" hidden />
+		<button type="submit" class="btn btn-primary">Update</button>
 	</form>
 </div>

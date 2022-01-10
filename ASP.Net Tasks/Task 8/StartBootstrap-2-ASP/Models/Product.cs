@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -33,6 +34,10 @@ namespace StartBootstrap_2_ASP.Models
 
         [Column(TypeName = "money")]
         public decimal Price { get; set; }
+
+
+
+        public DateTime CreatedTime { get; set; }
 
 
 
