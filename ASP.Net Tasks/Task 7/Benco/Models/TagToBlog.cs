@@ -14,8 +14,11 @@ namespace Benco.Models
         public BlogTag BlogTag { get; set; }
 
 
-        [ForeignKey("Blog")]
+        [ForeignKey("BlogId")]
         public int BlogId { get; set; }
         public Blog Blog { get; set; }
+
+
+        
     }
 }

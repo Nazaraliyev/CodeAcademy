@@ -172,3 +172,4 @@ N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Area
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Areas\admin\Views\BlogCategory\Create.cshtml.g.cs
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Areas\admin\Views\BlogCategory\Update.cshtml.g.cs
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Areas\admin\Views\Blog\Index.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 7\Benco\obj\Debug\net5.0\Razor\Areas\admin\Views\Blog\Create.cshtml.g.cs
