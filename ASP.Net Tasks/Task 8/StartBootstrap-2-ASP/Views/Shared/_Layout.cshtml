@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@model VmHome
+
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -28,7 +30,7 @@
   <body>
     <header class="container-md">
       <nav class="row align-items-center">
-        <div id="logo" class="col-2"><a asp-controller = "Home" asp-action = "Index" class="fs-4 text-dark">Start Bootstrap</a></div>
+        <div id="logo" class="col-2"><a asp-controller = "Home" asp-action = "Index" class="fs-4 text-dark">@Model.settings.Logo</a></div>
         <div class="col-10 d-flex justify-content-between">
           <ul id="menu" class="d-flex justify-content-between align-items-center">
             <li ><a class="text-dark" asp-controller = "Home" asp-action = "Index">Home</a></li>
