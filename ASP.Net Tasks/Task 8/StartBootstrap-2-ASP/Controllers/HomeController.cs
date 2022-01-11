@@ -25,6 +25,7 @@ namespace StartBootstrap_2_ASP.Controllers
             {
                 settings = _context.settings.FirstOrDefault(),
                 product = _context.products.ToList(),
+                CartCount = _context.carts.Count()
             };
             return View(model);
         }
