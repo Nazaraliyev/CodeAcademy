@@ -21,13 +21,20 @@ using SimpleCrud;
 #nullable disable
 #nullable restore
 #line 2 "N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 6\SimpleCrud\Areas\admin\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 6\SimpleCrud\Areas\admin\Views\_ViewImports.cshtml"
 using SimpleCrud.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2f430d94391ee0204af08416204c599cdaf2eddc", @"/Areas/admin/Views/Employee/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0227bab89a8ed7b1e147351f808ffd4cbb152a9b", @"/Areas/admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b50c7a998a6a24e0f42579f7ccf44030da5a063d", @"/Areas/admin/Views/_ViewImports.cshtml")]
     public class Areas_admin_Views_Employee_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<Employee>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("btn btn-primary mb-5"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -71,7 +78,7 @@ using SimpleCrud.Models;
 #line hidden
 #nullable disable
             WriteLiteral("<div class=\"container-fluid\">\r\n\t<h2>Employee</h2>\r\n\t");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2f430d94391ee0204af08416204c599cdaf2eddc6042", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2f430d94391ee0204af08416204c599cdaf2eddc6256", async() => {
                 WriteLiteral("Create");
             }
             );
@@ -175,7 +182,7 @@ using SimpleCrud.Models;
 #line hidden
 #nullable disable
             WriteLiteral("</td>\r\n\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2f430d94391ee0204af08416204c599cdaf2eddc10346", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2f430d94391ee0204af08416204c599cdaf2eddc10560", async() => {
                 WriteLiteral("Update");
             }
             );
@@ -211,7 +218,7 @@ using SimpleCrud.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n\t\t\t\t\t\t\t");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2f430d94391ee0204af08416204c599cdaf2eddc13100", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2f430d94391ee0204af08416204c599cdaf2eddc13314", async() => {
                 WriteLiteral("Delete");
             }
             );

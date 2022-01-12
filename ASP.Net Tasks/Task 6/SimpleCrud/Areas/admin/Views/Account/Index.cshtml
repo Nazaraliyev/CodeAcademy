@@ -32,12 +32,29 @@
 						<td>@item.UserName</td>
 						<td>@item.Email</td>
 						<td>
+							@{
+								foreach (var userRoll in ViewBag.UserRoll)
+								{
+									if(userRoll.UserId == item.Id)
+									{
+										foreach (var roll in ViewBag.Rolls)
+										{
+											if(roll.Id == userRoll.RoleId)
+											{
+												<span>@roll.Name </span>
+											}
+										}
+										
+									}
+								}
+							}
 						</td>
 						<td>
 							<a class="btn btn-primary" asp-area="admin" asp-controller="Account" asp-action="Update" asp-route-id="@item.Id">Update</a>
 							<a class="btn btn-danger" asp-area="admin" asp-controller="Account" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
 						</td>
 					</tr>
+					i++;
 				}
 			}
 		</tbody>

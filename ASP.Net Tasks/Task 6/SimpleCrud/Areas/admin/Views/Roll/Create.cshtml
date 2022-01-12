@@ -1,0 +1,13 @@
+﻿@model IdentityRole
+
+
+<div class="container-fluid">
+	<h2 class = "mb-5">Create New Roll</h2>
+	<form class = "w-50" asp-area="admin" asp-controller="Roll" asp-action="Create" method="post">
+		<div class="mb-3">
+			<label asp-for="@Model.Name" class="form-label">Roll Name</label>
+			<input asp-for="@Model.Name" class="form-control" />
+		</div>
+		<button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+</div>

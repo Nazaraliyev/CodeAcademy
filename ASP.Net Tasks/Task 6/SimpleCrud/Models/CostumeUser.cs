@@ -40,6 +40,6 @@ namespace SimpleCrud.Models
 
 
         [NotMapped]
-        public int RollId { get; set; }
+        public string RollId { get; set; }
     }
 }

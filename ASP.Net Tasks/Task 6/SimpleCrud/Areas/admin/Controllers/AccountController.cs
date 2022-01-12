@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using SimpleCrud.Models;
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
@@ -15,17 +17,20 @@ namespace SimpleCrud.Areas.admin.Controllers
         private readonly AppDbContext _context;
         private readonly Microsoft.AspNetCore.Identity.UserManager<IdentityUser> _userManager;
 
-        public AccountController(AppDbContext context, UserManager<IdentityUser> userManager)
+		public AccountController(AppDbContext context, UserManager<IdentityUser> userManager)
         {
             _context = context;
             _userManager = userManager;
-        }
+		}
 
 
         public IActionResult Index()
         {
             ViewBag.Rolls = _context.Roles.ToList();
+            ViewBag.UserRoll = _context.UserRoles.ToList();
             return View(_context.costumeUsers.ToList());
+
+            
         }
 
         public IActionResult Create()
@@ -78,7 +83,19 @@ namespace SimpleCrud.Areas.admin.Controllers
                             {
                                 if (model.RollId != null)
                                 {
-                                    model.RollId = 1;
+                                    if(_context.Roles.Any(r => r.Id == model.RollId))
+									{
+                                        IdentityUserRole<string> userRole = new IdentityUserRole<string>()
+                                        {
+                                            UserId = model.Id,
+                                            RoleId = model.RollId
+                                        };
+
+                                        _context.UserRoles.Add(userRole);
+                                        _context.SaveChanges();
+                                        return RedirectToAction(nameof(Index));
+
+									}
                                 }
 
                                 return RedirectToAction("Index");
@@ -179,6 +196,29 @@ namespace SimpleCrud.Areas.admin.Controllers
                         return View(model);
                     }
                 }
+                if (model.RollId != null)
+				{
+					if (_context.Roles.Any(r => r.Id == model.RollId))
+					{
+                        _context.UserRoles.Remove(_context.UserRoles.FirstOrDefault(ur => ur.UserId == model.Id));
+                        IdentityUserRole<string> userRole = new IdentityUserRole<string>()
+                        {
+                            UserId = model.Id,
+                            RoleId = model.RollId
+                        };
+                        _context.SaveChanges();
+					}
+					else
+					{
+                        ModelState.AddModelError("", "Roll is not correct");
+                        return View(model);
+					}
+				}
+				else
+				{
+                    ModelState.AddModelError("", "Roll is not correct");
+                    return View(model);
+				}
                 model.Fullname = model.Name + " " + model.Lastname;
                 CostumeUser user = _context.costumeUsers.Find(model.Id);
                 user.Name = model.Name;
@@ -189,6 +229,8 @@ namespace SimpleCrud.Areas.admin.Controllers
                 user.PhoneNumber = model.PhoneNumber;
                 user.Image = model.Image;
                 user.NormalizedUserName = model.UserName.ToUpper();
+
+
                 _context.SaveChanges();
                 return RedirectToAction("Index");
 
