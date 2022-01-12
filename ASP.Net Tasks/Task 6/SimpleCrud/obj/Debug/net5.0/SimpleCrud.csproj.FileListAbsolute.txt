@@ -317,8 +317,8 @@ N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 6\SimpleCrud\bin\Debug\net5.0\Micro
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 6\SimpleCrud\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 6\SimpleCrud\obj\Debug\net5.0\Razor\Areas\admin\Views\Account\Index.cshtml.g.cs
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 6\SimpleCrud\obj\Debug\net5.0\Razor\Areas\admin\Views\Account\Create.cshtml.g.cs
-N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 6\SimpleCrud\obj\Debug\net5.0\Razor\Areas\admin\Views\Login\Login.cshtml.g.cs
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 6\SimpleCrud\obj\Debug\net5.0\Razor\Areas\admin\Views\Account\Update.cshtml.g.cs
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 6\SimpleCrud\obj\Debug\net5.0\Razor\Areas\admin\Views\Roll\Index.cshtml.g.cs
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 6\SimpleCrud\obj\Debug\net5.0\Razor\Areas\admin\Views\Roll\Create.cshtml.g.cs
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 6\SimpleCrud\obj\Debug\net5.0\Razor\Areas\admin\Views\Roll\Update.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 6\SimpleCrud\obj\Debug\net5.0\Razor\Areas\admin\Views\Account\Login.cshtml.g.cs

@@ -26,6 +26,7 @@ namespace SimpleCrud
         {
             services.AddControllersWithViews();
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("SimpleCrud")));
+
             services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
         }
 
@@ -44,6 +45,8 @@ namespace SimpleCrud
 
             app.UseRouting();
 
+
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -51,7 +54,7 @@ namespace SimpleCrud
                 endpoints.MapAreaControllerRoute(
                     name: "areas",
                     areaName: "admin",
-                    pattern: "admin/{controller=Employee}/{action=Index}/{id?}"
+                    pattern: "admin/{controller=Account}/{action=Login}/{id?}"
                 );
                 endpoints.MapControllerRoute(
                     name: "default",

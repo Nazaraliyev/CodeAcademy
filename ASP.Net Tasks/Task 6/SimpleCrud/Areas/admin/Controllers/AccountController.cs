@@ -17,12 +17,14 @@ namespace SimpleCrud.Areas.admin.Controllers
         private readonly AppDbContext _context;
         private readonly Microsoft.AspNetCore.Identity.UserManager<IdentityUser> _userManager;
 		private readonly RoleManager<IdentityRole> _roleManager;
+		private readonly SignInManager<IdentityUser> _signInManager;
 
-		public AccountController(AppDbContext context, UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager)
+		public AccountController(AppDbContext context, UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager, SignInManager<IdentityUser> signInManager)
         {
             _context = context;
             _userManager = userManager;
 			_roleManager = roleManager;
+			_signInManager = signInManager;
 		}
 
 
@@ -275,5 +277,32 @@ namespace SimpleCrud.Areas.admin.Controllers
         }
 
 
+        public IActionResult Login()
+		{
+            return View();
+		}
+
+
+
+
+
+        [HttpPost]
+        public async Task<IActionResult> Login(CostumeUser model)
+		{
+            if(model.UserName != null & model.PasswordHash != null)
+			{
+                await _signInManager.PasswordSignInAsync(model.UserName, model.PasswordHash, false, false);
+                return RedirectToAction(nameof(Index));
+			}
+			else
+			{
+                return View(model);
+			}
+		}
+
+
     }
 }
+
+
+
