@@ -1,0 +1,48 @@
+﻿@model CostumeUser
+
+<div class="container-fluid">
+	<h2 class="mb-5">Create New User</h2>
+	<form class="w-50" asp-area="admin" asp-controller="Account" asp-action="Create" method="post" enctype = "multipart/form-data">
+		<div asp-validation-summary="All" class="text-danger"></div>
+		<div class="mb-3">
+			<label asp-for="@Model.formFile" class="form-label">Profile Image</label>
+			<input class="form-control" asp-for="@Model.formFile">
+		</div>
+		<div class="mb-3">
+			<label asp-for="@Model.Name" class="form-label">Name</label>
+			<input class="form-control" asp-for="@Model.Name">
+		</div>
+		<div class="mb-3">
+			<label asp-for="@Model.Lastname" class="form-label">Lastname</label>
+			<input class="form-control" asp-for="@Model.Lastname">
+		</div>
+
+		<div class="mb-3">
+			<label asp-for="@Model.UserName" class="form-label">Username</label>
+			<input class="form-control" asp-for="@Model.UserName">
+		</div>
+		<div class="mb-3">
+			<label asp-for="@Model.Email" class="form-label">Email</label>
+			<input type="email" class="form-control" asp-for="@Model.Email">
+		</div>
+		<div class="mb-3">
+			<label asp-for="@Model.PhoneNumber" class="form-label">Phone</label>
+			<input type="number" class="form-control" asp-for="@Model.PhoneNumber">
+		</div>
+		<div class="mb-3">
+			<label asp-for="@Model.Name" class="form-label">Roll</label>
+			<select class="form-control form-select" asp-items="ViewBag.Rolls" asp-for="@Model.RollId">
+				<option selected disabled>Select Account Roll</option>
+			</select>
+		</div>
+		<div class="mb-3">
+			<label asp-for="@Model.PasswordHash" class="form-label">Password</label>
+			<input type="password" class="form-control" asp-for="@Model.PasswordHash">
+		</div>
+		<div class="mb-3">
+			<label asp-for="@Model.RePassword" class="form-label">RePassword</label>
+			<input type="password" class="form-control" asp-for="@Model.RePassword">
+		</div>
+		<button type="submit" class="btn btn-primary">Create</button>
+	</form>
+</div>

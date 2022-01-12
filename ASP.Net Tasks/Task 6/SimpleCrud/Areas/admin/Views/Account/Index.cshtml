@@ -1,0 +1,45 @@
+﻿@model List<CostumeUser>
+
+
+<div class="container-fluid">
+	<h2 class="mb-5">Users</h2>
+	<a class="btn btn-primary  mb-3" asp-area="admin" asp-controller="Account" asp-action="Create" >Create New User</a>
+	<table class="table">
+		<thead>
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Profile</th>
+				<th scope="col">FirstName</th>
+				<th scope="col">LastName</th>
+				<th scope="col">Username</th>
+				<th scope="col">Email</th>
+				<th scope="col">Roll</th>
+				<th scope="col">Modify</th>
+			</tr>
+		</thead>
+		<tbody>
+			@{
+				int i = 1;
+				foreach (var item in Model)
+				{
+					<tr>
+						<th scope="row">@i</th>
+						<th>
+							<img style = "width : 100px; height : 100px; border-radius : 50%" src = "~/areas/admin/img/@item.Image"/>
+						</th>
+						<td>@item.Name</td>
+						<td>@item.Lastname</td>
+						<td>@item.UserName</td>
+						<td>@item.Email</td>
+						<td>
+						</td>
+						<td>
+							<a class="btn btn-primary" asp-area="admin" asp-controller="Account" asp-action="Update" asp-route-id="@item.Id">Update</a>
+							<a class="btn btn-danger" asp-area="admin" asp-controller="Account" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+						</td>
+					</tr>
+				}
+			}
+		</tbody>
+	</table>
+</div>

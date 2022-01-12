@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using SimpleCrud.Models;
 
 namespace SimpleCrud
 {
-	public class AppDbContext:DbContext
+	public class AppDbContext:IdentityDbContext
 	{
 		public AppDbContext(DbContextOptions options) :base(options)
 		{
@@ -12,5 +13,6 @@ namespace SimpleCrud
 
 		public DbSet<Employee> employees { get; set; }
 		public DbSet<Position> position { get; set; }
+		public DbSet<CostumeUser> costumeUsers { get; set; }
 	}
 }

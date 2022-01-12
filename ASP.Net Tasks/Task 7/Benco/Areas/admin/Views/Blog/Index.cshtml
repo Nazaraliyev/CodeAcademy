@@ -34,15 +34,20 @@
 							@{
 								foreach (var tagToBlog in item.tagToBlogs)
 								{
-									foreach (var tag in ViewBag.Tag)
-									{
-										if (tag.Id == tagToBlog.TagId)
-										{
-											<span>@tag.Name</span>
-										}
-									}
+									<span>@(tagToBlog.BlogTag!=null?tagToBlog.BlogTag:"")</span>
+
+									//foreach (var tag in ViewBag.Tag)
+									//{
+									//	if (tag.Id == tagToBlog.TagId)
+									//	{
+									//		<span>@tag.Name</span>
+									//	}
+									//}
 							}
 						}
+
+
+						
 						</td>
 						<td>@item.CreatedTime.ToString("dd.MM.yyyy")</td>
 						<td>

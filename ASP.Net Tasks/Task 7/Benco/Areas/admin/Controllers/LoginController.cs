@@ -33,12 +33,14 @@ namespace Benco.Areas.Admin.Controllers
 
                 if (result.Succeeded)
                 {
+                    
                     return RedirectToAction("Index","Home");
                 }
                 else
                 {
                     ModelState.AddModelError("", "Login Or Password is not correct");
                     return View(model);
+                    
                 }
             }
             else

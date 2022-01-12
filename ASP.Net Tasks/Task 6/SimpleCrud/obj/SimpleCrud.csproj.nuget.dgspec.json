@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nazar\\Desktop\\SimpleCrud\\SimpleCrud\\SimpleCrud.csproj": {}
+    "N:\\Codes\\Back\\CodeAcademy\\ASP.Net Tasks\\Task 6\\SimpleCrud\\SimpleCrud.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nazar\\Desktop\\SimpleCrud\\SimpleCrud\\SimpleCrud.csproj": {
+    "N:\\Codes\\Back\\CodeAcademy\\ASP.Net Tasks\\Task 6\\SimpleCrud\\SimpleCrud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nazar\\Desktop\\SimpleCrud\\SimpleCrud\\SimpleCrud.csproj",
+        "projectUniqueName": "N:\\Codes\\Back\\CodeAcademy\\ASP.Net Tasks\\Task 6\\SimpleCrud\\SimpleCrud.csproj",
         "projectName": "SimpleCrud",
-        "projectPath": "C:\\Users\\nazar\\Desktop\\SimpleCrud\\SimpleCrud\\SimpleCrud.csproj",
+        "projectPath": "N:\\Codes\\Back\\CodeAcademy\\ASP.Net Tasks\\Task 6\\SimpleCrud\\SimpleCrud.csproj",
         "packagesPath": "C:\\Users\\nazar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nazar\\Desktop\\SimpleCrud\\SimpleCrud\\obj\\",
+        "outputPath": "N:\\Codes\\Back\\CodeAcademy\\ASP.Net Tasks\\Task 6\\SimpleCrud\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.13, )"
