@@ -1,9 +1,11 @@
 ﻿@model List<CostumeUser>
-
+@{
+	List<IdentityRole> roles = ViewBag.Rolls;
+}
 
 <div class="container-fluid">
 	<h2 class="mb-5">Users</h2>
-	<a class="btn btn-primary  mb-3" asp-area="admin" asp-controller="Account" asp-action="Create" >Create New User</a>
+	<a class="btn btn-primary  mb-3" asp-area="admin" asp-controller="Account" asp-action="Create">Create New User</a>
 	<table class="table">
 		<thead>
 			<tr>
@@ -25,7 +27,7 @@
 					<tr>
 						<th scope="row">@i</th>
 						<th>
-							<img style = "width : 100px; height : 100px; border-radius : 50%" src = "~/areas/admin/img/@item.Image"/>
+							<img style="width : 100px; height : 100px; border-radius : 50%" src="~/areas/admin/img/@item.Image" />
 						</th>
 						<td>@item.Name</td>
 						<td>@item.Lastname</td>
@@ -35,16 +37,9 @@
 							@{
 								foreach (var userRoll in ViewBag.UserRoll)
 								{
-									if(userRoll.UserId == item.Id)
+									if (userRoll.UserId == item.Id)
 									{
-										foreach (var roll in ViewBag.Rolls)
-										{
-											if(roll.Id == userRoll.RoleId)
-											{
-												<span>@roll.Name </span>
-											}
-										}
-										
+										<span>@roles.FirstOrDefault(r => r.Id == userRoll.RoleId).Name</span>
 									}
 								}
 							}

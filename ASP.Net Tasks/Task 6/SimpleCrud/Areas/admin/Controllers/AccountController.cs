@@ -16,17 +16,20 @@ namespace SimpleCrud.Areas.admin.Controllers
     {
         private readonly AppDbContext _context;
         private readonly Microsoft.AspNetCore.Identity.UserManager<IdentityUser> _userManager;
+		private readonly RoleManager<IdentityRole> _roleManager;
 
-		public AccountController(AppDbContext context, UserManager<IdentityUser> userManager)
+		public AccountController(AppDbContext context, UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager)
         {
             _context = context;
             _userManager = userManager;
+			_roleManager = roleManager;
 		}
 
 
         public IActionResult Index()
         {
-            ViewBag.Rolls = _context.Roles.ToList();
+            ViewBag.Rolls = _roleManager.Roles.ToList();
+            ViewBag.Costume = _context.costumeUsers.ToList();
             ViewBag.UserRoll = _context.UserRoles.ToList();
             return View(_context.costumeUsers.ToList());
 
