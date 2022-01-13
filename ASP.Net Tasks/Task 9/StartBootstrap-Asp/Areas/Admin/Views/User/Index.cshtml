@@ -1,0 +1,47 @@
+﻿@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@model List<CostumeUser>
+
+<div class="container-fluid">
+	<h2>Users</h2>
+	<a class="btn btn-primary mb-3" asp-area="admin" asp-controller="User" asp-action="Create">Create New User</a>
+	<table class="table">
+		<thead>
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">FullName</th>
+				<th scope="col">UserName</th>
+				<th scope="col">Email</th>
+				<th scope="col">Phone</th>
+				<th scope="col">Roll</th>
+				<th scope="col">Modify</th>
+			</tr>
+		</thead>
+		<tbody>
+			@{
+				int i = 1;
+
+				foreach(var user in Model)
+				{
+					<tr>
+						<th scope="row">@i</th>
+						<td>@user.FullName</td>
+						<td>@user.UserName</td>
+						<td>@user.Email</td>
+						<td>@user.PhoneNumber</td>
+						<td> --- </td>
+						<td>
+							<a class="btn btn-primary" asp-area="admin" asp-controller="User" asp-action="Update" asp-route-id="@user.Id">Update</a>
+							<a class="btn btn-danger" asp-area="admin" asp-controller="User" asp-action="Delete" asp-route-id="@user.Id">Delete</a>
+						</td>
+					</tr>
+					i++;
+				}
+			}
+		</tbody>
+	</table>
+</div>
+

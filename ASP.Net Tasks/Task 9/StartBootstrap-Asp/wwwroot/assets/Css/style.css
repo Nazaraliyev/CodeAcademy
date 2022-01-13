@@ -1,0 +1,316 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding: 100px 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.star {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.star span {
+  margin: 20px 0;
+  position: relative;
+}
+
+.star span i {
+  font-size: 30px;
+}
+
+.star span::before, .star span::after {
+  content: "";
+  width: 100px;
+  height: 4px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.star span::after {
+  left: 50px;
+}
+
+.star span::before {
+  right: 50px;
+}
+
+header {
+  background-color: #2d3f50;
+}
+
+header nav {
+  padding: 5px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav #logo a {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+header nav ul {
+  margin: 0;
+}
+
+header nav ul li {
+  padding: 35px 20px;
+  margin-left: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+header nav ul li:hover {
+  color: #1bbd9c;
+}
+
+#banner {
+  background-color: #1bbd9c;
+  color: #fff;
+}
+
+#banner img {
+  width: 250px;
+  margin-bottom: 30px;
+}
+
+#banner h1 {
+  font-size: 70px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#banner span::after, #banner span::before {
+  background-color: #fff;
+}
+
+#banner p {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#portfolio h2 {
+  color: #2d3f50;
+}
+
+#portfolio .star {
+  text-align: center;
+}
+
+#portfolio .star span::after, #portfolio .star span::before {
+  background-color: #2d3f50;
+}
+
+#portfolio .row {
+  margin-top: 50px;
+}
+
+#portfolio .row [class|="col"] {
+  margin-bottom: 30px;
+}
+
+#portfolio .row .portfolio-item {
+  position: relative;
+}
+
+#portfolio .row .portfolio-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#portfolio .row .portfolio-item:hover div {
+  opacity: 1;
+}
+
+#portfolio .row .portfolio-item div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #1bbd9dd5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  opacity: 0;
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+#portfolio .row .portfolio-item div i {
+  color: #fff;
+  font-size: 70px;
+}
+
+#about {
+  background-color: #1bbd9c;
+}
+
+#about h2 {
+  color: #fff;
+}
+
+#about .star span {
+  color: #fff;
+}
+
+#about .star span::after, #about .star span::before {
+  background-color: #fff;
+}
+
+#about .about-text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#about #about-btn-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+#about #about-btn-block button {
+  padding: 20px 30px;
+  text-transform: capitalize;
+  font-size: 20px;
+  border-radius: 10px;
+  border-width: 2px;
+}
+
+#contact .star span::before, #contact .star span::after {
+  background-color: #2d3f50;
+}
+
+#contact form input, #contact form textarea {
+  border: none;
+  border-bottom: 1px solid #6C757D;
+  font-size: 20px;
+  height: 80px;
+  margin-bottom: 50px;
+  outline: none;
+  padding-left: 0;
+  -moz-appearance: textfield;
+}
+
+#contact form input:focus, #contact form textarea:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#contact form input::-webkit-outer-spin-button, #contact form input::-webkit-inner-spin-button, #contact form textarea::-webkit-outer-spin-button, #contact form textarea::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#contact form textarea {
+  height: 200px;
+}
+
+#contact form label {
+  font-size: 20px;
+  color: #6C757D;
+  padding-left: 0;
+}
+
+#contact form button {
+  background-color: #1bbd9c;
+  font-size: 20px;
+  padding: 15px 30px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #2d3f50;
+  color: #fff;
+}
+
+footer .row {
+  padding: 100px 0;
+  text-align: center;
+}
+
+footer .row h3 {
+  margin-bottom: 30px;
+}
+
+footer .row p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+footer .row p > a {
+  color: #1bbd9c;
+  text-decoration: underline;
+}
+
+footer .row li {
+  margin: 0 10px;
+}
+
+footer .row li a {
+  color: #fff;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-width: 2px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer #page-end {
+  background-color: #1B242F;
+}
+
+footer #page-end p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+/*# sourceMappingURL=style.css.map */

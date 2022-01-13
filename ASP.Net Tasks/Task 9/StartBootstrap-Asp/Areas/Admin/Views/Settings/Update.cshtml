@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@model Settings
+
+<div class="container-fluid">
+	<h2>Create New Sosial Media</h2>
+	<form class = "w-50 mt-3" asp-area = "admin" asp-controller = "Settings" asp-action = "Update" method = "post">
+		<div class="form-floating mb-3">
+			<input class="form-control" asp-for = "@Model.Logo" >
+			<label asp-for = "@Model.Logo">Logo</label>
+		</div>
+		<div class="form-floating mb-3">
+			<input class="form-control" asp-for = "@Model.Location">
+			<label asp-for = "@Model.Location">location</label>
+		</div>		
+		<div class="form-floating mb-3">
+			<input class="form-control" asp-for = "@Model.FreelancerAbout">
+			<label asp-for = "@Model..FreelancerAbout">.FreelancerAbout</label>
+		</div>
+		<button class = "btn btn-primary" type = "submit">Update</button>
+	</form>
+</div>

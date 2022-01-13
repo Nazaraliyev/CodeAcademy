@@ -1,0 +1,15 @@
+﻿@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@model Settings
+<div class="container-fluid">
+	<div class="w-50">
+		<h2>About</h2>
+		<hr />
+		<p>@Model.AboutText </p>
+	</div>
+	<a asp-area = "admin" asp-controller = "About" asp-action = "Update" class = "btn btn-primary">Update</a>
+</div>
+
+

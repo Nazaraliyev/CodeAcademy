@@ -1,0 +1,44 @@
+﻿@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@model List<ContactMessage>
+
+
+
+<div class="container-fluid">
+	<h2>Messages</h2>
+	<table class = "table">
+		<thead>
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Full Name</th>
+				<th scope="col">Email</th>
+				<th scope="col">Create Date</th>
+				<th scope="col">Message</th>
+				<th scope="col">Modify</th>
+			</tr>
+		</thead>
+		<tbody>
+			@{
+				int i = 1;
+				foreach (var message in Model)
+				{
+					<tr>
+						<th scope="row">@i</th>
+						<td>@message.FullName</td>
+						<td>@message.Email</td>
+						<td>01.05.2022</td>
+						<td>@message.Message</td>
+						<td>
+						<a asp-area = "admin" asp-controller = "messages" asp-action = "delete" asp-route-id = "@message.Id" class = "btn btn-danger">Delete</a>
+						</td>
+					</tr>
+					i++;
+				}
+
+			}
+		</tbody>
+	</table>
+</div>

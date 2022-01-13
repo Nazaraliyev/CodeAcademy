@@ -1,0 +1,59 @@
+$primaryColor: #2d3f50;
+$secondaryColor: #1bbd9c;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+section {
+  padding: 100px 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.star {
+  text-align: center;
+  margin: 20px 0;
+  span {
+    i {
+      font-size: 30px;
+    }
+    margin: 20px 0;
+    position: relative;
+    &::before,
+    &::after {
+      content: "";
+      width: 100px;
+      height: 4px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    &::after {
+      left: 50px;
+    }
+    &::before {
+      right: 50px;
+    }
+  }
+}
+
+@import "header";
+@import "banner";
+@import "portfolio";
+@import "about";
+@import "contact";
+@import "footer";

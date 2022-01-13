@@ -1,0 +1,16 @@
+﻿@{
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@model Settings
+
+<div class="container-fluid">
+	<form class="w-50" asp-area="admin" asp-controller="About" asp-action="Update" method="post">
+		<div class="form-floating mb-3">
+			<textarea class="form-control" asp-for="@Model.AboutText" style="height: 300px"></textarea>
+			<label asp-for="@Model.AboutText">About</label>
+		</div>
+		<button type="submit" class="btn btn-primary">Update</button>
+	</form>
+</div>
+

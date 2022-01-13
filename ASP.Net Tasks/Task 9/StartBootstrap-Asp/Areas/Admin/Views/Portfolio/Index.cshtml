@@ -1,0 +1,31 @@
+﻿@model List<Portfolio>
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+	<a class = "btn btn-primary mb-5" asp-area = "admin" asp-controller = "Portfolio" asp-action = "Create" >Create New Portfolio Card</a>
+
+	<div class="row justify-content-start">
+		@{
+			int i = 1;
+			foreach (var item in @Model)
+			{
+				<div class="col-3 mb-5">
+
+					<div class="card" style="width: 18rem;">
+						<img src="~/assets/Img/portfolio/@item.ImgName" class="card-img-top" alt="portfolio image">
+						<div class="card-body">
+							<p class="card-text">@item.ImgDescription</p>
+							<a asp-area = "admin" asp-controller = "Portfolio" asp-action = "Update" asp-route-id = "@item.Id" class="btn btn-primary">Update</a>
+							<a asp-area = "admin" asp-controller = "Portfolio" asp-action = "Delete" asp-route-id = "@item.Id" class="btn btn-danger">Delete</a>
+						</div>
+					</div>
+				</div>
+				i++;
+			}
+		}
+	</div>
+</div>
+

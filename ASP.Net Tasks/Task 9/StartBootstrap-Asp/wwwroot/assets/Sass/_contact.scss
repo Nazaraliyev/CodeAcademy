@@ -1,0 +1,49 @@
+#contact{
+    .star{
+        span{
+            &::before, &::after{
+                background-color: $primaryColor;
+            }
+        }
+    }
+
+
+    form{
+        input, textarea{
+            border: none;
+            border-bottom: 1px solid #6C757D;
+            font-size: 20px;
+            height: 80px;
+            margin-bottom: 50px;
+            outline: none;
+            padding-left: 0;
+            -moz-appearance: textfield;
+            &:focus{
+                outline: none;
+                box-shadow: none;
+            }
+            &::-webkit-outer-spin-button, &::-webkit-inner-spin-button{
+                -webkit-appearance: none;
+
+                margin: 0;
+            }
+        }
+        textarea{
+            height: 200px;
+        }
+        label{
+            font-size: 20px;
+            color: #6C757D;
+            padding-left: 0;
+        }
+
+        button{
+            background-color: $secondaryColor;
+            font-size: 20px;
+            padding: 15px 30px;
+            color: #fff;
+            border-radius: 10px;
+            
+        }
+    }
+}

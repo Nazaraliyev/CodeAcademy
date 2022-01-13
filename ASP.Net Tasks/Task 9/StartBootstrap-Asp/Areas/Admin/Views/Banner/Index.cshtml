@@ -1,0 +1,32 @@
+﻿@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@model Settings
+
+<div class="container-fluid">
+	<h2>Banner</h2>
+	<table class="table mb-5">
+		<thead>
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Image</th>
+				<th scope="col">Banner Header</th>
+				<th scope="col">Banner Text</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">1</th>
+				<td>
+					<img style = "width : 200px" src = "~/assets/Img/banner/@Model.BannerImg" />
+				</td>
+				<td>@Model.BannerHeader</td>
+				<td>@Model.BannerText</td>
+			</tr>
+		</tbody>
+	</table>
+	<a class = "btn btn-primary" asp-area = "admin" asp-controller = "Banner" asp-action = "Update">Update</a>
+</div>
+

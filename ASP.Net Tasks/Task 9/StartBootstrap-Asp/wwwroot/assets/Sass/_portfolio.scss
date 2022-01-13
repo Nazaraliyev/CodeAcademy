@@ -1,0 +1,51 @@
+#portfolio {
+  h2 {
+    color: $primaryColor;
+  }
+
+  .star {
+    text-align: center;
+    span {
+      &::after,
+      &::before {
+        background-color: $primaryColor;
+      }
+    }
+  }
+
+  .row {
+    margin-top: 50px;
+    [class|="col"] {
+      margin-bottom: 30px;
+    }
+
+    .portfolio-item {
+      img {
+        width: 100%;
+        border-radius: 10px;
+      }
+      position: relative;
+      &:hover div {
+          opacity: 1;
+      }
+
+      div {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #1bbd9dd5;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        opacity: 0;
+        transition: 0.2s all ease-in-out;
+        i {
+          color: #fff;
+          font-size: 70px;
+        }
+      }
+    }
+  }
+}

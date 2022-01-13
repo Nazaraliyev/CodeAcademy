@@ -1,0 +1,32 @@
+header {
+    background-color: $primaryColor;
+  nav {
+    padding: 5px 0;
+    align-items: center;
+
+    #logo a {
+        font-size: 25px;
+        color: #fff;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    ul {
+        margin: 0;
+      li {
+        padding: 35px 20px;
+        // background-color: $secondaryColor;
+        margin-left: 10px;
+        border-radius: 10px;
+        color: #fff;
+        font-weight: 700;
+        cursor: pointer;  
+        transition: 300ms;
+        &:hover{
+            color: $secondaryColor;
+        }      
+      }
+
+    }
+  }
+}

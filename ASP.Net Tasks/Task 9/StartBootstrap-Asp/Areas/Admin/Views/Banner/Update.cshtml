@@ -1,0 +1,27 @@
+﻿@{
+
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@model Settings
+
+<div class="container-fluid">
+	<h2>Update Banner</h2>
+	<form class = "w-50 mb-3" asp-area = "admin" asp-controller = "Banner" asp-action = "Update" method = "post" enctype = "multipart/form-data">
+		<div asp-validation-summary = "All" class = "text-danger"></div>
+		<div class="mb-3">
+			<label asp-for = "@Model.formFile" class="form-label">Banner Image</label>
+			<input class="form-control" type="file" asp-for = "@Model.formFile">
+		</div>
+		<div class="mb-3">
+			<label asp-for = "@Model.BannerHeader" class="form-label">Banner Header</label>
+			<input  class="form-control" asp-for = "@Model.BannerHeader">
+		</div>		
+		<div class="mb-3">
+			<label asp-for = "@Model.BannerText" class="form-label">Banner text</label>
+			<input  class="form-control" asp-for = "@Model.BannerText">
+		</div>
+		<button class = "btn btn-primary">Update</button>
+	</form>
+</div>
+

@@ -1,0 +1,25 @@
+#banner {
+  background-color: $secondaryColor;
+  color: #fff;
+  img {
+    width: 250px;
+    margin-bottom: 30px;
+  }
+
+  h1 {
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  span{
+    &::after, &::before{
+        background-color: #fff;
+    }
+  }
+
+  p{
+      font-size: 25px;
+      font-weight: 500;
+  }
+}
