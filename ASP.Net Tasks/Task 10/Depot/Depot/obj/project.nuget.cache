@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VZd8CJ9JAinQEB3H2qfiu2jVOBfS0zhHHx9FBZisAjKxAMQp0A/z8SGBSzG3cr+vcRm64ISnf3EfyHPqQ/WH/w==",
+  "success": true,
+  "projectFilePath": "N:\\Codes\\Back\\CodeAcademy\\ASP.Net Tasks\\Task 10\\Depot\\Depot\\Depot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nazar\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
