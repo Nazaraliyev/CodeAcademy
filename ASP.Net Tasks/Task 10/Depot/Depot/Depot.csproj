@@ -15,11 +15,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\" />
-    <Folder Include="Areas\admin\Controllers\" />
     <Folder Include="Areas\admin\Data\" />
     <Folder Include="Areas\admin\Models\" />
-    <Folder Include="Areas\admin\Views\" />
+    <Folder Include="wwwroot\admin\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Areas\admin\Views\Shared\_Layout.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

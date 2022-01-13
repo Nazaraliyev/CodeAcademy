@@ -148,3 +148,9 @@ N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 10\Depot\Depot\bin\Debug\net5.0\zh-
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 10\Depot\Depot\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 10\Depot\Depot\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 10\Depot\Depot\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 10\Depot\Depot\obj\Debug\net5.0\Razor\Areas\admin\Views\Shared\Error.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 10\Depot\Depot\obj\Debug\net5.0\Razor\Areas\admin\Views\Shared\_Layout.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 10\Depot\Depot\obj\Debug\net5.0\Razor\Areas\admin\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 10\Depot\Depot\obj\Debug\net5.0\Razor\Areas\admin\Views\_ViewImports.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 10\Depot\Depot\obj\Debug\net5.0\Razor\Areas\admin\Views\_ViewStart.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 10\Depot\Depot\obj\Debug\net5.0\Razor\Areas\admin\Views\Account\Login.cshtml.g.cs
