@@ -25,11 +25,5 @@ namespace Depot.Models
         [ForeignKey("BlogId")]
         public int BlogId { get; set; }
         public Blog Blog { get; set; }
-
-
-
-
-        public List<Blog> blogs { get; set; }
-
     }
 }
