@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -279,6 +280,8 @@ namespace SimpleCrud.Areas.admin.Controllers
 
         public IActionResult Login()
 		{
+            HttpContext.Response.Cookies.Append("card", "cards");
+
             return View();
 		}
 
@@ -291,6 +294,8 @@ namespace SimpleCrud.Areas.admin.Controllers
 		{
             if(model.UserName != null & model.PasswordHash != null)
 			{
+                HttpContext.Session.SetString("sxkm", "xsxkmmk");
+
                 await _signInManager.PasswordSignInAsync(model.UserName, model.PasswordHash, false, false);
                 return RedirectToAction(nameof(Index));
 			}
