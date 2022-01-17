@@ -1,0 +1,46 @@
+header{
+    padding: 30px 0;
+    background-color: $bg-color-1;
+    nav{
+        #logo{
+            img{
+                width: 100px;
+            }
+        }
+
+        #burger-menu{
+            display: none;
+        }
+
+        #menu{
+            width: 100%;
+
+            li{
+                a{
+                    color: #000;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    font-weight: 700;
+                    padding: 5px 20px;
+                    &:hover{
+                        color: $primaty-color;
+                        transition: 500ms;
+                    }
+                }
+
+
+
+                &:last-child{
+                    a{
+                        color: $primaty-color;
+
+                        &:hover{
+                            color: #fff;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

@@ -154,3 +154,5 @@ N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 10\Depot\Depot\obj\Debug\net5.0\Raz
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 10\Depot\Depot\obj\Debug\net5.0\Razor\Areas\admin\Views\_ViewImports.cshtml.g.cs
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 10\Depot\Depot\obj\Debug\net5.0\Razor\Areas\admin\Views\_ViewStart.cshtml.g.cs
 N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 10\Depot\Depot\obj\Debug\net5.0\Razor\Areas\admin\Views\Account\Login.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 10\Depot\Depot\obj\Debug\net5.0\Razor\Areas\admin\Views\Account\Index.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 10\Depot\Depot\obj\Debug\net5.0\Razor\Areas\admin\Views\Account\Create.cshtml.g.cs

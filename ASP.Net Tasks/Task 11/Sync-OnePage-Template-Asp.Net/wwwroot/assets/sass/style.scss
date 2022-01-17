@@ -1,0 +1,123 @@
+$primaty-color : #FF556E;
+$secondary-color : #9964F5;
+$green-color : #19CA94;
+$yellow-color : #FFB30F;
+$blue-color : #50B9E8;
+$bg-color-1 : #F7FAFD;
+$bg-color-2 : #E8EFF6;
+$main-font : 'Open Sans', sans-serif;
+$font-color : #333333;
+$description-color : #333333bd;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: $main-font;
+    color: $font-color;
+}
+
+section{
+    padding: 100px 0 ;
+}
+
+h2{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: $bg-color-1;
+}
+
+
+.rectangle{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: $green-color;
+    transform: rotate(45deg);
+}
+
+.circle-outline{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 8px solid $blue-color;
+    border-radius: 50%;
+}
+
+.circle{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: $yellow-color;
+    border-radius: 50%;
+}
+
+// Main Components
+.MyContainer{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.Mybtn{
+    background-color: $primaty-color;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+#go-up-btn{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $description-color;
+    border-radius: 50%;
+    transition: 300ms;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    i{
+        color: #fff;
+        font-weight: bold;
+    }
+
+    &:hover{
+        background-color: #000
+    }
+}
+
+
+
+
+
+@import "header";
+@import "start";
+@import "description";
+@import "features";
+@import "slider";
+@import "testimonal";
+@import "counter";
+@import "app";
+@import "footer";

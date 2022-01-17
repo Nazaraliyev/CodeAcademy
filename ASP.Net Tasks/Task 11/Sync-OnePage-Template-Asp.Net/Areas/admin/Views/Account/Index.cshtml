@@ -1,0 +1,72 @@
+﻿@{
+	ViewData["Title"] = "Index";
+}
+
+@model List<CostumeUser>
+
+@{
+	List<IdentityRole> Roles = ViewBag.Roles;
+	List<IdentityUserRole<string>> UserRoles = ViewBag.UserRoles;
+}
+
+<div class="container-fluid">
+	<table class="table table-striped">
+		<h2 class='display-4 mb-5'>Users</h2>
+		<a asp-area="admin" asp-controller="account" asp-action="Create" class="btn btn-primary mb-3">Create New User</a>
+
+		<thead>
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Profile</th>
+				<th scope="col">Name</th>
+				<th scope="col">Lastname</th>
+				<th scope="col">Username</th>
+				<th scope="col">Email</th>
+				<th scope="col">Phone</th>
+				<th scope="col">Roll</th>
+				<th scope="col">Modify</th>
+			</tr>
+		</thead>
+		<tbody>
+			@{
+				int i = 1;
+				foreach (var user in Model)
+				{
+					<tr>
+						<th scope="row">@i</th>
+						<td>
+							@{
+								if (user.Profile != null)
+								{
+									<img src="~/assets/img/profiles/@user.Profile" style="width : 100px; height : 100px; border-radius : 50%; object-fit : cover" />
+								}
+								else
+								{
+									<img src="~/assets/img/profiles/profile.png" style="width : 100px; height : 100px; border-radius : 50%; object-fit : cover" />
+								}
+							}
+						</td>
+						<td>@user.Name</td>
+						<td>@user.Lastname</td>
+						<td>@user.UserName</td>
+						<td>@user.Email</td>
+						<td>@user.PhoneNumber</td>
+						<td>
+							@{
+								IdentityUserRole<string> userRole = UserRoles.FirstOrDefault(ui => ui.UserId == user.Id);
+								<span>@Roles.FirstOrDefault(r => r.Id == userRole.RoleId).Name</span>
+							}
+						</td>
+						<td>
+							<a asp-area="admin" asp-controller="account" asp-action="update" asp-route-id="@user.Id" class="btn btn-outline-primary">Update</a>
+							<a asp-area="admin" asp-controller="account" asp-action="delete" asp-route-id="@user.Id" class="btn btn-outline-danger" onclick="return confirm(" Are You Sure?")">Delete</a>
+						</td>
+					</tr>
+					i++;
+				}
+			}
+
+
+		</tbody>
+	</table>
+</div>

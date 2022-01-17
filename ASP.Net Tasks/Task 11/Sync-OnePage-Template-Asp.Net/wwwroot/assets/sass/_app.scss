@@ -1,0 +1,48 @@
+#app{
+    position: relative;
+
+    .rectangle{
+        right: 400px;
+    }
+
+    .circle-outline{
+        top: 300px;
+        right: 150px;
+    }
+
+    .circle{
+        width: 70px;
+        height: 70px;
+        top: 550px;
+        left: 150px;
+    }
+
+
+
+    #app-img-block{
+        width: 100%;
+        img{
+            width: 100%;
+            padding: 0 100px;
+        }
+    }
+
+    p{
+        margin: 50px 0;
+        padding: 0 100px;
+        color: $description-color;
+    }
+
+    .Mybtn{
+        margin: 20px 10px 0;
+        padding: 15px 35px ;
+        border-radius: 50px;
+
+        i{
+            color: #fff;
+            font-size: 18px;
+            margin-right: 10px;
+        }
+    }
+
+}

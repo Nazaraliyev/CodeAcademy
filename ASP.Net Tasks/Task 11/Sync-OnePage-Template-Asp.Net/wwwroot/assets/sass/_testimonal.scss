@@ -1,0 +1,32 @@
+#testimonal {
+  h2 {
+    margin-bottom: 50px;
+  }
+  .testimonal-item {
+    text-align: center;
+    ul {
+      margin: 20px 0;
+      position: relative;
+
+      li {
+        font-size: 25px;
+      }
+      &::after {
+        content: "";
+        width: 50px;
+        height: 1px;
+        background-color: rgba(0, 0, 0, 0.247);
+        position: absolute;
+        bottom: -25px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+    p {
+      color: $description-color;
+      line-height: 30px;
+      padding: 20px 0 0;
+    }
+  }
+}

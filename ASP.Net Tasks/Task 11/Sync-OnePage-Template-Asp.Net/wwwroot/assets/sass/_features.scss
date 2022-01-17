@@ -1,0 +1,50 @@
+#features {
+  h2 {
+    text-align: center;
+  }
+  & > p {
+    padding: 0 50px;
+    text-align: center;
+  }
+  #features-content {
+
+    #features-content-center{
+        padding: 0 50px;
+        img{
+            width: 100%;
+        }
+    }
+
+
+
+
+    ul {
+      padding: 0;
+      margin: 0;
+      li {
+        margin: 50px 0;
+        p{
+            line-height: 30px;
+        }
+      }
+    }
+  }
+
+  .features-icon {
+      width: 70px;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $secondary-color;
+      border-radius: 50%;
+      i {
+        font-size: 30px;
+        color: #fff;
+      }
+    }
+
+  // #features-content-left {
+
+  // }
+}

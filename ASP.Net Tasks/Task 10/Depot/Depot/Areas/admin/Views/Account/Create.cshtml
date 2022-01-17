@@ -1,0 +1,14 @@
+﻿@{
+	ViewData["Title"] = "Create";
+}
+
+<div class="container-fluid">
+	<form asp-area = "admin" asp-controller = "account" asp-action = "create" method = "post">
+		<div class="mb-3">
+			<label for="exampleFormControlInput1" class="form-label">Email address</label>
+			<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+		</div>
+
+		<button type = "submit" class = "btn btn-primary"></button>
+	</form>
+</div>

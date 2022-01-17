@@ -1,0 +1,17 @@
+﻿@{
+	ViewData["Title"] = "Create";
+}
+
+@model IdentityRole
+
+<div class="container-fluid">
+	<h2 class="display-4">Create New Role</h2>
+	<form class="w-50" asp-area="admin" asp-controller="role" asp-action="create" method="post">
+		<div asp-validation-summary = "All" class = "text-danger"></div>
+		<div class="mb-3">
+			<label asp-for = "@Model.Name" class="form-label">Email address</label>
+			<input  class="form-control" asp-for = "@Model.Name">
+		</div>
+		<button type = "submit" class = "btn btn-primary" >Create</button>
+	</form>
+</div>
