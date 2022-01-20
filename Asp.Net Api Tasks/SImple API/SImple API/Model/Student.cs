@@ -37,7 +37,7 @@ namespace Simple_API.Model
 
 
 
-        [Range(0,700), Required, Column(TypeName = "money")]
+        [Range(0,700)]
         public decimal Score { get; set; }
 
 

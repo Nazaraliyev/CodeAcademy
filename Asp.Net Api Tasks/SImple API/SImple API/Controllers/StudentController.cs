@@ -166,8 +166,8 @@ namespace Simple_API.Controllers
         }
 
 
-        [HttpPatch]
-        public IActionResult UpdateStudent([FromHeader] int? Id, [FromBody] StudentDTO model)
+        [HttpPatch("{id}")]
+        public IActionResult UpdateStudent(int? Id, [FromBody] StudentDTO model)
         {
             if (!ModelState.IsValid)
             {
@@ -189,28 +189,64 @@ namespace Simple_API.Controllers
 
             try
             {
-                Student UpdateStudent = _context.students.Find(Id);
+                Student UpdateStudent = new Student()
+                {
+                    Id = (int)Id,
+                    Name = model.Name,
+                    Lastname = model.Lastname,
+                    Email = model.Email,
+                    Phone = model.Phone,
+                    Photo = model.Photo,
+                    Score = model.Score,
+                    ClassId = model.ClassId,
+                    LevelId = model.LevelId
+                };
 
-                UpdateStudent.Name = model.Name;
+                _context.students.Update(UpdateStudent);
+                _context.SaveChanges();
+
+
+                //Student UpdateStudent = _context.students.Find((int)Id);
+
+                //UpdateStudent.Name = model.Name;
                 //UpdateStudent.Lastname = model.Lastname;
                 //UpdateStudent.Email = model.Email;
-                //UpdateStudent.Photo = model.Photo;
+                //UpdateStudent.Photo = "photo.jpeg";
                 //UpdateStudent.Phone = model.Phone;
                 //UpdateStudent.Score = model.Score;
                 //UpdateStudent.ClassId = model.ClassId;
                 //UpdateStudent.LevelId = model.LevelId;
 
-
-                return StatusCode(StatusCodes.Status200OK, model);
+                return StatusCode(StatusCodes.Status200OK, UpdateStudent);
             }
             catch
             {
-                return StatusCode(StatusCodes.Status405MethodNotAllowed, model);
+                return StatusCode(StatusCodes.Status405MethodNotAllowed);
+            }
+        }
+
+
+        [HttpDelete("{id}")]
+        public IActionResult DeleteStudent(int? Id)
+        {
+
+            if (Id == null)
+            {
+                ModelState.AddModelError("", "Student not found");
+                return StatusCode(StatusCodes.Status400BadRequest, Id);
+            }
+
+            if (!_context.students.Any(s => s.Id == Id))
+            {
+                ModelState.AddModelError("", "Student not found");
+                return StatusCode(StatusCodes.Status404NotFound, Id);
             }
 
 
 
-
+            _context.students.Remove(_context.students.Find(Id));
+            _context.SaveChanges();
+            return Ok();
         }
 
     }
