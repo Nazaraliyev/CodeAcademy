@@ -15,7 +15,7 @@ namespace Simple_API.Model
 
 
         [MaxLength(10)]
-        public string SmaaName { get; set; }
+        public string SmallName { get; set; }
 
 
         public List<Qualification> qualifications { get; set; }
