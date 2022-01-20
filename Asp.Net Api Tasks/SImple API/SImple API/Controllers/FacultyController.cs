@@ -167,7 +167,8 @@ namespace Simple_API.Controllers
 
 
 
-        [HttpDelete("{Id}")]
+        [HttpDelete]
+        [Route("{Id}")]
         public async Task<IActionResult> DeleteFaculty(int? Id)
         {
             if (Id == null)
