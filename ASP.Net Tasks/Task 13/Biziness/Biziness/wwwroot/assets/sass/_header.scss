@@ -1,0 +1,28 @@
+header{
+    transition: 300ms;
+    #logo{
+        a{
+            color: #fff;
+            font-size: 2rem;
+            letter-spacing: 2px;
+            font-family: $primary-font;
+        }
+    }
+    ul{
+        li{
+            padding: 20px;
+            font-size: 1.2rem;
+            font-weight: 300;
+            a{
+                color: #fff;
+                text-transform: uppercase;
+            }
+            &:hover{
+                background-color: #fff;
+                a{
+                    color: #000;
+                }
+            }
+        }
+    }
+}

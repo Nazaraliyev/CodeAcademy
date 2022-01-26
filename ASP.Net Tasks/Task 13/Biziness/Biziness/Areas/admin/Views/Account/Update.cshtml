@@ -1,0 +1,29 @@
+﻿@model VmUserUpdate
+
+<div class="container-fluid">
+	<h2 class="mb-5">Create New Users</h2>
+	<form class="w-50" asp-area="admin" asp-controller="account" asp-action="update" method="post">
+		<div asp-validation-summary = "All"class = "text-danger"></div>
+		<div class="mb-3">
+			<label asp-for="@Model.Name" class="form-label">Name</label>
+			<input asp-for="@Model.Name" class="form-control">
+		</div>
+
+		<div class="mb-3">
+			<label asp-for="@Model.Surname" class="form-label">Surnama</label>
+			<input asp-for="@Model.Surname" class="form-control">
+		</div>
+
+		<div class="mb-3">
+			<label asp-for="@Model.Email" class="form-label">Email</label>
+			<input asp-for="@Model.Email" type="email" class="form-control">
+		</div>
+
+		<div class="mb-3">
+			<label asp-for="@Model.Phone" class="form-label">Phone</label>
+			<input asp-for="@Model.Phone" type="number" class="form-control">
+		</div>
+		<input asp-for ="@Model.Id"  hidden/>
+		<button type="submit" class="btn btn-primary">Create</button>
+	</form>
+</div>

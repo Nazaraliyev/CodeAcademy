@@ -1,0 +1,316 @@
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\appsettings.json
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\ClassTesk.exe
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\ClassTesk.deps.json
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\ClassTesk.runtimeconfig.json
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\ClassTesk.runtimeconfig.dev.json
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\ClassTesk.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\ref\ClassTesk.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\ClassTesk.pdb
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\ClassTesk.Views.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\ClassTesk.Views.pdb
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Humanizer.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\ClassTesk.csproj.AssemblyReference.cache
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\ClassTesk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\ClassTesk.AssemblyInfoInputs.cache
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\ClassTesk.AssemblyInfo.cs
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\ClassTesk.csproj.CoreCompileInputs.cache
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\ClassTesk.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\ClassTesk.RazorAssemblyInfo.cache
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\ClassTesk.RazorAssemblyInfo.cs
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\staticwebassets\ClassTesk.StaticWebAssets.Manifest.cache
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\staticwebassets\ClassTesk.StaticWebAssets.xml
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\scopedcss\bundle\ClassTesk.styles.css
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\ClassTesk.TagHelpers.input.cache
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\ClassTesk.TagHelpers.output.cache
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\ClassTesk.RazorCoreGenerate.cache
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\ClassTesk.RazorTargetAssemblyInfo.cache
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\ClassTesk.RazorTargetAssemblyInfo.cs
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\ClassTesk.Views.pdb
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\ClassTesk.csproj.CopyComplete
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\ClassTesk.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\ref\ClassTesk.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\ClassTesk.pdb
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\ClassTesk.genruntimeconfig.cache
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\Razor\Views\Shared\Components\Header\Default.cshtml.g.cs
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\Razor\Views\Shared\Components\Footer\Default.cshtml.g.cs
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\Razor\Areas\admin\Views\Shared\Error.cshtml.g.cs
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\Razor\Areas\admin\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\Razor\Areas\admin\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\Razor\Areas\admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\tu201806044\Desktop\ClassTesk\ClassTesk\obj\Debug\net5.0\Razor\Areas\admin\Views\_ViewStart.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\appsettings.Development.json
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\appsettings.json
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\ClassTesk.StaticWebAssets.xml
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\ClassTesk.exe
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\ClassTesk.deps.json
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\ClassTesk.runtimeconfig.json
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\ClassTesk.runtimeconfig.dev.json
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\ClassTesk.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\ref\ClassTesk.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\ClassTesk.pdb
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\ClassTesk.Views.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\ClassTesk.Views.pdb
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Humanizer.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\Newtonsoft.Json.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\System.Composition.Convention.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\System.Composition.Hosting.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\System.Composition.Runtime.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\System.Composition.TypedParts.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\System.Runtime.Caching.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\ClassTesk.csproj.AssemblyReference.cache
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\ClassTesk.GeneratedMSBuildEditorConfig.editorconfig
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\ClassTesk.AssemblyInfoInputs.cache
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\ClassTesk.AssemblyInfo.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\ClassTesk.csproj.CoreCompileInputs.cache
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\ClassTesk.MvcApplicationPartsAssemblyInfo.cache
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\ClassTesk.RazorAssemblyInfo.cache
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\ClassTesk.RazorAssemblyInfo.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\scopedcss\bundle\ClassTesk.styles.css
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\staticwebassets\ClassTesk.StaticWebAssets.Manifest.cache
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\ClassTesk.TagHelpers.input.cache
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\ClassTesk.TagHelpers.output.cache
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\ClassTesk.RazorCoreGenerate.cache
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\Razor\Areas\admin\Views\Shared\Error.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\Razor\Areas\admin\Views\Shared\_Layout.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\Razor\Areas\admin\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\Razor\Areas\admin\Views\_ViewImports.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\Razor\Areas\admin\Views\_ViewStart.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\Razor\Views\Shared\Components\Footer\Default.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\Razor\Views\Shared\Components\Header\Default.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\ClassTesk.RazorTargetAssemblyInfo.cache
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\ClassTesk.RazorTargetAssemblyInfo.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\ClassTesk.Views.pdb
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\ClassTesk.csproj.CopyComplete
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\ClassTesk.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\ref\ClassTesk.dll
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\ClassTesk.pdb
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\ClassTesk.genruntimeconfig.cache
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\Razor\Areas\admin\Views\Home\Index.cshtml.g.cs
+N:\Codes\Back\CodeAcademy\ASP.Net Tasks\Task 12\ClassTesk\obj\Debug\net5.0\Razor\Areas\admin\Views\Account\Index.cshtml.g.cs

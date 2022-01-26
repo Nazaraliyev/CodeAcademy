@@ -26,7 +26,7 @@ namespace SimpleCrud
         {
             services.AddControllersWithViews();
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("SimpleCrud")));
-
+            services.AddSession();
             services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
         }
 
@@ -44,7 +44,7 @@ namespace SimpleCrud
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseSession();
 
             app.UseAuthentication();
             app.UseAuthorization();

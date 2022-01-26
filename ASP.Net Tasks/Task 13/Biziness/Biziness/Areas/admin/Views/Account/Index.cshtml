@@ -1,0 +1,45 @@
+﻿@{
+	ViewData["Title"] = "Index";
+}
+
+
+@model List<CustomUser>
+
+<div class="container-fluid">
+	<h2 class="mb-5">Users</h2>
+	<a asp-area="admin" asp-controller="account" asp-action="create" class="btn btn-primary">Create New User</a>
+	<table class="table table-striped mt-3">
+		<thead>
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Name</th>
+				<th scope="col">Surname</th>
+				<th scope="col">Email</th>
+				<th scope="col">Phone</th>
+				<th scope="col">Modify</th>
+			</tr>
+		</thead>
+		<tbody>
+
+			@{
+				int i = 1;
+				foreach (var item in Model)
+				{
+					<tr>
+						<th scope="row">@i</th>
+						<td>@item.Name</td>
+						<td>@item.Surname</td>
+						<td>@item.Email</td>
+						<td>@item.PhoneNumber</td>
+						<td>
+							<a asp-area="admin" asp-controller="account" asp-action="update" asp-route-id  = "@item.Id" class="btn btn-primary">Update</a>
+							<a asp-area="admin" asp-controller="account" asp-action="reset" asp-route-id  = "@item.Id" class="btn btn-warning">Reset</a>
+							<a asp-area="admin" asp-controller="account" asp-action="delete" asp-route-id  = "@item.Id" class="btn btn-danger">Delete</a>
+						</td>
+					</tr>
+					i++;
+				}
+			}
+		</tbody>
+	</table>
+</div>

@@ -31,30 +31,30 @@ namespace Simple_API.Controllers
                                                             Id = f.Id,
                                                             Name = f.Name,
                                                             SmallName = f.SmallName,
-                                                            qualification = new List<QualificationDTO>()
+                                                            qualification = f.qualifications.Select(q=>new FacultyQualificationDTO {Id=q.Id, Name=q.Name }).ToList()
                                                         })
                                                         .ToList();
 
 
-            foreach (var item in _context.faculties.Include(f => f.qualifications))
-            {
-                foreach (var modelItem in model)
-                {
-                    if (modelItem.Id == item.Id)
-                    {
-                        foreach (var i in item.qualifications)
-                        {
-                            QualificationDTO q = new QualificationDTO()
-                            {
-                                Id = i.Id,
-                                Name = i.Name,
-                            };
-                            modelItem.qualification.Add(q);
-                        }
-                        break;
-                    }
-                }
-            }
+            //foreach (var item in _context.faculties.Include(f => f.qualifications))
+            //{
+            //    foreach (var modelItem in model)
+            //    {
+            //        if (modelItem.Id == item.Id)
+            //        {
+            //            foreach (var i in item.qualifications)
+            //            {
+            //                QualificationDTO q = new QualificationDTO()
+            //                {
+            //                    Id = i.Id,
+            //                    Name = i.Name,
+            //                };
+            //                modelItem.qualification.Add(q);
+            //            }
+            //            break;
+            //        }
+            //    }
+            //}
             return Ok(model);
         }
 
@@ -81,22 +81,15 @@ namespace Simple_API.Controllers
                                                    Id = f.Id,
                                                    Name = f.Name,
                                                    SmallName = f.SmallName,
-                                                   qualification = new List<QualificationDTO>()
+                                                   qualification = f.qualifications.Select(fq => new FacultyQualificationDTO
+                                                   {
+                                                       Id = fq.Id,
+                                                       Name = fq.Name
+                                                   }).ToList()
                                                }).FirstOrDefaultAsync();
 
 
             Faculty FacultyItem = await _context.faculties.Include(f => f.qualifications).FirstOrDefaultAsync(f => f.Id == model.Id);
-            foreach (var item in FacultyItem.qualifications)
-            {
-                QualificationDTO newQualification = new QualificationDTO()
-                {
-                    Id = item.Id,
-                    Name = item.Name,
-                    FreeScore = item.FreeScore,
-                    PaidScore = item.PaidScore,
-                };
-                model.qualification.Add(newQualification);
-            }
 
             return Ok(model);
 

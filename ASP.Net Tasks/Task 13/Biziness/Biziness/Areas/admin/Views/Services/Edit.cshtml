@@ -1,0 +1,40 @@
+﻿@model Biziness.Models.Service
+
+@{
+	ViewData["Title"] = "Edit";
+}
+
+
+
+<div class="container-fluid">
+	<h2 class="mb-5">Update Service</h2>
+	<hr />
+	<div class="row">
+		<div class="col-md-4">
+			<form asp-action="Edit">
+				<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+				<input type="hidden" asp-for="Id" />
+				<div class="form-group">
+					<label asp-for="Name" class="control-label"></label>
+					<input asp-for="Name" class="form-control" />
+					<span asp-validation-for="Name" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="Icon" class="control-label"></label>
+					<input asp-for="Icon" class="form-control" />
+					<span asp-validation-for="Icon" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="Content" class="control-label"></label>
+					<input asp-for="Content" class="form-control" />
+					<span asp-validation-for="Content" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<input type="submit" value="Save" class="btn btn-primary" />
+					<a asp-action="Index"class = "text-danger">Go To Back</a>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+

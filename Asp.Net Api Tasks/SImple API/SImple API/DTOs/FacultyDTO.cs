@@ -8,6 +8,6 @@ namespace Simple_API.DTOs
         public int Id { get; set; }
         public string Name { get; set; }
         public string SmallName { get; set; }
-        public List<QualificationDTO> qualification { get; set; }
+        public List<FacultyQualificationDTO> qualification { get; set; }
     }
 }
