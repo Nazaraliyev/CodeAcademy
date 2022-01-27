@@ -9,7 +9,7 @@ namespace Biziness.View_Model
 
 
 
-		[Required]
+		[Required, MaxLength(100)]
 		public string Password { get; set; }
 	}
 }

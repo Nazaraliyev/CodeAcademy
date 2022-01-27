@@ -132,8 +132,12 @@ namespace Biziness.Areas.admin.Controllers
 
         public IActionResult Login()
 		{
+            if (_signInManager.IsSignedIn(User))
+            {
+                return RedirectToAction("Index", "Home");
+            }
             return View();
-		}
+		 }
 
 
         [HttpPost]
@@ -152,6 +156,14 @@ namespace Biziness.Areas.admin.Controllers
 
             ModelState.AddModelError("", "Login or Password is not correct");
             return View(model);
+        }
+
+
+        public async Task<IActionResult> LogOut()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction(nameof(Login));
+
         }
     }
 }
