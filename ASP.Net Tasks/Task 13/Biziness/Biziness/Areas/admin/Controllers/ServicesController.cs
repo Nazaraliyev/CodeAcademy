@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Biziness.Data;
 using Biziness.Models;
+using Biziness.View_Model;
 
 namespace Biziness.Areas.admin.Controllers
 {
@@ -21,9 +22,18 @@ namespace Biziness.Areas.admin.Controllers
         }
 
         // GET: admin/Services
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page = 0)
         {
-            return View(await _context.services.ToListAsync());
+
+            decimal serviceCount = 3;
+            VmService model = new VmService()
+            {
+                Services = await _context.services.Skip(page * (int)serviceCount).Take((int)serviceCount).ToListAsync(),
+                Count = (int)Math.Ceiling(_context.services.Count()/serviceCount),
+                Page = page
+            };
+
+            return View(model);
         }
 
 
