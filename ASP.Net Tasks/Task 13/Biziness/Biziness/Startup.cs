@@ -29,6 +29,13 @@ namespace Biziness
             services.AddControllersWithViews();
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("BizinessCs")));
             services.AddIdentity<CustomUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
+            //services.ConfigureApplicationCookie(options =>
+            //{
+            //    options.Cookie.HttpOnly = true;
+            //    options.ExpireTimeSpan = TimeSpan.FromDays(5);
+            //    options.LoginPath = "/admin";
+            //    options.SlidingExpiration = true;
+            //});
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

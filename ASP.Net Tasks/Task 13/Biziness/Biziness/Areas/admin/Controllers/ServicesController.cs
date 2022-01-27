@@ -8,10 +8,11 @@ using Microsoft.EntityFrameworkCore;
 using Biziness.Data;
 using Biziness.Models;
 using Biziness.View_Model;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Biziness.Areas.admin.Controllers
 {
-    [Area("admin")]
+    [Area("admin"), Authorize]
     public class ServicesController : Controller
     {
         private readonly AppDbContext _context;

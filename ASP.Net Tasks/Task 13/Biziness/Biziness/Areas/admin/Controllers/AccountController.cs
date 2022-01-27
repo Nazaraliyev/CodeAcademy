@@ -1,6 +1,7 @@
 ﻿using Biziness.Data;
 using Biziness.Models;
 using Biziness.View_Model;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 namespace Biziness.Areas.admin.Controllers
 {
     [Area("admin")]
+    [Authorize]
     public class AccountController : Controller
     {
 		private readonly AppDbContext _context;
@@ -130,6 +132,8 @@ namespace Biziness.Areas.admin.Controllers
 		} 
 
 
+
+        [AllowAnonymous]
         public IActionResult Login()
 		{
             if (_signInManager.IsSignedIn(User))
